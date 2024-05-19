@@ -161,7 +161,7 @@ entries: map[hash,embed] = {
         SkinMeshProperties: embed = SkinMeshDataProperties {
             Skeleton: string = "ASSETS/Characters/Yone/Skins/Base/Yone_Base.skl"
             SimpleSkin: string = "ASSETS/Characters/Yone/Skins/Base/Yone_Base.skn"
-            Texture: string = "ASSETS/Characters/Yone/Skins/Base/Yone_base_TX_CM.dds"
+            Texture: string = "ASSETS/Characters/Yone/Skins/Base/Mat_OldTexture.dds"
             SkinScale: f32 = 0.930000007
             SelfIllumination: f32 = 0.699999988
             BrushAlphaOverride: f32 = 0.5
@@ -184,12 +184,16 @@ entries: map[hash,embed] = {
                     Submesh: string = "Mat_GhostBlades"
                 }
                 SkinMeshDataProperties_MaterialOverride {
+                    Texture: string = "ASSETS/Characters/Yone/Skins/Base/Mat_Weapon.dds"
+                    Submesh: string = "Mat_Weapon"
+                }
+                SkinMeshDataProperties_MaterialOverride {
                     Texture: string = "ASSETS/Characters/Yone/Skins/Base/Mat_Gold.dds"
                     Submesh: string = "Mat_Gold"
                 }
                 SkinMeshDataProperties_MaterialOverride {
                     Texture: string = "ASSETS/Characters/Yone/Skins/Base/Mat_OldTexture.dds"
-                    Submesh: string = "Instrument"
+                    Submesh: string = "Fish"
                 }
                 SkinMeshDataProperties_MaterialOverride {
                     Texture: string = "ASSETS/Characters/Yone/Skins/Base/Mat_OldTexture.dds"
@@ -197,11 +201,7 @@ entries: map[hash,embed] = {
                 }
                 SkinMeshDataProperties_MaterialOverride {
                     Texture: string = "ASSETS/Characters/Yone/Skins/Base/Mat_OldTexture.dds"
-                    Submesh: string = "Fish"
-                }
-                SkinMeshDataProperties_MaterialOverride {
-                    Texture: string = "ASSETS/Characters/Yone/Skins/Base/Mat_Weapon.dds"
-                    Submesh: string = "Mat_Weapon"
+                    Submesh: string = "Instrument"
                 }
             }
             RigPoseModifierData: list[pointer] = {
