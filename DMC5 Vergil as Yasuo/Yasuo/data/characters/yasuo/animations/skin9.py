@@ -3,7 +3,7 @@ type: string = "PROP"
 version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
-    "Characters/Yasuo/Animations/Skin9" = AnimationGraphData {
+    "Characters/Yasuo/Animations/Skin9" = animationGraphData {
         mCascadeBlendValue: f32 = 0
         mClipDataMap: map[hash,pointer] = {
             "Attack1" = AtomicClipData {
@@ -27,7 +27,7 @@ entries: map[hash,embed] = {
                     }
                     "SnapBuffbone" = JointSnapEventData {
                         mJointNameToOverride: hash = "C_Buffbone_Glb_Center_Loc"
-                        mJointNameToSnapTo: hash = "Root"
+                        mJointNameToSnapTo: hash = "root"
                     }
                 }
                 mAnimationResourceData: embed = AnimationResourceData {
@@ -55,7 +55,7 @@ entries: map[hash,embed] = {
                     }
                     "SnapBuffbone" = JointSnapEventData {
                         mJointNameToOverride: hash = "C_Buffbone_Glb_Center_Loc"
-                        mJointNameToSnapTo: hash = "Root"
+                        mJointNameToSnapTo: hash = "root"
                     }
                 }
                 mTickDuration: f32 = 0.0333329998
@@ -84,7 +84,7 @@ entries: map[hash,embed] = {
                     }
                     "SnapBuffbone" = JointSnapEventData {
                         mJointNameToOverride: hash = "C_Buffbone_Glb_Center_Loc"
-                        mJointNameToSnapTo: hash = "Root"
+                        mJointNameToSnapTo: hash = "root"
                     }
                 }
                 mTickDuration: f32 = 0.0333329998
@@ -129,7 +129,7 @@ entries: map[hash,embed] = {
                     }
                     "SnapBuffbone" = JointSnapEventData {
                         mJointNameToOverride: hash = "C_Buffbone_Glb_Center_Loc"
-                        mJointNameToSnapTo: hash = "Root"
+                        mJointNameToSnapTo: hash = "root"
                     }
                     0x879eb7f7 = JointSnapEventData {
                         mJointNameToOverride: hash = "BUFFBONE_GLB_GROUND_LOC"
@@ -146,8 +146,8 @@ entries: map[hash,embed] = {
                 mTrackDataName: hash = "Default"
                 mEventDataMap: map[hash,pointer] = {
                     0x401b5570 = JointSnapEventData {
-                        mJointNameToOverride: hash = 0x27535296
-                        mJointNameToSnapTo: hash = 0x66def2e7
+                        mJointNameToOverride: hash = "Sword"
+                        mJointNameToSnapTo: hash = "Sword_Sheathed"
                     }
                 }
                 mTickDuration: f32 = 0.0333329998
@@ -159,8 +159,8 @@ entries: map[hash,embed] = {
                 mTrackDataName: hash = "Default"
                 mEventDataMap: map[hash,pointer] = {
                     0x6fd8bac2 = JointSnapEventData {
-                        mJointNameToOverride: hash = 0x27535296
-                        mJointNameToSnapTo: hash = 0x66def2e7
+                        mJointNameToOverride: hash = "Sword"
+                        mJointNameToSnapTo: hash = "Sword_Sheathed"
                     }
                 }
                 mTickDuration: f32 = 0.0333329998
@@ -273,13 +273,13 @@ entries: map[hash,embed] = {
                         mEffectKey: hash = "Yasuo_Z_Joke_PopOut"
                         mParticleEventDataPairList: list[embed] = {
                             ParticleEventDataPair {
-                                mBoneName: hash = 0xf158cdd4
+                                mBoneName: hash = "Gourd"
                             }
                         }
                     }
                     0x6fd8bac2 = JointSnapEventData {
-                        mJointNameToOverride: hash = 0x27535296
-                        mJointNameToSnapTo: hash = 0x66def2e7
+                        mJointNameToOverride: hash = "Sword"
+                        mJointNameToSnapTo: hash = "Sword_Sheathed"
                     }
                 }
                 mAnimationResourceData: embed = AnimationResourceData {
@@ -393,8 +393,8 @@ entries: map[hash,embed] = {
                         }
                     }
                     0x6fd8bac2 = JointSnapEventData {
-                        mJointNameToOverride: hash = 0x27535296
-                        mJointNameToSnapTo: hash = 0x66def2e7
+                        mJointNameToOverride: hash = "Sword"
+                        mJointNameToSnapTo: hash = "Sword_Sheathed"
                     }
                 }
                 mTickDuration: f32 = 0.0333333388
@@ -402,7 +402,7 @@ entries: map[hash,embed] = {
                     mAnimationFilePath: string = "ASSETS/Characters/Yasuo/Skins/Skin09/Animations/Yasuo_Skin09_Dance_loop.anm"
                 }
             }
-            "Death" = AtomicClipData {
+            "death" = AtomicClipData {
                 mTrackDataName: hash = 0x0a8c6a47
                 mEventDataMap: map[hash,pointer] = {
                     "Audio_Death" = SoundEventData {
@@ -415,7 +415,7 @@ entries: map[hash,embed] = {
                         mEffectKey: hash = "Yasuo_Z_Death_BuildUp"
                         mParticleEventDataPairList: list[embed] = {
                             ParticleEventDataPair {
-                                mBoneName: hash = 0x12c9c116
+                                mBoneName: hash = "R_Buffbone_Glb_Hand_Loc"
                             }
                         }
                     }
@@ -434,7 +434,7 @@ entries: map[hash,embed] = {
                         mEffectKey: hash = "Yasuo_Z_Death_Explode"
                         mParticleEventDataPairList: list[embed] = {
                             ParticleEventDataPair {
-                                mBoneName: hash = 0x12c9c116
+                                mBoneName: hash = "R_Buffbone_Glb_Hand_Loc"
                             }
                         }
                     }
@@ -442,7 +442,7 @@ entries: map[hash,embed] = {
                         mEffectKey: hash = "Yasuo_Z_Death_Impact"
                         mParticleEventDataPairList: list[embed] = {
                             ParticleEventDataPair {
-                                mBoneName: hash = 0x5137ac7f
+                                mBoneName: hash = "C_Buffbone_Glb_Chest_Loc"
                             }
                         }
                     }
@@ -481,14 +481,14 @@ entries: map[hash,embed] = {
                 mFlags: u32 = 1
                 mTrackDataName: hash = "Default"
                 mEventDataMap: map[hash,pointer] = {
-                    0x73cd5838 = JointSnapEventData {
-                        mName: hash = 0x73cd5838
-                        mJointNameToOverride: hash = 0x27535296
-                        mJointNameToSnapTo: hash = 0x66def2e7
+                    "Sword2LHandSheath" = JointSnapEventData {
+                        mName: hash = "Sword2LHandSheath"
+                        mJointNameToOverride: hash = "Sword"
+                        mJointNameToSnapTo: hash = "Sword_Sheathed"
                     }
                     "SnapBuffbone" = JointSnapEventData {
                         mJointNameToOverride: hash = "C_Buffbone_Glb_Center_Loc"
-                        mJointNameToSnapTo: hash = "Root"
+                        mJointNameToSnapTo: hash = "root"
                     }
                 }
                 mTickDuration: f32 = 0.0333329998
@@ -503,10 +503,10 @@ entries: map[hash,embed] = {
                         mStartFrame: f32 = 17
                         mSoundName: string = "Play_sfx_yasuo_skin09_idle_spike_oc"
                     }
-                    0x73cd5838 = JointSnapEventData {
-                        mName: hash = 0x73cd5838
-                        mJointNameToOverride: hash = 0x27535296
-                        mJointNameToSnapTo: hash = 0x66def2e7
+                    "Sword2LHandSheath" = JointSnapEventData {
+                        mName: hash = "Sword2LHandSheath"
+                        mJointNameToOverride: hash = "Sword"
+                        mJointNameToSnapTo: hash = "Sword_Sheathed"
                     }
                     "Spikes" = SubmeshVisibilityEventData {
                         mShowSubmeshList: list[hash] = {
@@ -527,9 +527,9 @@ entries: map[hash,embed] = {
                         mSoundName: string = "Play_sfx_yasuo_skin09_idle_spike02_oc"
                         mIsLoop: bool = false
                     }
-                    0x73cd5838 = JointSnapEventData {
-                        mJointNameToOverride: hash = 0x27535296
-                        mJointNameToSnapTo: hash = 0x66def2e7
+                    "Sword2LHandSheath" = JointSnapEventData {
+                        mJointNameToOverride: hash = "Sword"
+                        mJointNameToSnapTo: hash = "Sword_Sheathed"
                     }
                     "Spikes" = SubmeshVisibilityEventData {
                         mShowSubmeshList: list[hash] = {
@@ -546,11 +546,11 @@ entries: map[hash,embed] = {
                 mEventDataMap: map[hash,pointer] = {
                     "SnapBuffbone" = JointSnapEventData {
                         mJointNameToOverride: hash = "C_Buffbone_Glb_Center_Loc"
-                        mJointNameToSnapTo: hash = "Root"
+                        mJointNameToSnapTo: hash = "root"
                     }
                     0x879eb7f7 = JointSnapEventData {
                         mJointNameToOverride: hash = "BUFFBONE_GLB_GROUND_LOC"
-                        mJointNameToSnapTo: hash = 0x82194067
+                        mJointNameToSnapTo: hash = "Buffbone_Glb_Channel_Loc"
                     }
                 }
                 mAnimationResourceData: embed = AnimationResourceData {
@@ -560,13 +560,13 @@ entries: map[hash,embed] = {
             "Idle_Run_Trans" = AtomicClipData {
                 mTrackDataName: hash = "Default"
                 mEventDataMap: map[hash,pointer] = {
-                    0x73cd5838 = JointSnapEventData {
-                        mJointNameToOverride: hash = 0x27535296
-                        mJointNameToSnapTo: hash = 0x66def2e7
+                    "Sword2LHandSheath" = JointSnapEventData {
+                        mJointNameToOverride: hash = "Sword"
+                        mJointNameToSnapTo: hash = "Sword_Sheathed"
                     }
                     "SnapBuffbone" = JointSnapEventData {
                         mJointNameToOverride: hash = "C_Buffbone_Glb_Center_Loc"
-                        mJointNameToSnapTo: hash = "Root"
+                        mJointNameToSnapTo: hash = "root"
                     }
                     0x879eb7f7 = JointSnapEventData {
                         mJointNameToOverride: hash = "BUFFBONE_GLB_GROUND_LOC"
@@ -583,7 +583,7 @@ entries: map[hash,embed] = {
                 mEventDataMap: map[hash,pointer] = {
                     "SnapBuffbone" = JointSnapEventData {
                         mJointNameToOverride: hash = "C_Buffbone_Glb_Center_Loc"
-                        mJointNameToSnapTo: hash = "Root"
+                        mJointNameToSnapTo: hash = "root"
                     }
                     0x879eb7f7 = JointSnapEventData {
                         mJointNameToOverride: hash = "BUFFBONE_GLB_GROUND_LOC"
@@ -591,8 +591,8 @@ entries: map[hash,embed] = {
                     }
                     0xf724b619 = JointSnapEventData {
                         mName: hash = 0xf724b619
-                        mJointNameToOverride: hash = 0xde970e9b
-                        mJointNameToSnapTo: hash = 0x300c9a9c
+                        mJointNameToOverride: hash = "L_Hair1"
+                        mJointNameToSnapTo: hash = "Sheath"
                     }
                 }
                 mTickDuration: f32 = 0.0333329998
@@ -665,7 +665,7 @@ entries: map[hash,embed] = {
                         mEffectKey: hash = "Yasuo_Z_Joke_Open"
                         mParticleEventDataPairList: list[embed] = {
                             ParticleEventDataPair {
-                                mBoneName: hash = 0xf158cdd4
+                                mBoneName: hash = "Gourd"
                             }
                         }
                     }
@@ -674,7 +674,7 @@ entries: map[hash,embed] = {
                         mEffectKey: hash = "Yasuo_Z_Joke_PopOut"
                         mParticleEventDataPairList: list[embed] = {
                             ParticleEventDataPair {
-                                mBoneName: hash = 0xf158cdd4
+                                mBoneName: hash = "Gourd"
                             }
                         }
                     }
@@ -684,7 +684,7 @@ entries: map[hash,embed] = {
                         mEffectKey: hash = "Yasuo_I_sheath_spark"
                         mParticleEventDataPairList: list[embed] = {
                             ParticleEventDataPair {
-                                mBoneName: hash = 0x7976b31b
+                                mBoneName: hash = "Buffbone_Glb_Weapon_1"
                             }
                         }
                     }
@@ -708,7 +708,7 @@ entries: map[hash,embed] = {
                         mEffectKey: hash = "Yasuo_Z_Laugh_AvatarGlow"
                         mParticleEventDataPairList: list[embed] = {
                             ParticleEventDataPair {
-                                mBoneName: hash = 0x82194067
+                                mBoneName: hash = "Buffbone_Glb_Channel_Loc"
                             }
                         }
                     }
@@ -718,13 +718,13 @@ entries: map[hash,embed] = {
                         mEffectKey: hash = "Yasuo_Z_Laugh_Trail"
                         mParticleEventDataPairList: list[embed] = {
                             ParticleEventDataPair {
-                                mBoneName: hash = 0x12c9c116
+                                mBoneName: hash = "R_Buffbone_Glb_Hand_Loc"
                             }
                         }
                     }
                     0x6fd8bac2 = JointSnapEventData {
-                        mJointNameToOverride: hash = 0x27535296
-                        mJointNameToSnapTo: hash = 0x66def2e7
+                        mJointNameToOverride: hash = "Sword"
+                        mJointNameToSnapTo: hash = "Sword_Sheathed"
                     }
                     0x9ce64f57 = SubmeshVisibilityEventData {
                         mStartFrame: f32 = 3
@@ -752,7 +752,7 @@ entries: map[hash,embed] = {
                         mEffectKey: hash = "Yasuo_Z_Recall_BodyGlow"
                         mParticleEventDataPairList: list[embed] = {
                             ParticleEventDataPair {
-                                mBoneName: hash = 0x5137ac7f
+                                mBoneName: hash = "C_Buffbone_Glb_Chest_Loc"
                             }
                         }
                     }
@@ -762,7 +762,7 @@ entries: map[hash,embed] = {
                         mEffectKey: hash = "Yasuo_Z_Recall_HeadSmash"
                         mParticleEventDataPairList: list[embed] = {
                             ParticleEventDataPair {
-                                mBoneName: hash = 0x27e9a7fa
+                                mBoneName: hash = "C_Buffbone_Glb_Head_Loc"
                             }
                         }
                     }
@@ -772,7 +772,7 @@ entries: map[hash,embed] = {
                         mEffectKey: hash = "Yasuo_Z_Recall_Spikes"
                         mParticleEventDataPairList: list[embed] = {
                             ParticleEventDataPair {
-                                mBoneName: hash = 0x5137ac7f
+                                mBoneName: hash = "C_Buffbone_Glb_Chest_Loc"
                             }
                         }
                     }
@@ -782,7 +782,7 @@ entries: map[hash,embed] = {
                         mEffectKey: hash = "Yasuo_Z_Recall_Transform_01"
                         mParticleEventDataPairList: list[embed] = {
                             ParticleEventDataPair {
-                                mBoneName: hash = 0x5137ac7f
+                                mBoneName: hash = "C_Buffbone_Glb_Chest_Loc"
                             }
                         }
                     }
@@ -792,14 +792,14 @@ entries: map[hash,embed] = {
                         mEffectKey: hash = "Yasuo_Z_Recall_Transform_02"
                         mParticleEventDataPairList: list[embed] = {
                             ParticleEventDataPair {
-                                mBoneName: hash = 0x5137ac7f
+                                mBoneName: hash = "C_Buffbone_Glb_Chest_Loc"
                             }
                         }
                     }
-                    0x73cd5838 = JointSnapEventData {
-                        mName: hash = 0x73cd5838
-                        mJointNameToOverride: hash = 0x27535296
-                        mJointNameToSnapTo: hash = 0x66def2e7
+                    "Sword2LHandSheath" = JointSnapEventData {
+                        mName: hash = "Sword2LHandSheath"
+                        mJointNameToOverride: hash = "Sword"
+                        mJointNameToSnapTo: hash = "Sword_Sheathed"
                     }
                     "HEAD" = SubmeshVisibilityEventData {
                         mStartFrame: f32 = 169
@@ -845,14 +845,14 @@ entries: map[hash,embed] = {
                         mParticleEventDataPairList: list[embed] = {
                             ParticleEventDataPair {}
                             ParticleEventDataPair {
-                                mBoneName: hash = 0x633c9818
+                                mBoneName: hash = "Hair1"
                             }
                         }
                     }
-                    0x73cd5838 = JointSnapEventData {
-                        mName: hash = 0x73cd5838
-                        mJointNameToOverride: hash = 0x27535296
-                        mJointNameToSnapTo: hash = 0x66def2e7
+                    "Sword2LHandSheath" = JointSnapEventData {
+                        mName: hash = "Sword2LHandSheath"
+                        mJointNameToOverride: hash = "Sword"
+                        mJointNameToSnapTo: hash = "Sword_Sheathed"
                     }
                 }
                 mAnimationResourceData: embed = AnimationResourceData {
@@ -879,13 +879,13 @@ entries: map[hash,embed] = {
                         mEffectKey: hash = "Yasuo_Z_Respawn"
                         mParticleEventDataPairList: list[embed] = {
                             ParticleEventDataPair {
-                                mBoneName: hash = 0x633c9818
+                                mBoneName: hash = "Hair1"
                             }
                         }
                     }
                     0x6fd8bac2 = JointSnapEventData {
-                        mJointNameToOverride: hash = 0x27535296
-                        mJointNameToSnapTo: hash = 0x66def2e7
+                        mJointNameToOverride: hash = "Sword"
+                        mJointNameToSnapTo: hash = "Sword_Sheathed"
                     }
                 }
                 mAnimationResourceData: embed = AnimationResourceData {
@@ -906,8 +906,8 @@ entries: map[hash,embed] = {
                 mSyncGroupDataName: hash = "Run"
                 mEventDataMap: map[hash,pointer] = {
                     0x6fd8bac2 = JointSnapEventData {
-                        mJointNameToOverride: hash = 0x27535296
-                        mJointNameToSnapTo: hash = 0x66def2e7
+                        mJointNameToOverride: hash = "Sword"
+                        mJointNameToSnapTo: hash = "Sword_Sheathed"
                     }
                 }
                 mTickDuration: f32 = 0.0333329998
@@ -962,8 +962,8 @@ entries: map[hash,embed] = {
                 mEventDataMap: map[hash,pointer] = {
                     0xf724b619 = JointSnapEventData {
                         mName: hash = 0xf724b619
-                        mJointNameToOverride: hash = 0xde970e9b
-                        mJointNameToSnapTo: hash = 0x300c9a9c
+                        mJointNameToOverride: hash = "L_Hair1"
+                        mJointNameToSnapTo: hash = "Sheath"
                     }
                 }
                 mTickDuration: f32 = 0.0333329998
@@ -991,15 +991,15 @@ entries: map[hash,embed] = {
                 mTrackDataName: hash = "Default"
                 mSyncGroupDataName: hash = "Run"
                 mEventDataMap: map[hash,pointer] = {
-                    0x73cd5838 = JointSnapEventData {
-                        mName: hash = 0x73cd5838
-                        mJointNameToOverride: hash = 0x27535296
-                        mJointNameToSnapTo: hash = 0x66def2e7
+                    "Sword2LHandSheath" = JointSnapEventData {
+                        mName: hash = "Sword2LHandSheath"
+                        mJointNameToOverride: hash = "Sword"
+                        mJointNameToSnapTo: hash = "Sword_Sheathed"
                     }
-                    0x31f1d317 = JointSnapEventData {
-                        mName: hash = 0x31f1d317
-                        mJointNameToOverride: hash = 0x300c9a9c
-                        mJointNameToSnapTo: hash = 0x31f1d317
+                    "Sheath2LHand" = JointSnapEventData {
+                        mName: hash = "Sheath2LHand"
+                        mJointNameToOverride: hash = "Sheath"
+                        mJointNameToSnapTo: hash = "Sheath2LHand"
                     }
                     0x4100ffc8 = SubmeshVisibilityEventData {
                         mName: hash = 0x4100ffc8
@@ -1022,15 +1022,15 @@ entries: map[hash,embed] = {
                 mTrackDataName: hash = "Default"
                 mSyncGroupDataName: hash = "Run_In"
                 mEventDataMap: map[hash,pointer] = {
-                    0x73cd5838 = JointSnapEventData {
-                        mName: hash = 0x73cd5838
-                        mJointNameToOverride: hash = 0x27535296
-                        mJointNameToSnapTo: hash = 0x66def2e7
+                    "Sword2LHandSheath" = JointSnapEventData {
+                        mName: hash = "Sword2LHandSheath"
+                        mJointNameToOverride: hash = "Sword"
+                        mJointNameToSnapTo: hash = "Sword_Sheathed"
                     }
-                    0x31f1d317 = JointSnapEventData {
-                        mName: hash = 0x31f1d317
-                        mJointNameToOverride: hash = 0x300c9a9c
-                        mJointNameToSnapTo: hash = 0x31f1d317
+                    "Sheath2LHand" = JointSnapEventData {
+                        mName: hash = "Sheath2LHand"
+                        mJointNameToOverride: hash = "Sheath"
+                        mJointNameToSnapTo: hash = "Sheath2LHand"
                     }
                 }
                 mTickDuration: f32 = 0.0333329998
@@ -1041,21 +1041,21 @@ entries: map[hash,embed] = {
             "Run_Idle_Trans" = AtomicClipData {
                 mTrackDataName: hash = "Default"
                 mEventDataMap: map[hash,pointer] = {
-                    0x31f1d317 = JointSnapEventData {
-                        mJointNameToOverride: hash = 0x300c9a9c
-                        mJointNameToSnapTo: hash = 0x31f1d317
+                    "Sheath2LHand" = JointSnapEventData {
+                        mJointNameToOverride: hash = "Sheath"
+                        mJointNameToSnapTo: hash = "Sheath2LHand"
                     }
-                    0x73cd5838 = JointSnapEventData {
-                        mJointNameToOverride: hash = 0x27535296
-                        mJointNameToSnapTo: hash = 0x66def2e7
+                    "Sword2LHandSheath" = JointSnapEventData {
+                        mJointNameToOverride: hash = "Sword"
+                        mJointNameToSnapTo: hash = "Sword_Sheathed"
                     }
                 }
                 mAnimationResourceData: embed = AnimationResourceData {
                     mAnimationFilePath: string = "ASSETS/Characters/Yasuo/Skins/Skin09/Animations/Yasuo_Skin09_Run_Idle_Trans.anm"
                 }
             }
-            0x300c9a9c = ConditionBoolClipData {
-                Updater: pointer = 0x6c816d62 {}
+            "Sheath" = ConditionBoolClipData {
+                Updater: pointer = IsMovingParametricUpdater {}
                 mChangeAnimationMidPlay: bool = true
                 mTrueConditionClipName: hash = "Sheath_Run"
                 mFalseConditionClipName: hash = 0xf337510f
@@ -1074,7 +1074,7 @@ entries: map[hash,embed] = {
                         mEffectKey: hash = "Yasuo_I_sheath_spark"
                         mParticleEventDataPairList: list[embed] = {
                             ParticleEventDataPair {
-                                mBoneName: hash = 0x300c9a9c
+                                mBoneName: hash = "Sheath"
                             }
                         }
                         mIsLoop: bool = false
@@ -1082,7 +1082,7 @@ entries: map[hash,embed] = {
                     }
                     "SnapBuffbone" = JointSnapEventData {
                         mJointNameToOverride: hash = "C_Buffbone_Glb_Center_Loc"
-                        mJointNameToSnapTo: hash = "Root"
+                        mJointNameToSnapTo: hash = "root"
                     }
                     0x879eb7f7 = JointSnapEventData {
                         mJointNameToOverride: hash = "BUFFBONE_GLB_GROUND_LOC"
@@ -1090,8 +1090,8 @@ entries: map[hash,embed] = {
                     }
                     0x6fd8bac2 = JointSnapEventData {
                         mStartFrame: f32 = 26
-                        mJointNameToOverride: hash = 0x27535296
-                        mJointNameToSnapTo: hash = 0x66def2e7
+                        mJointNameToOverride: hash = "Sword"
+                        mJointNameToSnapTo: hash = "Sword_Sheathed"
                     }
                 }
                 mAnimationResourceData: embed = AnimationResourceData {
@@ -1107,11 +1107,11 @@ entries: map[hash,embed] = {
                         mSoundName: string = "Play_sfx_YasuoSkin09_YasuoSheathSpark_buffactivate"
                         mIsLoop: bool = false
                     }
-                    0x73cd5838 = JointSnapEventData {
-                        mName: hash = 0x73cd5838
+                    "Sword2LHandSheath" = JointSnapEventData {
+                        mName: hash = "Sword2LHandSheath"
                         mStartFrame: f32 = 28
-                        mJointNameToOverride: hash = 0x27535296
-                        mJointNameToSnapTo: hash = 0x66def2e7
+                        mJointNameToOverride: hash = "Sword"
+                        mJointNameToSnapTo: hash = "Sword_Sheathed"
                     }
                     "sheath_spark" = ParticleEventData {
                         mName: hash = "sheath_spark"
@@ -1119,7 +1119,7 @@ entries: map[hash,embed] = {
                         mEffectKey: hash = "Yasuo_I_sheath_spark"
                         mParticleEventDataPairList: list[embed] = {
                             ParticleEventDataPair {
-                                mBoneName: hash = 0x300c9a9c
+                                mBoneName: hash = "Sheath"
                             }
                         }
                         mIsLoop: bool = false
@@ -1139,7 +1139,7 @@ entries: map[hash,embed] = {
                             "Spikes"
                         }
                     }
-                    "Submesh" = SubmeshVisibilityEventData {
+                    "submesh" = SubmeshVisibilityEventData {
                         mEndFrame: f32 = 8
                         mHideSubmeshList: list[hash] = {
                             "Spikes"
@@ -1168,7 +1168,7 @@ entries: map[hash,embed] = {
             }
             "Spell1C" = ConditionBoolClipData {
                 mFlags: u32 = 4
-                Updater: pointer = 0x6c816d62 {}
+                Updater: pointer = IsMovingParametricUpdater {}
                 mChangeAnimationMidPlay: bool = true
                 mTrueConditionClipName: hash = 0x37179eeb
                 mFalseConditionClipName: hash = 0xb329a867
@@ -1229,7 +1229,7 @@ entries: map[hash,embed] = {
             }
             "Spell2" = ParallelClipData {
                 mClipNameList: list[hash] = {
-                    0x7edfaad7
+                    "Spell2_BASE"
                     0x822d5260
                 }
             }
@@ -1281,7 +1281,7 @@ entries: map[hash,embed] = {
                     mAnimationFilePath: string = "ASSETS/Characters/Yasuo/Skins/Skin09/Animations/Yasuo_Skin09_Spell2_90.anm"
                 }
             }
-            0x7edfaad7 = AtomicClipData {
+            "Spell2_BASE" = AtomicClipData {
                 mTrackDataName: hash = "Default"
                 mTickDuration: f32 = 0.0333329998
                 mAnimationResourceData: embed = AnimationResourceData {
@@ -1291,7 +1291,7 @@ entries: map[hash,embed] = {
             0x822d5260 = ParametricClipData {
                 mFlags: u32 = 4
                 mTrackDataName: hash = 0x0a8c6a47
-                Updater: pointer = 0x41356ce8 {}
+                Updater: pointer = LookAtSpellTargetAngleParametricUpdater {}
                 mParametricPairDataList: list[embed] = {
                     ParametricPairData {
                         mClipName: hash = "Spell2_-180"
@@ -1318,7 +1318,7 @@ entries: map[hash,embed] = {
                 mFlags: u32 = 4
                 mMaskDataName: hash = 0x0a8c6a47
                 mTrackDataName: hash = "Wind"
-                Updater: pointer = 0x41356ce8 {}
+                Updater: pointer = LookAtSpellTargetAngleParametricUpdater {}
                 mParametricPairDataList: list[embed] = {
                     ParametricPairData {
                         mClipName: hash = "Spell2_-180"
@@ -1364,7 +1364,7 @@ entries: map[hash,embed] = {
                         mEffectKey: hash = "Yasuo_R_Charge_01"
                         mParticleEventDataPairList: list[embed] = {
                             ParticleEventDataPair {
-                                mBoneName: hash = 0x25b67396
+                                mBoneName: hash = "SwordBlade2"
                             }
                         }
                     }
@@ -1382,11 +1382,11 @@ entries: map[hash,embed] = {
                         mEffectKey: hash = "Yasuo_R_Charge_01"
                         mParticleEventDataPairList: list[embed] = {
                             ParticleEventDataPair {
-                                mBoneName: hash = 0x25b67396
+                                mBoneName: hash = "SwordBlade2"
                             }
                         }
                     }
-                    0x27535296 = SubmeshVisibilityEventData {
+                    "Sword" = SubmeshVisibilityEventData {
                         mShowSubmeshList: list[hash] = {
                             0xc2cdac4f
                         }
@@ -1403,7 +1403,7 @@ entries: map[hash,embed] = {
                     mAnimationFilePath: string = "ASSETS/Characters/Yasuo/Skins/Skin09/Animations/Yasuo_Skin09_Spell4_trans.anm"
                 }
             }
-            "Taunt" = AtomicClipData {
+            "taunt" = AtomicClipData {
                 mTrackDataName: hash = "Default"
                 mEventDataMap: map[hash,pointer] = {
                     0x61aca863 = SoundEventData {
@@ -1421,7 +1421,7 @@ entries: map[hash,embed] = {
                         mEffectKey: hash = "Yasuo_Z_Tuant_FireBreath_01"
                         mParticleEventDataPairList: list[embed] = {
                             ParticleEventDataPair {
-                                mBoneName: hash = 0x27e9a7fa
+                                mBoneName: hash = "C_Buffbone_Glb_Head_Loc"
                             }
                         }
                     }
@@ -1431,7 +1431,7 @@ entries: map[hash,embed] = {
                         mEffectKey: hash = "Yasuo_Z_Tuant_FireBreath_02"
                         mParticleEventDataPairList: list[embed] = {
                             ParticleEventDataPair {
-                                mBoneName: hash = 0x27e9a7fa
+                                mBoneName: hash = "C_Buffbone_Glb_Head_Loc"
                             }
                         }
                         mIsDetachable: bool = true
@@ -1442,7 +1442,7 @@ entries: map[hash,embed] = {
                         mEffectKey: hash = "Yasuo_Z_Taunt_Sword_Fire"
                         mParticleEventDataPairList: list[embed] = {
                             ParticleEventDataPair {
-                                mBoneName: hash = 0x25b67396
+                                mBoneName: hash = "SwordBlade2"
                             }
                         }
                     }
@@ -1452,7 +1452,7 @@ entries: map[hash,embed] = {
                         mEffectKey: hash = "Yasuo_Z_Taunt_Sword_Flick"
                         mParticleEventDataPairList: list[embed] = {
                             ParticleEventDataPair {
-                                mBoneName: hash = 0xc0e929e5
+                                mBoneName: hash = "Cstm_Buffbone_Weapon_Tip"
                             }
                         }
                     }
@@ -1462,14 +1462,14 @@ entries: map[hash,embed] = {
                         mEffectKey: hash = "Yasuo_I_sheath_spark"
                         mParticleEventDataPairList: list[embed] = {
                             ParticleEventDataPair {
-                                mBoneName: hash = 0x7976b31b
+                                mBoneName: hash = "Buffbone_Glb_Weapon_1"
                             }
                         }
                     }
                     0x6fd8bac2 = JointSnapEventData {
                         mStartFrame: f32 = 195
-                        mJointNameToOverride: hash = 0x27535296
-                        mJointNameToSnapTo: hash = 0x66def2e7
+                        mJointNameToOverride: hash = "Sword"
+                        mJointNameToSnapTo: hash = "Sword_Sheathed"
                     }
                 }
                 mTickDuration: f32 = 0.0333329998
@@ -1482,7 +1482,7 @@ entries: map[hash,embed] = {
                 mEventDataMap: map[hash,pointer] = {
                     "SnapBuffbone" = JointSnapEventData {
                         mJointNameToOverride: hash = "C_Buffbone_Glb_Center_Loc"
-                        mJointNameToSnapTo: hash = "Root"
+                        mJointNameToSnapTo: hash = "root"
                     }
                     0x879eb7f7 = JointSnapEventData {
                         mJointNameToOverride: hash = "BUFFBONE_GLB_GROUND_LOC"
@@ -1505,10 +1505,10 @@ entries: map[hash,embed] = {
                 mTrackDataName: hash = "Default"
                 mSyncGroupDataName: hash = "Run"
                 mEventDataMap: map[hash,pointer] = {
-                    0x31f1d317 = JointSnapEventData {
-                        mName: hash = 0x31f1d317
-                        mJointNameToOverride: hash = 0x300c9a9c
-                        mJointNameToSnapTo: hash = 0x31f1d317
+                    "Sheath2LHand" = JointSnapEventData {
+                        mName: hash = "Sheath2LHand"
+                        mJointNameToOverride: hash = "Sheath"
+                        mJointNameToSnapTo: hash = "Sheath2LHand"
                     }
                 }
                 mAnimationResourceData: embed = AnimationResourceData {
@@ -1520,15 +1520,15 @@ entries: map[hash,embed] = {
                 mTrackDataName: hash = "Default"
                 mSyncGroupDataName: hash = "Run"
                 mEventDataMap: map[hash,pointer] = {
-                    0x73cd5838 = JointSnapEventData {
-                        mName: hash = 0x73cd5838
-                        mJointNameToOverride: hash = 0x27535296
-                        mJointNameToSnapTo: hash = 0x66def2e7
+                    "Sword2LHandSheath" = JointSnapEventData {
+                        mName: hash = "Sword2LHandSheath"
+                        mJointNameToOverride: hash = "Sword"
+                        mJointNameToSnapTo: hash = "Sword_Sheathed"
                     }
-                    0x31f1d317 = JointSnapEventData {
-                        mName: hash = 0x31f1d317
-                        mJointNameToOverride: hash = 0x300c9a9c
-                        mJointNameToSnapTo: hash = 0x31f1d317
+                    "Sheath2LHand" = JointSnapEventData {
+                        mName: hash = "Sheath2LHand"
+                        mJointNameToOverride: hash = "Sheath"
+                        mJointNameToSnapTo: hash = "Sheath2LHand"
                     }
                 }
                 mAnimationResourceData: embed = AnimationResourceData {
@@ -1557,7 +1557,7 @@ entries: map[hash,embed] = {
                 mEventDataMap: map[hash,pointer] = {
                     "SnapBuffbone" = JointSnapEventData {
                         mJointNameToOverride: hash = "C_Buffbone_Glb_Center_Loc"
-                        mJointNameToSnapTo: hash = "Root"
+                        mJointNameToSnapTo: hash = "root"
                     }
                     0x879eb7f7 = JointSnapEventData {
                         mJointNameToOverride: hash = "BUFFBONE_GLB_GROUND_LOC"
@@ -1577,10 +1577,10 @@ entries: map[hash,embed] = {
                         mSoundName: string = "Play_sfx_YasuoSkin09_YasuoSheathSpark_buffactivate"
                         mIsLoop: bool = false
                     }
-                    0x31f1d317 = JointSnapEventData {
-                        mName: hash = 0x31f1d317
-                        mJointNameToOverride: hash = 0x300c9a9c
-                        mJointNameToSnapTo: hash = 0x31f1d317
+                    "Sheath2LHand" = JointSnapEventData {
+                        mName: hash = "Sheath2LHand"
+                        mJointNameToOverride: hash = "Sheath"
+                        mJointNameToSnapTo: hash = "Sheath2LHand"
                     }
                     "sheath_spark" = ParticleEventData {
                         mName: hash = "sheath_spark"
@@ -1588,7 +1588,7 @@ entries: map[hash,embed] = {
                         mEffectKey: hash = "Yasuo_I_sheath_spark"
                         mParticleEventDataPairList: list[embed] = {
                             ParticleEventDataPair {
-                                mBoneName: hash = 0x300c9a9c
+                                mBoneName: hash = "Sheath"
                             }
                         }
                         mIsLoop: bool = false
@@ -1597,8 +1597,8 @@ entries: map[hash,embed] = {
                     0x42da2f84 = JointSnapEventData {
                         mName: hash = 0x42da2f84
                         mStartFrame: f32 = 34
-                        mJointNameToOverride: hash = 0x27535296
-                        mJointNameToSnapTo: hash = 0x73cd5838
+                        mJointNameToOverride: hash = "Sword"
+                        mJointNameToSnapTo: hash = "Sword2LHandSheath"
                     }
                 }
                 mAnimationResourceData: embed = AnimationResourceData {

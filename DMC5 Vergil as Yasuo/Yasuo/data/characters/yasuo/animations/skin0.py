@@ -258,7 +258,7 @@ entries: map[hash,embed] = {
                     mEffectKey: hash = "Yasuo_R_Ghosts_01"
                     mParticleEventDataPairList: list[embed] = {
                         ParticleEventDataPair {
-                            mBoneName: hash = "BUFFBON_GLB_GROUND_LOC"
+                            mBoneName: hash = "BUFFBONE_GLB_GROUND_LOC"
                             }
                         }
                         mStartFrame: f32 = 1
