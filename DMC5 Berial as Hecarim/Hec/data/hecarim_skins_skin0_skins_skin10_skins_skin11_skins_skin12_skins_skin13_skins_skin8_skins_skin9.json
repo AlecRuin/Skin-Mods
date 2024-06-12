@@ -1,0 +1,3800 @@
+{
+  "entries": {
+    "type": "map",
+    "value": {
+      "items": [
+        {
+          "key": 761586616,
+          "value": {
+            "items": [
+              {
+                "key": 2257500010,
+                "type": "list",
+                "value": {
+                  "items": [
+                    {
+                      "items": [
+                        {
+                          "key": 2927860839,
+                          "type": "embed",
+                          "value": {
+                            "items": [
+                              {
+                                "key": 3031705514,
+                                "type": "f32",
+                                "value": 2.0
+                              }
+                            ],
+                            "name": 70254680
+                          }
+                        },
+                        {
+                          "key": 710223508,
+                          "type": "embed",
+                          "value": {
+                            "items": [
+                              {
+                                "key": 3031705514,
+                                "type": "f32",
+                                "value": 0.44999998807907104
+                              }
+                            ],
+                            "name": 70254680
+                          }
+                        },
+                        {
+                          "key": 1376955374,
+                          "type": "option",
+                          "value": {
+                            "items": [
+                              0.6000000238418579
+                            ],
+                            "valueType": "f32"
+                          }
+                        },
+                        {
+                          "key": 1119715179,
+                          "type": "flag",
+                          "value": true
+                        },
+                        {
+                          "key": 1025882318,
+                          "type": "string",
+                          "value": "Cas_WeaponGlow"
+                        },
+                        {
+                          "key": 3393217302,
+                          "type": "embed",
+                          "value": {
+                            "items": [
+                              {
+                                "key": 3031705514,
+                                "type": "f32",
+                                "value": 1.0
+                              }
+                            ],
+                            "name": 70254680
+                          }
+                        },
+                        {
+                          "key": 8066294,
+                          "type": "pointer",
+                          "value": {
+                            "items": [
+                              {
+                                "key": 227111725,
+                                "type": "embed",
+                                "value": {
+                                  "items": [
+                                    {
+                                      "key": 3563579584,
+                                      "type": "string",
+                                      "value": "ASSETS/Shared/Particles/arrow01.scb"
+                                    }
+                                  ],
+                                  "name": 1787328523
+                                }
+                              }
+                            ],
+                            "name": 2762908325
+                          }
+                        },
+                        {
+                          "key": 3043919889,
+                          "type": "string",
+                          "value": "ASSETS/Characters/Hecarim/Skins/Base/Particles/common_color-rampdown32.dds"
+                        },
+                        {
+                          "key": 4202188459,
+                          "type": "u8",
+                          "value": 4
+                        },
+                        {
+                          "key": 431879391,
+                          "type": "u8",
+                          "value": 0
+                        },
+                        {
+                          "key": 937277300,
+                          "type": "flag",
+                          "value": true
+                        },
+                        {
+                          "key": 895082843,
+                          "type": "flag",
+                          "value": true
+                        },
+                        {
+                          "key": 1496514460,
+                          "type": "embed",
+                          "value": {
+                            "items": [
+                              {
+                                "key": 3031705514,
+                                "type": "vec3",
+                                "value": [
+                                  0.0,
+                                  180.0,
+                                  90.0
+                                ]
+                              }
+                            ],
+                            "name": 1759261366
+                          }
+                        },
+                        {
+                          "key": 3571546707,
+                          "type": "embed",
+                          "value": {
+                            "items": [
+                              {
+                                "key": 3154345447,
+                                "type": "pointer",
+                                "value": {
+                                  "items": [
+                                    {
+                                      "key": 2802337561,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          {
+                                            "items": [],
+                                            "name": 1403439486
+                                          },
+                                          {
+                                            "items": [],
+                                            "name": 1403439486
+                                          },
+                                          {
+                                            "items": [],
+                                            "name": 1403439486
+                                          }
+                                        ],
+                                        "valueType": "pointer"
+                                      }
+                                    },
+                                    {
+                                      "key": 1567157941,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          0.0,
+                                          1.0
+                                        ],
+                                        "valueType": "f32"
+                                      }
+                                    },
+                                    {
+                                      "key": 877087803,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          [
+                                            1.0,
+                                            1.0,
+                                            1.0
+                                          ],
+                                          [
+                                            1.0499999523162842,
+                                            1.0499999523162842,
+                                            1.0499999523162842
+                                          ]
+                                        ],
+                                        "valueType": "vec3"
+                                      }
+                                    }
+                                  ],
+                                  "name": 2899841408
+                                }
+                              }
+                            ],
+                            "name": 1759261366
+                          }
+                        },
+                        {
+                          "key": 1013213428,
+                          "type": "string",
+                          "value": "ASSETS/Characters/Hecarim/Skins/Base/Particles/Hecarim_Base_Z_WeaponGlow.dds"
+                        }
+                      ],
+                      "name": 164488258
+                    }
+                  ],
+                  "valueType": "pointer"
+                }
+              },
+              {
+                "key": 3975268028,
+                "type": "string",
+                "value": "Hecarim_Base_BA1_weapon"
+              },
+              {
+                "key": 3882058040,
+                "type": "string",
+                "value": "Characters/Hecarim/Skins/Skin0/Particles/Hecarim_Base_BA1_weapon"
+              }
+            ],
+            "name": 1171098015
+          }
+        },
+        {
+          "key": 1740813470,
+          "value": {
+            "items": [
+              {
+                "key": 2257500010,
+                "type": "list",
+                "value": {
+                  "items": [
+                    {
+                      "items": [
+                        {
+                          "key": 2927860839,
+                          "type": "embed",
+                          "value": {
+                            "items": [
+                              {
+                                "key": 3031705514,
+                                "type": "f32",
+                                "value": 4.0
+                              }
+                            ],
+                            "name": 70254680
+                          }
+                        },
+                        {
+                          "key": 710223508,
+                          "type": "embed",
+                          "value": {
+                            "items": [
+                              {
+                                "key": 3031705514,
+                                "type": "f32",
+                                "value": 0.800000011920929
+                              },
+                              {
+                                "key": 3154345447,
+                                "type": "pointer",
+                                "value": {
+                                  "items": [
+                                    {
+                                      "key": 2802337561,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          {
+                                            "items": [
+                                              {
+                                                "key": 1086542298,
+                                                "type": "list",
+                                                "value": {
+                                                  "items": [
+                                                    0.0,
+                                                    1.0
+                                                  ],
+                                                  "valueType": "f32"
+                                                }
+                                              },
+                                              {
+                                                "key": 3830150018,
+                                                "type": "list",
+                                                "value": {
+                                                  "items": [
+                                                    0.6499999761581421,
+                                                    1.0
+                                                  ],
+                                                  "valueType": "f32"
+                                                }
+                                              }
+                                            ],
+                                            "name": 1403439486
+                                          }
+                                        ],
+                                        "valueType": "pointer"
+                                      }
+                                    },
+                                    {
+                                      "key": 1567157941,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          0.0
+                                        ],
+                                        "valueType": "f32"
+                                      }
+                                    },
+                                    {
+                                      "key": 877087803,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          0.800000011920929
+                                        ],
+                                        "valueType": "f32"
+                                      }
+                                    }
+                                  ],
+                                  "name": 4261825672
+                                }
+                              }
+                            ],
+                            "name": 70254680
+                          }
+                        },
+                        {
+                          "key": 607245356,
+                          "type": "option",
+                          "value": {
+                            "items": [
+                              0.800000011920929
+                            ],
+                            "valueType": "f32"
+                          }
+                        },
+                        {
+                          "key": 1025882318,
+                          "type": "string",
+                          "value": "startBlast1"
+                        },
+                        {
+                          "key": 4198607757,
+                          "type": "embed",
+                          "value": {
+                            "items": [
+                              {
+                                "key": 3031705514,
+                                "type": "vec3",
+                                "value": [
+                                  10.0,
+                                  150.0,
+                                  10.0
+                                ]
+                              },
+                              {
+                                "key": 3154345447,
+                                "type": "pointer",
+                                "value": {
+                                  "items": [
+                                    {
+                                      "key": 2802337561,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          {
+                                            "items": [
+                                              {
+                                                "key": 1086542298,
+                                                "type": "list",
+                                                "value": {
+                                                  "items": [
+                                                    0.0,
+                                                    1.0
+                                                  ],
+                                                  "valueType": "f32"
+                                                }
+                                              },
+                                              {
+                                                "key": 3830150018,
+                                                "type": "list",
+                                                "value": {
+                                                  "items": [
+                                                    0.5,
+                                                    1.0
+                                                  ],
+                                                  "valueType": "f32"
+                                                }
+                                              }
+                                            ],
+                                            "name": 1403439486
+                                          },
+                                          {
+                                            "items": [],
+                                            "name": 1403439486
+                                          },
+                                          {
+                                            "items": [
+                                              {
+                                                "key": 1086542298,
+                                                "type": "list",
+                                                "value": {
+                                                  "items": [
+                                                    0.0,
+                                                    1.0
+                                                  ],
+                                                  "valueType": "f32"
+                                                }
+                                              },
+                                              {
+                                                "key": 3830150018,
+                                                "type": "list",
+                                                "value": {
+                                                  "items": [
+                                                    -1.0,
+                                                    1.0
+                                                  ],
+                                                  "valueType": "f32"
+                                                }
+                                              }
+                                            ],
+                                            "name": 1403439486
+                                          }
+                                        ],
+                                        "valueType": "pointer"
+                                      }
+                                    },
+                                    {
+                                      "key": 1567157941,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          0.0
+                                        ],
+                                        "valueType": "f32"
+                                      }
+                                    },
+                                    {
+                                      "key": 877087803,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          [
+                                            10.0,
+                                            150.0,
+                                            10.0
+                                          ]
+                                        ],
+                                        "valueType": "vec3"
+                                      }
+                                    }
+                                  ],
+                                  "name": 2899841408
+                                }
+                              }
+                            ],
+                            "name": 1759261366
+                          }
+                        },
+                        {
+                          "key": 2188761752,
+                          "type": "embed",
+                          "value": {
+                            "items": [
+                              {
+                                "key": 3031705514,
+                                "type": "vec3",
+                                "value": [
+                                  0.0,
+                                  4.0,
+                                  0.0
+                                ]
+                              }
+                            ],
+                            "name": 1759261366
+                          }
+                        },
+                        {
+                          "key": 3393217302,
+                          "type": "embed",
+                          "value": {
+                            "items": [
+                              {
+                                "key": 3031705514,
+                                "type": "f32",
+                                "value": 1.0
+                              },
+                              {
+                                "key": 3154345447,
+                                "type": "pointer",
+                                "value": {
+                                  "items": [
+                                    {
+                                      "key": 1567157941,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          0.0,
+                                          0.10000000149011612,
+                                          1.0
+                                        ],
+                                        "valueType": "f32"
+                                      }
+                                    },
+                                    {
+                                      "key": 877087803,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          1.0,
+                                          0.5,
+                                          0.0
+                                        ],
+                                        "valueType": "f32"
+                                      }
+                                    }
+                                  ],
+                                  "name": 4261825672
+                                }
+                              }
+                            ],
+                            "name": 70254680
+                          }
+                        },
+                        {
+                          "key": 1446857250,
+                          "type": "embed",
+                          "value": {
+                            "items": [
+                              {
+                                "key": 3154345447,
+                                "type": "pointer",
+                                "value": {
+                                  "items": [
+                                    {
+                                      "key": 2802337561,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          {
+                                            "items": [],
+                                            "name": 1403439486
+                                          },
+                                          {
+                                            "items": [],
+                                            "name": 1403439486
+                                          },
+                                          {
+                                            "items": [],
+                                            "name": 1403439486
+                                          }
+                                        ],
+                                        "valueType": "pointer"
+                                      }
+                                    },
+                                    {
+                                      "key": 1567157941,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          0.0
+                                        ],
+                                        "valueType": "f32"
+                                      }
+                                    },
+                                    {
+                                      "key": 877087803,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          [
+                                            0.0,
+                                            0.0,
+                                            0.0
+                                          ]
+                                        ],
+                                        "valueType": "vec3"
+                                      }
+                                    }
+                                  ],
+                                  "name": 2899841408
+                                }
+                              }
+                            ],
+                            "name": 1759261366
+                          }
+                        },
+                        {
+                          "key": 1341973282,
+                          "type": "pointer",
+                          "value": {
+                            "items": [
+                              {
+                                "key": 2500926249,
+                                "type": "f32",
+                                "value": 0.007000000216066837
+                              }
+                            ],
+                            "name": 2972751856
+                          }
+                        },
+                        {
+                          "key": 4202188459,
+                          "type": "u8",
+                          "value": 4
+                        },
+                        {
+                          "key": 2211310241,
+                          "type": "embed",
+                          "value": {
+                            "items": [
+                              {
+                                "key": 3031705514,
+                                "type": "vec4",
+                                "value": [
+                                  0.17000076174736023,
+                                  0.7799954414367676,
+                                  1.0,
+                                  0.5100023150444031
+                                ]
+                              },
+                              {
+                                "key": 3154345447,
+                                "type": "pointer",
+                                "value": {
+                                  "items": [
+                                    {
+                                      "key": 1567157941,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          0.0
+                                        ],
+                                        "valueType": "f32"
+                                      }
+                                    },
+                                    {
+                                      "key": 877087803,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          [
+                                            1.0,
+                                            0.364705890417099,
+                                            0.16862745583057404,
+                                            0.5100023150444031
+                                          ]
+                                        ],
+                                        "valueType": "vec4"
+                                      }
+                                    }
+                                  ],
+                                  "name": 1128908277
+                                }
+                              }
+                            ],
+                            "name": 122655197
+                          }
+                        },
+                        {
+                          "key": 1031692888,
+                          "type": "embed",
+                          "value": {
+                            "items": [
+                              {
+                                "key": 3154345447,
+                                "type": "pointer",
+                                "value": {
+                                  "items": [
+                                    {
+                                      "key": 1567157941,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          0.0,
+                                          0.30000001192092896,
+                                          1.0
+                                        ],
+                                        "valueType": "f32"
+                                      }
+                                    },
+                                    {
+                                      "key": 877087803,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          [
+                                            1.0,
+                                            1.0,
+                                            1.0,
+                                            0.0
+                                          ],
+                                          [
+                                            1.0,
+                                            1.0,
+                                            1.0,
+                                            1.0
+                                          ],
+                                          [
+                                            0.2235294133424759,
+                                            0.01568627543747425,
+                                            0.09019608050584793,
+                                            0.0
+                                          ]
+                                        ],
+                                        "valueType": "vec4"
+                                      }
+                                    }
+                                  ],
+                                  "name": 1128908277
+                                }
+                              }
+                            ],
+                            "name": 122655197
+                          }
+                        },
+                        {
+                          "key": 2071622424,
+                          "type": "i16",
+                          "value": 1
+                        },
+                        {
+                          "key": 3113423092,
+                          "type": "u8",
+                          "value": 0
+                        },
+                        {
+                          "key": 3295031301,
+                          "type": "pointer",
+                          "value": {
+                            "items": [
+                              {
+                                "key": 3338382549,
+                                "type": "embed",
+                                "value": {
+                                  "items": [
+                                    {
+                                      "key": 3154345447,
+                                      "type": "pointer",
+                                      "value": {
+                                        "items": [
+                                          {
+                                            "key": 1567157941,
+                                            "type": "list",
+                                            "value": {
+                                              "items": [
+                                                0.0,
+                                                1.0
+                                              ],
+                                              "valueType": "f32"
+                                            }
+                                          },
+                                          {
+                                            "key": 877087803,
+                                            "type": "list",
+                                            "value": {
+                                              "items": [
+                                                0.0,
+                                                1.0
+                                              ],
+                                              "valueType": "f32"
+                                            }
+                                          }
+                                        ],
+                                        "name": 4261825672
+                                      }
+                                    }
+                                  ],
+                                  "name": 70254680
+                                }
+                              },
+                              {
+                                "key": 884924650,
+                                "type": "f32",
+                                "value": 0.6000000238418579
+                              },
+                              {
+                                "key": 574933667,
+                                "type": "f32",
+                                "value": 0.6000000238418579
+                              },
+                              {
+                                "key": 2088333528,
+                                "type": "f32",
+                                "value": 1.600000023841858
+                              },
+                              {
+                                "key": 1570791323,
+                                "type": "string",
+                                "value": "ASSETS/Characters/Hecarim/Skins/Base/Particles/Hecarim_Base_Wispy.dds"
+                              },
+                              {
+                                "key": 2960738944,
+                                "type": "embed",
+                                "value": {
+                                  "items": [
+                                    {
+                                      "key": 3031705514,
+                                      "type": "vec4",
+                                      "value": [
+                                        1.0,
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                      ]
+                                    }
+                                  ],
+                                  "name": 122655197
+                                }
+                              }
+                            ],
+                            "name": 1585720219
+                          }
+                        },
+                        {
+                          "key": 895082843,
+                          "type": "flag",
+                          "value": true
+                        },
+                        {
+                          "key": 3768409787,
+                          "type": "flag",
+                          "value": true
+                        },
+                        {
+                          "key": 1496514460,
+                          "type": "embed",
+                          "value": {
+                            "items": [
+                              {
+                                "key": 3031705514,
+                                "type": "vec3",
+                                "value": [
+                                  1.0,
+                                  90.0,
+                                  0.0
+                                ]
+                              },
+                              {
+                                "key": 3154345447,
+                                "type": "pointer",
+                                "value": {
+                                  "items": [
+                                    {
+                                      "key": 2802337561,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          {
+                                            "items": [
+                                              {
+                                                "key": 1086542298,
+                                                "type": "list",
+                                                "value": {
+                                                  "items": [
+                                                    0.0,
+                                                    1.0
+                                                  ],
+                                                  "valueType": "f32"
+                                                }
+                                              },
+                                              {
+                                                "key": 3830150018,
+                                                "type": "list",
+                                                "value": {
+                                                  "items": [
+                                                    -360.0,
+                                                    360.0
+                                                  ],
+                                                  "valueType": "f32"
+                                                }
+                                              }
+                                            ],
+                                            "name": 1403439486
+                                          },
+                                          {
+                                            "items": [],
+                                            "name": 1403439486
+                                          },
+                                          {
+                                            "items": [],
+                                            "name": 1403439486
+                                          }
+                                        ],
+                                        "valueType": "pointer"
+                                      }
+                                    },
+                                    {
+                                      "key": 1567157941,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          0.0
+                                        ],
+                                        "valueType": "f32"
+                                      }
+                                    },
+                                    {
+                                      "key": 877087803,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          [
+                                            1.0,
+                                            90.0,
+                                            0.0
+                                          ]
+                                        ],
+                                        "valueType": "vec3"
+                                      }
+                                    }
+                                  ],
+                                  "name": 2899841408
+                                }
+                              }
+                            ],
+                            "name": 1759261366
+                          }
+                        },
+                        {
+                          "key": 494378602,
+                          "type": "embed",
+                          "value": {
+                            "items": [
+                              {
+                                "key": 3031705514,
+                                "type": "vec3",
+                                "value": [
+                                  80.0,
+                                  0.0,
+                                  0.0
+                                ]
+                              },
+                              {
+                                "key": 3154345447,
+                                "type": "pointer",
+                                "value": {
+                                  "items": [
+                                    {
+                                      "key": 2802337561,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          {
+                                            "items": [
+                                              {
+                                                "key": 1086542298,
+                                                "type": "list",
+                                                "value": {
+                                                  "items": [
+                                                    0.0,
+                                                    1.0
+                                                  ],
+                                                  "valueType": "f32"
+                                                }
+                                              },
+                                              {
+                                                "key": 3830150018,
+                                                "type": "list",
+                                                "value": {
+                                                  "items": [
+                                                    -1.0,
+                                                    1.0
+                                                  ],
+                                                  "valueType": "f32"
+                                                }
+                                              }
+                                            ],
+                                            "name": 1403439486
+                                          },
+                                          {
+                                            "items": [],
+                                            "name": 1403439486
+                                          },
+                                          {
+                                            "items": [],
+                                            "name": 1403439486
+                                          }
+                                        ],
+                                        "valueType": "pointer"
+                                      }
+                                    },
+                                    {
+                                      "key": 1567157941,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          0.0
+                                        ],
+                                        "valueType": "f32"
+                                      }
+                                    },
+                                    {
+                                      "key": 877087803,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          [
+                                            80.0,
+                                            0.0,
+                                            0.0
+                                          ]
+                                        ],
+                                        "valueType": "vec3"
+                                      }
+                                    }
+                                  ],
+                                  "name": 2899841408
+                                }
+                              }
+                            ],
+                            "name": 1759261366
+                          }
+                        },
+                        {
+                          "key": 719533490,
+                          "type": "flag",
+                          "value": false
+                        },
+                        {
+                          "key": 4041961604,
+                          "type": "embed",
+                          "value": {
+                            "items": [
+                              {
+                                "key": 3031705514,
+                                "type": "vec3",
+                                "value": [
+                                  30.0,
+                                  1.0,
+                                  0.0
+                                ]
+                              },
+                              {
+                                "key": 3154345447,
+                                "type": "pointer",
+                                "value": {
+                                  "items": [
+                                    {
+                                      "key": 2802337561,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          {
+                                            "items": [
+                                              {
+                                                "key": 1086542298,
+                                                "type": "list",
+                                                "value": {
+                                                  "items": [
+                                                    0.0,
+                                                    1.0
+                                                  ],
+                                                  "valueType": "f32"
+                                                }
+                                              },
+                                              {
+                                                "key": 3830150018,
+                                                "type": "list",
+                                                "value": {
+                                                  "items": [
+                                                    0.20000000298023224,
+                                                    1.0
+                                                  ],
+                                                  "valueType": "f32"
+                                                }
+                                              }
+                                            ],
+                                            "name": 1403439486
+                                          },
+                                          {
+                                            "items": [],
+                                            "name": 1403439486
+                                          },
+                                          {
+                                            "items": [],
+                                            "name": 1403439486
+                                          }
+                                        ],
+                                        "valueType": "pointer"
+                                      }
+                                    },
+                                    {
+                                      "key": 1567157941,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          0.0
+                                        ],
+                                        "valueType": "f32"
+                                      }
+                                    },
+                                    {
+                                      "key": 877087803,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          [
+                                            30.0,
+                                            1.0,
+                                            0.0
+                                          ]
+                                        ],
+                                        "valueType": "vec3"
+                                      }
+                                    }
+                                  ],
+                                  "name": 2899841408
+                                }
+                              }
+                            ],
+                            "name": 1759261366
+                          }
+                        },
+                        {
+                          "key": 3571546707,
+                          "type": "embed",
+                          "value": {
+                            "items": [
+                              {
+                                "key": 3154345447,
+                                "type": "pointer",
+                                "value": {
+                                  "items": [
+                                    {
+                                      "key": 1567157941,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          0.0,
+                                          1.0
+                                        ],
+                                        "valueType": "f32"
+                                      }
+                                    },
+                                    {
+                                      "key": 877087803,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          [
+                                            0.800000011920929,
+                                            0.800000011920929,
+                                            0.800000011920929
+                                          ],
+                                          [
+                                            1.75,
+                                            1.0,
+                                            1.0
+                                          ]
+                                        ],
+                                        "valueType": "vec3"
+                                      }
+                                    }
+                                  ],
+                                  "name": 2899841408
+                                }
+                              }
+                            ],
+                            "name": 1759261366
+                          }
+                        },
+                        {
+                          "key": 1013213428,
+                          "type": "string",
+                          "value": "ASSETS/Characters/Hecarim/Skins/Base/Particles/Hecarim_Base_Wispy.dds"
+                        },
+                        {
+                          "key": 510111985,
+                          "type": "u16",
+                          "value": 4
+                        },
+                        {
+                          "key": 2259174665,
+                          "type": "vec2",
+                          "value": [
+                            2.0,
+                            2.0
+                          ]
+                        }
+                      ],
+                      "name": 164488258
+                    },
+                    {
+                      "items": [
+                        {
+                          "key": 2927860839,
+                          "type": "embed",
+                          "value": {
+                            "items": [
+                              {
+                                "key": 3031705514,
+                                "type": "f32",
+                                "value": 10.0
+                              }
+                            ],
+                            "name": 70254680
+                          }
+                        },
+                        {
+                          "key": 710223508,
+                          "type": "embed",
+                          "value": {
+                            "items": [
+                              {
+                                "key": 3031705514,
+                                "type": "f32",
+                                "value": 0.5
+                              },
+                              {
+                                "key": 3154345447,
+                                "type": "pointer",
+                                "value": {
+                                  "items": [
+                                    {
+                                      "key": 2802337561,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          {
+                                            "items": [
+                                              {
+                                                "key": 1086542298,
+                                                "type": "list",
+                                                "value": {
+                                                  "items": [
+                                                    0.0,
+                                                    1.0
+                                                  ],
+                                                  "valueType": "f32"
+                                                }
+                                              },
+                                              {
+                                                "key": 3830150018,
+                                                "type": "list",
+                                                "value": {
+                                                  "items": [
+                                                    1.0,
+                                                    1.25
+                                                  ],
+                                                  "valueType": "f32"
+                                                }
+                                              }
+                                            ],
+                                            "name": 1403439486
+                                          }
+                                        ],
+                                        "valueType": "pointer"
+                                      }
+                                    },
+                                    {
+                                      "key": 1567157941,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          0.0
+                                        ],
+                                        "valueType": "f32"
+                                      }
+                                    },
+                                    {
+                                      "key": 877087803,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          0.5
+                                        ],
+                                        "valueType": "f32"
+                                      }
+                                    }
+                                  ],
+                                  "name": 4261825672
+                                }
+                              }
+                            ],
+                            "name": 70254680
+                          }
+                        },
+                        {
+                          "key": 607245356,
+                          "type": "option",
+                          "value": {
+                            "items": [
+                              11.0
+                            ],
+                            "valueType": "f32"
+                          }
+                        },
+                        {
+                          "key": 1025882318,
+                          "type": "string",
+                          "value": "Temp_BurstUp"
+                        },
+                        {
+                          "key": 871591685,
+                          "type": "bool",
+                          "value": true
+                        },
+                        {
+                          "key": 1363361524,
+                          "type": "embed",
+                          "value": {
+                            "items": [
+                              {
+                                "key": 3031705514,
+                                "type": "vec3",
+                                "value": [
+                                  0.0,
+                                  1.0,
+                                  0.0
+                                ]
+                              },
+                              {
+                                "key": 3154345447,
+                                "type": "pointer",
+                                "value": {
+                                  "items": [
+                                    {
+                                      "key": 2802337561,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          {
+                                            "items": [],
+                                            "name": 1403439486
+                                          },
+                                          {
+                                            "items": [
+                                              {
+                                                "key": 1086542298,
+                                                "type": "list",
+                                                "value": {
+                                                  "items": [
+                                                    0.0,
+                                                    1.0
+                                                  ],
+                                                  "valueType": "f32"
+                                                }
+                                              },
+                                              {
+                                                "key": 3830150018,
+                                                "type": "list",
+                                                "value": {
+                                                  "items": [
+                                                    -1.0,
+                                                    1.0
+                                                  ],
+                                                  "valueType": "f32"
+                                                }
+                                              }
+                                            ],
+                                            "name": 1403439486
+                                          },
+                                          {
+                                            "items": [],
+                                            "name": 1403439486
+                                          }
+                                        ],
+                                        "valueType": "pointer"
+                                      }
+                                    },
+                                    {
+                                      "key": 1567157941,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          0.0
+                                        ],
+                                        "valueType": "f32"
+                                      }
+                                    },
+                                    {
+                                      "key": 877087803,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          [
+                                            0.0,
+                                            1.0,
+                                            0.0
+                                          ]
+                                        ],
+                                        "valueType": "vec3"
+                                      }
+                                    }
+                                  ],
+                                  "name": 2899841408
+                                }
+                              }
+                            ],
+                            "name": 1759261366
+                          }
+                        },
+                        {
+                          "key": 4198607757,
+                          "type": "embed",
+                          "value": {
+                            "items": [
+                              {
+                                "key": 3031705514,
+                                "type": "vec3",
+                                "value": [
+                                  200.0,
+                                  300.0,
+                                  200.0
+                                ]
+                              },
+                              {
+                                "key": 3154345447,
+                                "type": "pointer",
+                                "value": {
+                                  "items": [
+                                    {
+                                      "key": 2802337561,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          {
+                                            "items": [
+                                              {
+                                                "key": 1086542298,
+                                                "type": "list",
+                                                "value": {
+                                                  "items": [
+                                                    0.0,
+                                                    1.0
+                                                  ],
+                                                  "valueType": "f32"
+                                                }
+                                              },
+                                              {
+                                                "key": 3830150018,
+                                                "type": "list",
+                                                "value": {
+                                                  "items": [
+                                                    -1.0,
+                                                    1.0
+                                                  ],
+                                                  "valueType": "f32"
+                                                }
+                                              }
+                                            ],
+                                            "name": 1403439486
+                                          },
+                                          {
+                                            "items": [
+                                              {
+                                                "key": 1086542298,
+                                                "type": "list",
+                                                "value": {
+                                                  "items": [
+                                                    0.0,
+                                                    1.0
+                                                  ],
+                                                  "valueType": "f32"
+                                                }
+                                              },
+                                              {
+                                                "key": 3830150018,
+                                                "type": "list",
+                                                "value": {
+                                                  "items": [
+                                                    0.5,
+                                                    1.0
+                                                  ],
+                                                  "valueType": "f32"
+                                                }
+                                              }
+                                            ],
+                                            "name": 1403439486
+                                          },
+                                          {
+                                            "items": [
+                                              {
+                                                "key": 1086542298,
+                                                "type": "list",
+                                                "value": {
+                                                  "items": [
+                                                    0.0,
+                                                    1.0
+                                                  ],
+                                                  "valueType": "f32"
+                                                }
+                                              },
+                                              {
+                                                "key": 3830150018,
+                                                "type": "list",
+                                                "value": {
+                                                  "items": [
+                                                    -1.0,
+                                                    1.0
+                                                  ],
+                                                  "valueType": "f32"
+                                                }
+                                              }
+                                            ],
+                                            "name": 1403439486
+                                          }
+                                        ],
+                                        "valueType": "pointer"
+                                      }
+                                    },
+                                    {
+                                      "key": 1567157941,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          0.0
+                                        ],
+                                        "valueType": "f32"
+                                      }
+                                    },
+                                    {
+                                      "key": 877087803,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          [
+                                            200.0,
+                                            300.0,
+                                            200.0
+                                          ]
+                                        ],
+                                        "valueType": "vec3"
+                                      }
+                                    }
+                                  ],
+                                  "name": 2899841408
+                                }
+                              }
+                            ],
+                            "name": 1759261366
+                          }
+                        },
+                        {
+                          "key": 2188761752,
+                          "type": "embed",
+                          "value": {
+                            "items": [
+                              {
+                                "key": 3031705514,
+                                "type": "vec3",
+                                "value": [
+                                  4.0,
+                                  5.0,
+                                  4.0
+                                ]
+                              }
+                            ],
+                            "name": 1759261366
+                          }
+                        },
+                        {
+                          "key": 1446857250,
+                          "type": "embed",
+                          "value": {
+                            "items": [
+                              {
+                                "key": 3154345447,
+                                "type": "pointer",
+                                "value": {
+                                  "items": [
+                                    {
+                                      "key": 2802337561,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          {
+                                            "items": [],
+                                            "name": 1403439486
+                                          },
+                                          {
+                                            "items": [],
+                                            "name": 1403439486
+                                          },
+                                          {
+                                            "items": [],
+                                            "name": 1403439486
+                                          }
+                                        ],
+                                        "valueType": "pointer"
+                                      }
+                                    },
+                                    {
+                                      "key": 1567157941,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          0.0
+                                        ],
+                                        "valueType": "f32"
+                                      }
+                                    },
+                                    {
+                                      "key": 877087803,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          [
+                                            0.0,
+                                            0.0,
+                                            0.0
+                                          ]
+                                        ],
+                                        "valueType": "vec3"
+                                      }
+                                    }
+                                  ],
+                                  "name": 2899841408
+                                }
+                              }
+                            ],
+                            "name": 1759261366
+                          }
+                        },
+                        {
+                          "key": 4202188459,
+                          "type": "u8",
+                          "value": 5
+                        },
+                        {
+                          "key": 2211310241,
+                          "type": "embed",
+                          "value": {
+                            "items": [
+                              {
+                                "key": 3031705514,
+                                "type": "vec4",
+                                "value": [
+                                  0.6823529601097107,
+                                  0.27843138575553894,
+                                  0.3176470696926117,
+                                  1.0
+                                ]
+                              }
+                            ],
+                            "name": 122655197
+                          }
+                        },
+                        {
+                          "key": 1031692888,
+                          "type": "embed",
+                          "value": {
+                            "items": [
+                              {
+                                "key": 3154345447,
+                                "type": "pointer",
+                                "value": {
+                                  "items": [
+                                    {
+                                      "key": 1567157941,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          0.0,
+                                          0.15000000596046448,
+                                          0.5,
+                                          1.0
+                                        ],
+                                        "valueType": "f32"
+                                      }
+                                    },
+                                    {
+                                      "key": 877087803,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          [
+                                            1.0,
+                                            1.0,
+                                            1.0,
+                                            0.0
+                                          ],
+                                          [
+                                            1.0,
+                                            0.5803921818733215,
+                                            0.6352941393852234,
+                                            1.0
+                                          ],
+                                          [
+                                            0.15294118225574493,
+                                            0.062745101749897,
+                                            0.019607843831181526,
+                                            1.0
+                                          ],
+                                          [
+                                            0.08235294371843338,
+                                            0.0,
+                                            0.01568627543747425,
+                                            1.0
+                                          ]
+                                        ],
+                                        "valueType": "vec4"
+                                      }
+                                    }
+                                  ],
+                                  "name": 1128908277
+                                }
+                              }
+                            ],
+                            "name": 122655197
+                          }
+                        },
+                        {
+                          "key": 3724322854,
+                          "type": "flag",
+                          "value": true
+                        },
+                        {
+                          "key": 895082843,
+                          "type": "flag",
+                          "value": true
+                        },
+                        {
+                          "key": 719533490,
+                          "type": "flag",
+                          "value": false
+                        },
+                        {
+                          "key": 4041961604,
+                          "type": "embed",
+                          "value": {
+                            "items": [
+                              {
+                                "key": 3031705514,
+                                "type": "vec3",
+                                "value": [
+                                  2.0,
+                                  30.0,
+                                  50.0
+                                ]
+                              }
+                            ],
+                            "name": 1759261366
+                          }
+                        },
+                        {
+                          "key": 3571546707,
+                          "type": "embed",
+                          "value": {
+                            "items": [
+                              {
+                                "key": 3154345447,
+                                "type": "pointer",
+                                "value": {
+                                  "items": [
+                                    {
+                                      "key": 1567157941,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          0.0,
+                                          0.15000000596046448,
+                                          0.2650793790817261,
+                                          0.7587085962295532,
+                                          1.0
+                                        ],
+                                        "valueType": "f32"
+                                      }
+                                    },
+                                    {
+                                      "key": 877087803,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          [
+                                            0.0,
+                                            0.0,
+                                            0.0
+                                          ],
+                                          [
+                                            0.5,
+                                            1.0,
+                                            0.0
+                                          ],
+                                          [
+                                            3.0,
+                                            1.0,
+                                            1.0
+                                          ],
+                                          [
+                                            0.9567350149154663,
+                                            0.5143868923187256,
+                                            0.0
+                                          ],
+                                          [
+                                            0.0,
+                                            1.0,
+                                            0.0
+                                          ]
+                                        ],
+                                        "valueType": "vec3"
+                                      }
+                                    }
+                                  ],
+                                  "name": 2899841408
+                                }
+                              }
+                            ],
+                            "name": 1759261366
+                          }
+                        },
+                        {
+                          "key": 1013213428,
+                          "type": "string",
+                          "value": "ASSETS/Characters/Hecarim/Skins/Base/Particles/Hecarim_Base_Idle_Embers.dds"
+                        }
+                      ],
+                      "name": 164488258
+                    },
+                    {
+                      "items": [
+                        {
+                          "key": 2927860839,
+                          "type": "embed",
+                          "value": {
+                            "items": [
+                              {
+                                "key": 3031705514,
+                                "type": "f32",
+                                "value": 10.0
+                              }
+                            ],
+                            "name": 70254680
+                          }
+                        },
+                        {
+                          "key": 710223508,
+                          "type": "embed",
+                          "value": {
+                            "items": [
+                              {
+                                "key": 3031705514,
+                                "type": "f32",
+                                "value": 0.5
+                              },
+                              {
+                                "key": 3154345447,
+                                "type": "pointer",
+                                "value": {
+                                  "items": [
+                                    {
+                                      "key": 2802337561,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          {
+                                            "items": [
+                                              {
+                                                "key": 1086542298,
+                                                "type": "list",
+                                                "value": {
+                                                  "items": [
+                                                    0.0,
+                                                    1.0
+                                                  ],
+                                                  "valueType": "f32"
+                                                }
+                                              },
+                                              {
+                                                "key": 3830150018,
+                                                "type": "list",
+                                                "value": {
+                                                  "items": [
+                                                    1.0,
+                                                    1.25
+                                                  ],
+                                                  "valueType": "f32"
+                                                }
+                                              }
+                                            ],
+                                            "name": 1403439486
+                                          }
+                                        ],
+                                        "valueType": "pointer"
+                                      }
+                                    },
+                                    {
+                                      "key": 1567157941,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          0.0
+                                        ],
+                                        "valueType": "f32"
+                                      }
+                                    },
+                                    {
+                                      "key": 877087803,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          0.5
+                                        ],
+                                        "valueType": "f32"
+                                      }
+                                    }
+                                  ],
+                                  "name": 4261825672
+                                }
+                              }
+                            ],
+                            "name": 70254680
+                          }
+                        },
+                        {
+                          "key": 607245356,
+                          "type": "option",
+                          "value": {
+                            "items": [
+                              11.0
+                            ],
+                            "valueType": "f32"
+                          }
+                        },
+                        {
+                          "key": 1025882318,
+                          "type": "string",
+                          "value": "Temp_BurstUp1"
+                        },
+                        {
+                          "key": 871591685,
+                          "type": "bool",
+                          "value": true
+                        },
+                        {
+                          "key": 1363361524,
+                          "type": "embed",
+                          "value": {
+                            "items": [
+                              {
+                                "key": 3031705514,
+                                "type": "vec3",
+                                "value": [
+                                  0.0,
+                                  1.0,
+                                  0.0
+                                ]
+                              },
+                              {
+                                "key": 3154345447,
+                                "type": "pointer",
+                                "value": {
+                                  "items": [
+                                    {
+                                      "key": 2802337561,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          {
+                                            "items": [],
+                                            "name": 1403439486
+                                          },
+                                          {
+                                            "items": [
+                                              {
+                                                "key": 1086542298,
+                                                "type": "list",
+                                                "value": {
+                                                  "items": [
+                                                    0.0,
+                                                    1.0
+                                                  ],
+                                                  "valueType": "f32"
+                                                }
+                                              },
+                                              {
+                                                "key": 3830150018,
+                                                "type": "list",
+                                                "value": {
+                                                  "items": [
+                                                    -1.0,
+                                                    1.0
+                                                  ],
+                                                  "valueType": "f32"
+                                                }
+                                              }
+                                            ],
+                                            "name": 1403439486
+                                          },
+                                          {
+                                            "items": [],
+                                            "name": 1403439486
+                                          }
+                                        ],
+                                        "valueType": "pointer"
+                                      }
+                                    },
+                                    {
+                                      "key": 1567157941,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          0.0
+                                        ],
+                                        "valueType": "f32"
+                                      }
+                                    },
+                                    {
+                                      "key": 877087803,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          [
+                                            0.0,
+                                            1.0,
+                                            0.0
+                                          ]
+                                        ],
+                                        "valueType": "vec3"
+                                      }
+                                    }
+                                  ],
+                                  "name": 2899841408
+                                }
+                              }
+                            ],
+                            "name": 1759261366
+                          }
+                        },
+                        {
+                          "key": 4198607757,
+                          "type": "embed",
+                          "value": {
+                            "items": [
+                              {
+                                "key": 3031705514,
+                                "type": "vec3",
+                                "value": [
+                                  200.0,
+                                  300.0,
+                                  200.0
+                                ]
+                              },
+                              {
+                                "key": 3154345447,
+                                "type": "pointer",
+                                "value": {
+                                  "items": [
+                                    {
+                                      "key": 2802337561,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          {
+                                            "items": [
+                                              {
+                                                "key": 1086542298,
+                                                "type": "list",
+                                                "value": {
+                                                  "items": [
+                                                    0.0,
+                                                    1.0
+                                                  ],
+                                                  "valueType": "f32"
+                                                }
+                                              },
+                                              {
+                                                "key": 3830150018,
+                                                "type": "list",
+                                                "value": {
+                                                  "items": [
+                                                    -1.0,
+                                                    1.0
+                                                  ],
+                                                  "valueType": "f32"
+                                                }
+                                              }
+                                            ],
+                                            "name": 1403439486
+                                          },
+                                          {
+                                            "items": [
+                                              {
+                                                "key": 1086542298,
+                                                "type": "list",
+                                                "value": {
+                                                  "items": [
+                                                    0.0,
+                                                    1.0
+                                                  ],
+                                                  "valueType": "f32"
+                                                }
+                                              },
+                                              {
+                                                "key": 3830150018,
+                                                "type": "list",
+                                                "value": {
+                                                  "items": [
+                                                    0.5,
+                                                    1.0
+                                                  ],
+                                                  "valueType": "f32"
+                                                }
+                                              }
+                                            ],
+                                            "name": 1403439486
+                                          },
+                                          {
+                                            "items": [
+                                              {
+                                                "key": 1086542298,
+                                                "type": "list",
+                                                "value": {
+                                                  "items": [
+                                                    0.0,
+                                                    1.0
+                                                  ],
+                                                  "valueType": "f32"
+                                                }
+                                              },
+                                              {
+                                                "key": 3830150018,
+                                                "type": "list",
+                                                "value": {
+                                                  "items": [
+                                                    -1.0,
+                                                    1.0
+                                                  ],
+                                                  "valueType": "f32"
+                                                }
+                                              }
+                                            ],
+                                            "name": 1403439486
+                                          }
+                                        ],
+                                        "valueType": "pointer"
+                                      }
+                                    },
+                                    {
+                                      "key": 1567157941,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          0.0
+                                        ],
+                                        "valueType": "f32"
+                                      }
+                                    },
+                                    {
+                                      "key": 877087803,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          [
+                                            200.0,
+                                            300.0,
+                                            200.0
+                                          ]
+                                        ],
+                                        "valueType": "vec3"
+                                      }
+                                    }
+                                  ],
+                                  "name": 2899841408
+                                }
+                              }
+                            ],
+                            "name": 1759261366
+                          }
+                        },
+                        {
+                          "key": 2188761752,
+                          "type": "embed",
+                          "value": {
+                            "items": [
+                              {
+                                "key": 3031705514,
+                                "type": "vec3",
+                                "value": [
+                                  4.0,
+                                  5.0,
+                                  4.0
+                                ]
+                              }
+                            ],
+                            "name": 1759261366
+                          }
+                        },
+                        {
+                          "key": 1446857250,
+                          "type": "embed",
+                          "value": {
+                            "items": [
+                              {
+                                "key": 3154345447,
+                                "type": "pointer",
+                                "value": {
+                                  "items": [
+                                    {
+                                      "key": 2802337561,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          {
+                                            "items": [],
+                                            "name": 1403439486
+                                          },
+                                          {
+                                            "items": [],
+                                            "name": 1403439486
+                                          },
+                                          {
+                                            "items": [],
+                                            "name": 1403439486
+                                          }
+                                        ],
+                                        "valueType": "pointer"
+                                      }
+                                    },
+                                    {
+                                      "key": 1567157941,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          0.0
+                                        ],
+                                        "valueType": "f32"
+                                      }
+                                    },
+                                    {
+                                      "key": 877087803,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          [
+                                            0.0,
+                                            0.0,
+                                            0.0
+                                          ]
+                                        ],
+                                        "valueType": "vec3"
+                                      }
+                                    }
+                                  ],
+                                  "name": 2899841408
+                                }
+                              }
+                            ],
+                            "name": 1759261366
+                          }
+                        },
+                        {
+                          "key": 4202188459,
+                          "type": "u8",
+                          "value": 2
+                        },
+                        {
+                          "key": 2211310241,
+                          "type": "embed",
+                          "value": {
+                            "items": [
+                              {
+                                "key": 3031705514,
+                                "type": "vec4",
+                                "value": [
+                                  0.04313725605607033,
+                                  0.7843137383460999,
+                                  1.0,
+                                  1.0
+                                ]
+                              }
+                            ],
+                            "name": 122655197
+                          }
+                        },
+                        {
+                          "key": 1031692888,
+                          "type": "embed",
+                          "value": {
+                            "items": [
+                              {
+                                "key": 3154345447,
+                                "type": "pointer",
+                                "value": {
+                                  "items": [
+                                    {
+                                      "key": 1567157941,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          0.0,
+                                          0.15000000596046448,
+                                          0.5,
+                                          1.0
+                                        ],
+                                        "valueType": "f32"
+                                      }
+                                    },
+                                    {
+                                      "key": 877087803,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          [
+                                            1.0,
+                                            1.0,
+                                            1.0,
+                                            0.0
+                                          ],
+                                          [
+                                            1.0,
+                                            0.5803921818733215,
+                                            0.6352941393852234,
+                                            1.0
+                                          ],
+                                          [
+                                            0.9803921580314636,
+                                            0.29019609093666077,
+                                            0.14509804546833038,
+                                            1.0
+                                          ],
+                                          [
+                                            0.20392157137393951,
+                                            0.0117647061124444,
+                                            0.09803921729326248,
+                                            0.0
+                                          ]
+                                        ],
+                                        "valueType": "vec4"
+                                      }
+                                    }
+                                  ],
+                                  "name": 1128908277
+                                }
+                              }
+                            ],
+                            "name": 122655197
+                          }
+                        },
+                        {
+                          "key": 3724322854,
+                          "type": "flag",
+                          "value": true
+                        },
+                        {
+                          "key": 895082843,
+                          "type": "flag",
+                          "value": true
+                        },
+                        {
+                          "key": 719533490,
+                          "type": "flag",
+                          "value": false
+                        },
+                        {
+                          "key": 2061075621,
+                          "type": "f32",
+                          "value": 0.007000000216066837
+                        },
+                        {
+                          "key": 4041961604,
+                          "type": "embed",
+                          "value": {
+                            "items": [
+                              {
+                                "key": 3031705514,
+                                "type": "vec3",
+                                "value": [
+                                  10.0,
+                                  30.0,
+                                  50.0
+                                ]
+                              }
+                            ],
+                            "name": 1759261366
+                          }
+                        },
+                        {
+                          "key": 3571546707,
+                          "type": "embed",
+                          "value": {
+                            "items": [
+                              {
+                                "key": 3154345447,
+                                "type": "pointer",
+                                "value": {
+                                  "items": [
+                                    {
+                                      "key": 1567157941,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          0.0,
+                                          0.15000000596046448,
+                                          0.2650793790817261,
+                                          0.37528344988822937,
+                                          0.48072561621665955,
+                                          0.5521541833877563,
+                                          0.6541950106620789,
+                                          0.6938775777816772,
+                                          0.7919501066207886,
+                                          0.8492063283920288,
+                                          0.9399092793464661,
+                                          1.0
+                                        ],
+                                        "valueType": "f32"
+                                      }
+                                    },
+                                    {
+                                      "key": 877087803,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          [
+                                            0.0,
+                                            0.0,
+                                            0.0
+                                          ],
+                                          [
+                                            0.5,
+                                            1.0,
+                                            0.0
+                                          ],
+                                          [
+                                            3.0,
+                                            1.0,
+                                            1.0
+                                          ],
+                                          [
+                                            1.5789474248886108,
+                                            0.8477343916893005,
+                                            0.7727379202842712
+                                          ],
+                                          [
+                                            2.71052622795105,
+                                            0.7020481824874878,
+                                            0.5552957653999329
+                                          ],
+                                          [
+                                            1.5,
+                                            0.6033574938774109,
+                                            0.407996267080307
+                                          ],
+                                          [
+                                            2.8157894611358643,
+                                            0.4623708128929138,
+                                            0.1975684016942978
+                                          ],
+                                          [
+                                            1.3684210777282715,
+                                            0.4075426757335663,
+                                            0.11573533713817596
+                                          ],
+                                          [
+                                            2.5526316165924072,
+                                            0.33000001311302185,
+                                            0.0
+                                          ],
+                                          [
+                                            0.9736841917037964,
+                                            0.5143868923187256,
+                                            0.0
+                                          ],
+                                          [
+                                            1.7894736528396606,
+                                            0.8064849972724915,
+                                            0.0
+                                          ],
+                                          [
+                                            0.0,
+                                            1.0,
+                                            0.0
+                                          ]
+                                        ],
+                                        "valueType": "vec3"
+                                      }
+                                    }
+                                  ],
+                                  "name": 2899841408
+                                }
+                              }
+                            ],
+                            "name": 1759261366
+                          }
+                        },
+                        {
+                          "key": 1013213428,
+                          "type": "string",
+                          "value": "ASSETS/Characters/Hecarim/Skins/Base/Particles/Hecarim_Base_I_motes.dds"
+                        }
+                      ],
+                      "name": 164488258
+                    },
+                    {
+                      "items": [
+                        {
+                          "key": 2927860839,
+                          "type": "embed",
+                          "value": {
+                            "items": [
+                              {
+                                "key": 3031705514,
+                                "type": "f32",
+                                "value": 1.0
+                              }
+                            ],
+                            "name": 70254680
+                          }
+                        },
+                        {
+                          "key": 710223508,
+                          "type": "embed",
+                          "value": {
+                            "items": [
+                              {
+                                "key": 3031705514,
+                                "type": "f32",
+                                "value": 2.0
+                              }
+                            ],
+                            "name": 70254680
+                          }
+                        },
+                        {
+                          "key": 1025882318,
+                          "type": "string",
+                          "value": "Temp_GroundGlow"
+                        },
+                        {
+                          "key": 3393217302,
+                          "type": "embed",
+                          "value": {
+                            "items": [
+                              {
+                                "key": 3031705514,
+                                "type": "f32",
+                                "value": 1.0
+                              }
+                            ],
+                            "name": 70254680
+                          }
+                        },
+                        {
+                          "key": 1005630701,
+                          "type": "pointer",
+                          "value": {
+                            "items": [
+                              {
+                                "key": 3857869021,
+                                "type": "vec3",
+                                "value": [
+                                  0.0,
+                                  10.0,
+                                  0.0
+                                ]
+                              }
+                            ],
+                            "name": 3996750191
+                          }
+                        },
+                        {
+                          "key": 1446857250,
+                          "type": "embed",
+                          "value": {
+                            "items": [
+                              {
+                                "key": 3154345447,
+                                "type": "pointer",
+                                "value": {
+                                  "items": [
+                                    {
+                                      "key": 2802337561,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          {
+                                            "items": [],
+                                            "name": 1403439486
+                                          },
+                                          {
+                                            "items": [],
+                                            "name": 1403439486
+                                          },
+                                          {
+                                            "items": [],
+                                            "name": 1403439486
+                                          }
+                                        ],
+                                        "valueType": "pointer"
+                                      }
+                                    },
+                                    {
+                                      "key": 1567157941,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          0.0
+                                        ],
+                                        "valueType": "f32"
+                                      }
+                                    },
+                                    {
+                                      "key": 877087803,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          [
+                                            0.0,
+                                            0.0,
+                                            0.0
+                                          ]
+                                        ],
+                                        "valueType": "vec3"
+                                      }
+                                    }
+                                  ],
+                                  "name": 2899841408
+                                }
+                              }
+                            ],
+                            "name": 1759261366
+                          }
+                        },
+                        {
+                          "key": 4202188459,
+                          "type": "u8",
+                          "value": 4
+                        },
+                        {
+                          "key": 2211310241,
+                          "type": "embed",
+                          "value": {
+                            "items": [
+                              {
+                                "key": 3031705514,
+                                "type": "vec4",
+                                "value": [
+                                  1.0,
+                                  0.2980392277240753,
+                                  0.25882354378700256,
+                                  0.15000000596046448
+                                ]
+                              }
+                            ],
+                            "name": 122655197
+                          }
+                        },
+                        {
+                          "key": 1031692888,
+                          "type": "embed",
+                          "value": {
+                            "items": [
+                              {
+                                "key": 3154345447,
+                                "type": "pointer",
+                                "value": {
+                                  "items": [
+                                    {
+                                      "key": 1567157941,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          0.0,
+                                          0.30000001192092896,
+                                          0.75,
+                                          1.0
+                                        ],
+                                        "valueType": "f32"
+                                      }
+                                    },
+                                    {
+                                      "key": 877087803,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          [
+                                            1.0,
+                                            1.0,
+                                            1.0,
+                                            0.0
+                                          ],
+                                          [
+                                            1.0,
+                                            1.0,
+                                            1.0,
+                                            1.0
+                                          ],
+                                          [
+                                            0.5647059082984924,
+                                            0.3764705955982208,
+                                            0.13333334028720856,
+                                            1.0
+                                          ],
+                                          [
+                                            0.24705882370471954,
+                                            0.007843137718737125,
+                                            0.13725490868091583,
+                                            0.0
+                                          ]
+                                        ],
+                                        "valueType": "vec4"
+                                      }
+                                    }
+                                  ],
+                                  "name": 1128908277
+                                }
+                              }
+                            ],
+                            "name": 122655197
+                          }
+                        },
+                        {
+                          "key": 2071622424,
+                          "type": "i16",
+                          "value": -10
+                        },
+                        {
+                          "key": 3295031301,
+                          "type": "pointer",
+                          "value": {
+                            "items": [
+                              {
+                                "key": 3338382549,
+                                "type": "embed",
+                                "value": {
+                                  "items": [
+                                    {
+                                      "key": 3154345447,
+                                      "type": "pointer",
+                                      "value": {
+                                        "items": [
+                                          {
+                                            "key": 1567157941,
+                                            "type": "list",
+                                            "value": {
+                                              "items": [
+                                                0.0,
+                                                1.0
+                                              ],
+                                              "valueType": "f32"
+                                            }
+                                          },
+                                          {
+                                            "key": 877087803,
+                                            "type": "list",
+                                            "value": {
+                                              "items": [
+                                                0.0,
+                                                1.0
+                                              ],
+                                              "valueType": "f32"
+                                            }
+                                          }
+                                        ],
+                                        "name": 4261825672
+                                      }
+                                    }
+                                  ],
+                                  "name": 70254680
+                                }
+                              },
+                              {
+                                "key": 1570791323,
+                                "type": "string",
+                                "value": "ASSETS/Characters/Hecarim/Skins/Base/Particles/Hecarim_Base_I_Cosmic_Mult.dds"
+                              }
+                            ],
+                            "name": 1585720219
+                          }
+                        },
+                        {
+                          "key": 1701035752,
+                          "type": "u8",
+                          "value": 1
+                        },
+                        {
+                          "key": 937277300,
+                          "type": "flag",
+                          "value": true
+                        },
+                        {
+                          "key": 895082843,
+                          "type": "flag",
+                          "value": true
+                        },
+                        {
+                          "key": 668207363,
+                          "type": "flag",
+                          "value": true
+                        },
+                        {
+                          "key": 3722305920,
+                          "type": "flag",
+                          "value": true
+                        },
+                        {
+                          "key": 1496514460,
+                          "type": "embed",
+                          "value": {
+                            "items": [
+                              {
+                                "key": 3031705514,
+                                "type": "vec3",
+                                "value": [
+                                  1.0,
+                                  1.0,
+                                  0.0
+                                ]
+                              },
+                              {
+                                "key": 3154345447,
+                                "type": "pointer",
+                                "value": {
+                                  "items": [
+                                    {
+                                      "key": 2802337561,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          {
+                                            "items": [
+                                              {
+                                                "key": 1086542298,
+                                                "type": "list",
+                                                "value": {
+                                                  "items": [
+                                                    0.0
+                                                  ],
+                                                  "valueType": "f32"
+                                                }
+                                              },
+                                              {
+                                                "key": 3830150018,
+                                                "type": "list",
+                                                "value": {
+                                                  "items": [
+                                                    90.0
+                                                  ],
+                                                  "valueType": "f32"
+                                                }
+                                              }
+                                            ],
+                                            "name": 1403439486
+                                          },
+                                          {
+                                            "items": [
+                                              {
+                                                "key": 1086542298,
+                                                "type": "list",
+                                                "value": {
+                                                  "items": [
+                                                    0.0,
+                                                    1.0
+                                                  ],
+                                                  "valueType": "f32"
+                                                }
+                                              },
+                                              {
+                                                "key": 3830150018,
+                                                "type": "list",
+                                                "value": {
+                                                  "items": [
+                                                    1.0,
+                                                    360.0
+                                                  ],
+                                                  "valueType": "f32"
+                                                }
+                                              }
+                                            ],
+                                            "name": 1403439486
+                                          },
+                                          {
+                                            "items": [],
+                                            "name": 1403439486
+                                          }
+                                        ],
+                                        "valueType": "pointer"
+                                      }
+                                    },
+                                    {
+                                      "key": 1567157941,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          0.0
+                                        ],
+                                        "valueType": "f32"
+                                      }
+                                    },
+                                    {
+                                      "key": 877087803,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          [
+                                            1.0,
+                                            1.0,
+                                            0.0
+                                          ]
+                                        ],
+                                        "valueType": "vec3"
+                                      }
+                                    }
+                                  ],
+                                  "name": 2899841408
+                                }
+                              }
+                            ],
+                            "name": 1759261366
+                          }
+                        },
+                        {
+                          "key": 719533490,
+                          "type": "flag",
+                          "value": false
+                        },
+                        {
+                          "key": 4041961604,
+                          "type": "embed",
+                          "value": {
+                            "items": [
+                              {
+                                "key": 3031705514,
+                                "type": "vec3",
+                                "value": [
+                                  40.0,
+                                  150.0,
+                                  50.0
+                                ]
+                              }
+                            ],
+                            "name": 1759261366
+                          }
+                        },
+                        {
+                          "key": 3571546707,
+                          "type": "embed",
+                          "value": {
+                            "items": [
+                              {
+                                "key": 3154345447,
+                                "type": "pointer",
+                                "value": {
+                                  "items": [
+                                    {
+                                      "key": 1567157941,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          0.0,
+                                          1.0
+                                        ],
+                                        "valueType": "f32"
+                                      }
+                                    },
+                                    {
+                                      "key": 877087803,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          [
+                                            0.5,
+                                            0.5,
+                                            0.0
+                                          ],
+                                          [
+                                            1.5,
+                                            1.0,
+                                            1.0
+                                          ]
+                                        ],
+                                        "valueType": "vec3"
+                                      }
+                                    }
+                                  ],
+                                  "name": 2899841408
+                                }
+                              }
+                            ],
+                            "name": 1759261366
+                          }
+                        },
+                        {
+                          "key": 1013213428,
+                          "type": "string",
+                          "value": "ASSETS/Shared/Particles/bigglow02.SRT_DURIAN_2024.dds"
+                        },
+                        {
+                          "key": 791583218,
+                          "type": "pointer",
+                          "value": {
+                            "items": [
+                              {
+                                "key": 791583218,
+                                "type": "string",
+                                "value": "ASSETS/Characters/Hecarim/Skins/Base/Particles/Hecarim_Base_I_Cosmic_Mult.dds"
+                              },
+                              {
+                                "key": 3440526982,
+                                "type": "embed",
+                                "value": {
+                                  "items": [
+                                    {
+                                      "key": 3031705514,
+                                      "type": "vec2",
+                                      "value": [
+                                        1.2000000476837158,
+                                        1.0
+                                      ]
+                                    }
+                                  ],
+                                  "name": 1776038985
+                                }
+                              },
+                              {
+                                "key": 842359924,
+                                "type": "embed",
+                                "value": {
+                                  "items": [
+                                    {
+                                      "key": 3031705514,
+                                      "type": "vec2",
+                                      "value": [
+                                        0.8500000238418579,
+                                        0.0
+                                      ]
+                                    }
+                                  ],
+                                  "name": 1776038985
+                                }
+                              },
+                              {
+                                "key": 1946986944,
+                                "type": "embed",
+                                "value": {
+                                  "items": [
+                                    {
+                                      "key": 3031705514,
+                                      "type": "vec2",
+                                      "value": [
+                                        1.0,
+                                        0.0
+                                      ]
+                                    },
+                                    {
+                                      "key": 3154345447,
+                                      "type": "pointer",
+                                      "value": {
+                                        "items": [
+                                          {
+                                            "key": 2802337561,
+                                            "type": "list",
+                                            "value": {
+                                              "items": [
+                                                {
+                                                  "items": [
+                                                    {
+                                                      "key": 1086542298,
+                                                      "type": "list",
+                                                      "value": {
+                                                        "items": [
+                                                          0.0,
+                                                          1.0
+                                                        ],
+                                                        "valueType": "f32"
+                                                      }
+                                                    },
+                                                    {
+                                                      "key": 3830150018,
+                                                      "type": "list",
+                                                      "value": {
+                                                        "items": [
+                                                          -1.0,
+                                                          1.0
+                                                        ],
+                                                        "valueType": "f32"
+                                                      }
+                                                    }
+                                                  ],
+                                                  "name": 1403439486
+                                                },
+                                                {
+                                                  "items": [],
+                                                  "name": 1403439486
+                                                }
+                                              ],
+                                              "valueType": "pointer"
+                                            }
+                                          },
+                                          {
+                                            "key": 1567157941,
+                                            "type": "list",
+                                            "value": {
+                                              "items": [
+                                                0.0
+                                              ],
+                                              "valueType": "f32"
+                                            }
+                                          },
+                                          {
+                                            "key": 877087803,
+                                            "type": "list",
+                                            "value": {
+                                              "items": [
+                                                [
+                                                  1.0,
+                                                  0.0
+                                                ]
+                                              ],
+                                              "valueType": "vec2"
+                                            }
+                                          }
+                                        ],
+                                        "name": 772710981
+                                      }
+                                    }
+                                  ],
+                                  "name": 1776038985
+                                }
+                              }
+                            ],
+                            "name": 2962735549
+                          }
+                        }
+                      ],
+                      "name": 164488258
+                    },
+                    {
+                      "items": [
+                        {
+                          "key": 2927860839,
+                          "type": "embed",
+                          "value": {
+                            "items": [
+                              {
+                                "key": 3031705514,
+                                "type": "f32",
+                                "value": 1.0
+                              }
+                            ],
+                            "name": 70254680
+                          }
+                        },
+                        {
+                          "key": 710223508,
+                          "type": "embed",
+                          "value": {
+                            "items": [
+                              {
+                                "key": 3031705514,
+                                "type": "f32",
+                                "value": 2.0
+                              }
+                            ],
+                            "name": 70254680
+                          }
+                        },
+                        {
+                          "key": 1025882318,
+                          "type": "string",
+                          "value": "Temp_GroundGlow1"
+                        },
+                        {
+                          "key": 871591685,
+                          "type": "bool",
+                          "value": true
+                        },
+                        {
+                          "key": 3393217302,
+                          "type": "embed",
+                          "value": {
+                            "items": [
+                              {
+                                "key": 3031705514,
+                                "type": "f32",
+                                "value": 1.0
+                              }
+                            ],
+                            "name": 70254680
+                          }
+                        },
+                        {
+                          "key": 1005630701,
+                          "type": "pointer",
+                          "value": {
+                            "items": [
+                              {
+                                "key": 3857869021,
+                                "type": "vec3",
+                                "value": [
+                                  0.0,
+                                  10.0,
+                                  0.0
+                                ]
+                              }
+                            ],
+                            "name": 3996750191
+                          }
+                        },
+                        {
+                          "key": 1446857250,
+                          "type": "embed",
+                          "value": {
+                            "items": [
+                              {
+                                "key": 3154345447,
+                                "type": "pointer",
+                                "value": {
+                                  "items": [
+                                    {
+                                      "key": 2802337561,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          {
+                                            "items": [],
+                                            "name": 1403439486
+                                          },
+                                          {
+                                            "items": [],
+                                            "name": 1403439486
+                                          },
+                                          {
+                                            "items": [],
+                                            "name": 1403439486
+                                          }
+                                        ],
+                                        "valueType": "pointer"
+                                      }
+                                    },
+                                    {
+                                      "key": 1567157941,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          0.0
+                                        ],
+                                        "valueType": "f32"
+                                      }
+                                    },
+                                    {
+                                      "key": 877087803,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          [
+                                            0.0,
+                                            0.0,
+                                            0.0
+                                          ]
+                                        ],
+                                        "valueType": "vec3"
+                                      }
+                                    }
+                                  ],
+                                  "name": 2899841408
+                                }
+                              }
+                            ],
+                            "name": 1759261366
+                          }
+                        },
+                        {
+                          "key": 8066294,
+                          "type": "pointer",
+                          "value": {
+                            "items": [],
+                            "name": 1273725437
+                          }
+                        },
+                        {
+                          "key": 4202188459,
+                          "type": "u8",
+                          "value": 4
+                        },
+                        {
+                          "key": 2211310241,
+                          "type": "embed",
+                          "value": {
+                            "items": [
+                              {
+                                "key": 3031705514,
+                                "type": "vec4",
+                                "value": [
+                                  1.0,
+                                  0.2980392277240753,
+                                  0.25882354378700256,
+                                  1.0
+                                ]
+                              }
+                            ],
+                            "name": 122655197
+                          }
+                        },
+                        {
+                          "key": 1031692888,
+                          "type": "embed",
+                          "value": {
+                            "items": [
+                              {
+                                "key": 3154345447,
+                                "type": "pointer",
+                                "value": {
+                                  "items": [
+                                    {
+                                      "key": 1567157941,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          0.0,
+                                          0.30000001192092896,
+                                          0.75,
+                                          1.0
+                                        ],
+                                        "valueType": "f32"
+                                      }
+                                    },
+                                    {
+                                      "key": 877087803,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          [
+                                            1.0,
+                                            1.0,
+                                            1.0,
+                                            0.0
+                                          ],
+                                          [
+                                            1.0,
+                                            1.0,
+                                            1.0,
+                                            1.0
+                                          ],
+                                          [
+                                            0.5647059082984924,
+                                            0.3764705955982208,
+                                            0.13333334028720856,
+                                            1.0
+                                          ],
+                                          [
+                                            0.24705882370471954,
+                                            0.007843137718737125,
+                                            0.13725490868091583,
+                                            0.0
+                                          ]
+                                        ],
+                                        "valueType": "vec4"
+                                      }
+                                    }
+                                  ],
+                                  "name": 1128908277
+                                }
+                              }
+                            ],
+                            "name": 122655197
+                          }
+                        },
+                        {
+                          "key": 2071622424,
+                          "type": "i16",
+                          "value": -10
+                        },
+                        {
+                          "key": 3295031301,
+                          "type": "pointer",
+                          "value": {
+                            "items": [
+                              {
+                                "key": 3338382549,
+                                "type": "embed",
+                                "value": {
+                                  "items": [
+                                    {
+                                      "key": 3154345447,
+                                      "type": "pointer",
+                                      "value": {
+                                        "items": [
+                                          {
+                                            "key": 1567157941,
+                                            "type": "list",
+                                            "value": {
+                                              "items": [
+                                                0.0,
+                                                1.0
+                                              ],
+                                              "valueType": "f32"
+                                            }
+                                          },
+                                          {
+                                            "key": 877087803,
+                                            "type": "list",
+                                            "value": {
+                                              "items": [
+                                                0.0,
+                                                1.0
+                                              ],
+                                              "valueType": "f32"
+                                            }
+                                          }
+                                        ],
+                                        "name": 4261825672
+                                      }
+                                    }
+                                  ],
+                                  "name": 70254680
+                                }
+                              },
+                              {
+                                "key": 574933667,
+                                "type": "f32",
+                                "value": 0.25
+                              },
+                              {
+                                "key": 1570791323,
+                                "type": "string",
+                                "value": "ASSETS/Characters/Hecarim/Skins/Base/Particles/Hecarim_Base_W_Cracks_Erode.dds"
+                              }
+                            ],
+                            "name": 1585720219
+                          }
+                        },
+                        {
+                          "key": 1701035752,
+                          "type": "u8",
+                          "value": 1
+                        },
+                        {
+                          "key": 937277300,
+                          "type": "flag",
+                          "value": true
+                        },
+                        {
+                          "key": 895082843,
+                          "type": "flag",
+                          "value": true
+                        },
+                        {
+                          "key": 668207363,
+                          "type": "flag",
+                          "value": true
+                        },
+                        {
+                          "key": 3722305920,
+                          "type": "flag",
+                          "value": true
+                        },
+                        {
+                          "key": 1496514460,
+                          "type": "embed",
+                          "value": {
+                            "items": [
+                              {
+                                "key": 3031705514,
+                                "type": "vec3",
+                                "value": [
+                                  270.0,
+                                  1.0,
+                                  0.0
+                                ]
+                              },
+                              {
+                                "key": 3154345447,
+                                "type": "pointer",
+                                "value": {
+                                  "items": [
+                                    {
+                                      "key": 2802337561,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          {
+                                            "items": [],
+                                            "name": 1403439486
+                                          },
+                                          {
+                                            "items": [
+                                              {
+                                                "key": 1086542298,
+                                                "type": "list",
+                                                "value": {
+                                                  "items": [
+                                                    0.0,
+                                                    1.0
+                                                  ],
+                                                  "valueType": "f32"
+                                                }
+                                              },
+                                              {
+                                                "key": 3830150018,
+                                                "type": "list",
+                                                "value": {
+                                                  "items": [
+                                                    1.0,
+                                                    360.0
+                                                  ],
+                                                  "valueType": "f32"
+                                                }
+                                              }
+                                            ],
+                                            "name": 1403439486
+                                          },
+                                          {
+                                            "items": [],
+                                            "name": 1403439486
+                                          }
+                                        ],
+                                        "valueType": "pointer"
+                                      }
+                                    },
+                                    {
+                                      "key": 1567157941,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          0.0
+                                        ],
+                                        "valueType": "f32"
+                                      }
+                                    },
+                                    {
+                                      "key": 877087803,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          [
+                                            270.0,
+                                            1.0,
+                                            0.0
+                                          ]
+                                        ],
+                                        "valueType": "vec3"
+                                      }
+                                    }
+                                  ],
+                                  "name": 2899841408
+                                }
+                              }
+                            ],
+                            "name": 1759261366
+                          }
+                        },
+                        {
+                          "key": 4041961604,
+                          "type": "embed",
+                          "value": {
+                            "items": [
+                              {
+                                "key": 3031705514,
+                                "type": "vec3",
+                                "value": [
+                                  40.0,
+                                  150.0,
+                                  50.0
+                                ]
+                              }
+                            ],
+                            "name": 1759261366
+                          }
+                        },
+                        {
+                          "key": 3571546707,
+                          "type": "embed",
+                          "value": {
+                            "items": [
+                              {
+                                "key": 3154345447,
+                                "type": "pointer",
+                                "value": {
+                                  "items": [
+                                    {
+                                      "key": 1567157941,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          0.0,
+                                          1.0
+                                        ],
+                                        "valueType": "f32"
+                                      }
+                                    },
+                                    {
+                                      "key": 877087803,
+                                      "type": "list",
+                                      "value": {
+                                        "items": [
+                                          [
+                                            0.5,
+                                            0.5,
+                                            0.0
+                                          ],
+                                          [
+                                            1.5,
+                                            1.0,
+                                            1.0
+                                          ]
+                                        ],
+                                        "valueType": "vec3"
+                                      }
+                                    }
+                                  ],
+                                  "name": 2899841408
+                                }
+                              }
+                            ],
+                            "name": 1759261366
+                          }
+                        },
+                        {
+                          "key": 1013213428,
+                          "type": "string",
+                          "value": "ASSETS/Shared/Particles/bigglow02.SRT_DURIAN_2024.dds"
+                        },
+                        {
+                          "key": 791583218,
+                          "type": "pointer",
+                          "value": {
+                            "items": [
+                              {
+                                "key": 791583218,
+                                "type": "string",
+                                "value": "ASSETS/Characters/Hecarim/Skins/Base/Particles/Hecarim_Base_I_Cosmic_Mult.dds"
+                              },
+                              {
+                                "key": 3440526982,
+                                "type": "embed",
+                                "value": {
+                                  "items": [
+                                    {
+                                      "key": 3031705514,
+                                      "type": "vec2",
+                                      "value": [
+                                        1.2000000476837158,
+                                        1.0
+                                      ]
+                                    }
+                                  ],
+                                  "name": 1776038985
+                                }
+                              },
+                              {
+                                "key": 842359924,
+                                "type": "embed",
+                                "value": {
+                                  "items": [
+                                    {
+                                      "key": 3031705514,
+                                      "type": "vec2",
+                                      "value": [
+                                        0.8500000238418579,
+                                        0.0
+                                      ]
+                                    }
+                                  ],
+                                  "name": 1776038985
+                                }
+                              },
+                              {
+                                "key": 1946986944,
+                                "type": "embed",
+                                "value": {
+                                  "items": [
+                                    {
+                                      "key": 3031705514,
+                                      "type": "vec2",
+                                      "value": [
+                                        1.0,
+                                        0.0
+                                      ]
+                                    },
+                                    {
+                                      "key": 3154345447,
+                                      "type": "pointer",
+                                      "value": {
+                                        "items": [
+                                          {
+                                            "key": 2802337561,
+                                            "type": "list",
+                                            "value": {
+                                              "items": [
+                                                {
+                                                  "items": [
+                                                    {
+                                                      "key": 1086542298,
+                                                      "type": "list",
+                                                      "value": {
+                                                        "items": [
+                                                          0.0,
+                                                          1.0
+                                                        ],
+                                                        "valueType": "f32"
+                                                      }
+                                                    },
+                                                    {
+                                                      "key": 3830150018,
+                                                      "type": "list",
+                                                      "value": {
+                                                        "items": [
+                                                          -1.0,
+                                                          1.0
+                                                        ],
+                                                        "valueType": "f32"
+                                                      }
+                                                    }
+                                                  ],
+                                                  "name": 1403439486
+                                                },
+                                                {
+                                                  "items": [],
+                                                  "name": 1403439486
+                                                }
+                                              ],
+                                              "valueType": "pointer"
+                                            }
+                                          },
+                                          {
+                                            "key": 1567157941,
+                                            "type": "list",
+                                            "value": {
+                                              "items": [
+                                                0.0
+                                              ],
+                                              "valueType": "f32"
+                                            }
+                                          },
+                                          {
+                                            "key": 877087803,
+                                            "type": "list",
+                                            "value": {
+                                              "items": [
+                                                [
+                                                  1.0,
+                                                  0.0
+                                                ]
+                                              ],
+                                              "valueType": "vec2"
+                                            }
+                                          }
+                                        ],
+                                        "name": 772710981
+                                      }
+                                    }
+                                  ],
+                                  "name": 1776038985
+                                }
+                              }
+                            ],
+                            "name": 2962735549
+                          }
+                        }
+                      ],
+                      "name": 164488258
+                    }
+                  ],
+                  "valueType": "pointer"
+                }
+              },
+              {
+                "key": 3975268028,
+                "type": "string",
+                "value": "Hecarim_Base_I_LegsIdle"
+              },
+              {
+                "key": 3882058040,
+                "type": "string",
+                "value": "Characters/Hecarim/Skins/Skin0/Particles/Hecarim_Base_I_LegsIdle"
+              }
+            ],
+            "name": 1171098015
+          }
+        }
+      ],
+      "keyType": "hash",
+      "valueType": "embed"
+    }
+  },
+  "linked": {
+    "type": "list",
+    "value": {
+      "items": [],
+      "valueType": "string"
+    }
+  },
+  "type": {
+    "type": "string",
+    "value": "PROP"
+  },
+  "version": {
+    "type": "u32",
+    "value": 3
+  }
+}
