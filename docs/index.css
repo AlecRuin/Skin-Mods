@@ -40,6 +40,12 @@ a {
 .h-a{
     height: auto;
 }
+.h-50{
+    height: 50%;
+}
+.h-25{
+    height: 50%;
+}
 .w-66{
     width: 66%;
 }
@@ -68,9 +74,17 @@ a {
     margin-top: 3rem;
     margin-bottom: 3rem;
 }
+.mbt-2rem{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
 .mbt-1rem{
     margin-top: 1rem;
     margin-bottom: 1rem;
+}
+.mbt-auto{
+    margin-top: auto;
+    margin-bottom: auto;
 }
 .mrl-1rem{
     margin-left: 1rem;
@@ -163,15 +177,28 @@ a {
     height: 15%;
     width: 100%;
     align-items: center;
-
+}
+.carousel{
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    perspective: 1000px;
+    height: 15%;  
 }
 .carousel-item{
     aspect-ratio: 16/9;
+    position: absolute;
+    transform-origin: center center;
     border: 5px solid rgb(0, 0, 0);
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 4px 12px 20px 5px rgb(0 0 0 / 74%);
+    transition: transform 1s ease, width 1s ease, height 1s ease;
 }
+
 .underline{
     width: 50%;
     background-color: rgb(248, 234, 209);
