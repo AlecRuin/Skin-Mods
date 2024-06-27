@@ -81,6 +81,6 @@ document.addEventListener("DOMContentLoaded",()=>{
         items[(currentIndex+1)%items.length].style.zIndex = 0
     }
     showNextItem()
-    setInterval(showNextItem, 3000);
+    setInterval(showNextItem, 6000);
 
 })

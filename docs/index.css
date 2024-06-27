@@ -1,32 +1,60 @@
+:root{
+    --background-color: rgb(6,9,15);
+    --highlight-color: rgb(250, 199, 102);
+    --basic-text-color: rgb(248, 234, 209);
+    --quaternary-color: rgb(255, 222, 161);
+}
 html{
-    background-color: rgb(6,9,15);
+    background-color: var(--background-color);
     color: white;
     font-family: sans-serif;
     font-weight: bold;
     clip-path: rounded(20);
 }
 body{
-    background-color: rgb(6,9,15);
+    background-color: var(--background-color);
 }
 a {
-    text-decoration: none; /* Remove underline */
-    color: inherit; /* Inherit the color from the parent element */
-    background: none; /* Remove any background */
-    border: none; /* Remove border */
-  }
-  
+    text-decoration: none; 
+    color: inherit; 
+    background: none; 
+    border: none; 
+}
 .basic-text-style{
     font-weight: 700;
-    color: rgb(248, 234, 209);
+    color: var(--basic-text-color);
 }
 .highlight-text-style{
-    color: rgb(252, 205, 116);
+    color: var(--highlight-color);
     font-weight:800;
 }
 .tert-text-style{
     font-weight: 700;
-    color: rgb(184, 184, 184);
+    color: var(--quaternary-color);
 }
+
+.highlight-to-quaternary {
+    position: relative;
+    font-weight: 800;
+    color: transparent;
+    background: linear-gradient(to right, var(--highlight-color) 0%, var(--quaternary-color) 50%, var(--highlight-color) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.shimmer{
+    animation: shimmer 3.0s linear infinite;
+    background-size: 200% 100%;
+}
+@keyframes shimmer {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 200% 0%;
+    }
+}
+
 .Mod-List{
     display: flex;
     flex-wrap: wrap;
@@ -44,7 +72,7 @@ a {
     height: 50%;
 }
 .h-25{
-    height: 50%;
+    height: 25%;
 }
 .w-66{
     width: 66%;
@@ -198,10 +226,18 @@ a {
     box-shadow: 4px 12px 20px 5px rgb(0 0 0 / 74%);
     transition: transform 1s ease, width 1s ease, height 1s ease;
 }
-
 .underline{
     width: 50%;
     background-color: rgb(248, 234, 209);
     height: 2px;
     margin: auto;
+}
+.announcement{
+    height: 5%;
+}
+.download-button{
+    border: 1vw rgb(44, 57, 83) solid;
+    border-radius: 1vw;
+    background-color: rgb(44, 57, 83);
+    box-shadow: 0px 0px 12px 2px rgba(44, 57, 83, 0.74);
 }
