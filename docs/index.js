@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded",()=>{
     ModsArray.forEach((item)=>{
         Mod_List.insertAdjacentHTML("beforeend",
             `
-            <div class="w-100 mbt-3rem mrl-1rem">
+            <div class="w-100 mbt-1rem mrl-1rem">
                 <iframe class="preview-nugget ${(leftFlag?"float-left":"float-right")}" src=${"./iframes/"+encodeURIComponent(item)+".html"}></iframe>
             <div>
             `)
@@ -64,4 +64,23 @@ document.addEventListener("DOMContentLoaded",()=>{
         console.log("video ended");
         changeVideo(vid3,source3)
     })
+
+    const items = document.querySelectorAll('.carousel-item');
+    let currentIndex = 0;
+
+    function showNextItem() {
+        items[currentIndex].style.transform = `translateX(-100%)`;
+        items[currentIndex].style.width = "25%"
+        items[currentIndex].style.zIndex = 1
+        currentIndex = (currentIndex + 1) % items.length;
+        items[currentIndex].style.transform = `translateX(0)`;
+        items[currentIndex].style.width = "33%"
+        items[currentIndex].style.zIndex = 2
+        items[(currentIndex+1)%items.length].style.transform = `translateX(100%)`
+        items[(currentIndex+1)%items.length].style.width = "25%"
+        items[(currentIndex+1)%items.length].style.zIndex = 0
+    }
+    showNextItem()
+    setInterval(showNextItem, 6000);
+
 })
