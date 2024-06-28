@@ -9,25 +9,6 @@ const ModsArray=[
     "DMC5 Griffon as Smolder",
     "Full Build Gwen"
 ]
-const videosarray=[
-    "./media/videos/DMC5 Dante as Riven showcase.mp4",
-    "./media/videos/DMC5 Dante as Samira showcase.mp4",
-    "./media/videos/DMC5 Deadweight as Blitzcrank showcase.mp4",
-    "./media/videos/DMC5 Doppelganger as Yasuo showcase.mp4",
-    "./media/videos/DMC5 Nero as Blitzcrank 2.0 showcase.mp4",
-    "./media/videos/DMC5 V as Hwei.mp4",
-    "./media/videos/DMC5 Vergil as Yasuo 2.0 showcase.mp4",
-    "./media/videos/DMC5 Vergil as Yasuo showcase.mp4",
-    "./media/videos/DMC5 Vergil as Yone showcase.mp4",
-    "./media/videos/Full Build Gwen example.mp4"
-]
-function changeVideo(VideoElement,SourceElement)
-{
-    SourceElement.src =videosarray[Math.floor(Math.random()*videosarray.length)] 
-    VideoElement.load()
-}
-
-
 document.addEventListener("DOMContentLoaded",()=>{
     const Mod_List = document.querySelector(".Mod-List")
     let leftFlag=true;
@@ -40,47 +21,4 @@ document.addEventListener("DOMContentLoaded",()=>{
             `)
         leftFlag=!leftFlag
     })
-    var vid1 = document.getElementById("vid1")
-    var source1 = document.getElementById("vid1source")
-    var vid2 = document.getElementById("vid2")
-    var source2 = document.getElementById("vid2source")
-    var vid3 = document.getElementById("vid3")
-    var source3 = document.getElementById("vid3source")
-    vid1.defaultPlaybackRate=1.5
-    vid2.defaultPlaybackRate=1.5
-    vid3.defaultPlaybackRate=1.5
-    vid1.load()
-    vid2.load()
-    vid3.load()
-    vid1.addEventListener("ended",()=>{
-        console.log("video ended");
-        changeVideo(vid1,source1)
-    })
-    vid2.addEventListener("ended",()=>{
-        console.log("video ended");
-        changeVideo(vid2,source2)
-    })
-    vid3.addEventListener("ended",()=>{
-        console.log("video ended");
-        changeVideo(vid3,source3)
-    })
-
-    const items = document.querySelectorAll('.carousel-item');
-    let currentIndex = 0;
-
-    function showNextItem() {
-        items[currentIndex].style.transform = `translateX(-100%)`;
-        items[currentIndex].style.width = "25%"
-        items[currentIndex].style.zIndex = 1
-        currentIndex = (currentIndex + 1) % items.length;
-        items[currentIndex].style.transform = `translateX(0)`;
-        items[currentIndex].style.width = "33%"
-        items[currentIndex].style.zIndex = 2
-        items[(currentIndex+1)%items.length].style.transform = `translateX(100%)`
-        items[(currentIndex+1)%items.length].style.width = "25%"
-        items[(currentIndex+1)%items.length].style.zIndex = 0
-    }
-    showNextItem()
-    setInterval(showNextItem, 6000);
-
 })

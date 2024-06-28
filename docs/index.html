@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-100 w-100">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,36 +18,53 @@
     <h4 class="m-auto text-center basic-text-style fs-1vw">aka Swoggers</h4>
     <div class="flex">
         <div class="banner highlight-text-style flex jc-center">
-            <div class="m-auto">V</div>
+            <div class="m-auto highlight-to-quaternary shimmer fs-5vw">V</div>
         </div>
         <!-- <img src="./media/banner.png" class="w-15 image-stretch mrl-1rem">-->
         <div>
             <div class="basic-text-style w-100 h-a carousel">
-                <video class="carousel-item w-25 h-a image-stretch" id="vid1" autoplay muted>
-                    <source src="./media/videos/DMC5 Dante as Samira showcase.mp4" id="vid1source" type="video/mp4">
-                </video>
-                <video class="carousel-item w-33 h-a image-stretch" id="vid2" autoplay muted>
-                    <source src="./media/videos/DMC5 Vergil as Yasuo showcase.mp4" id="vid2source" type="video/mp4">
-                </video>
-                <video class="carousel-item w-25 h-a image-stretch" id="vid3" autoplay muted>
-                    <source src="./media/videos/DMC5 V as Hwei.mp4" id="vid3source" type="video/mp4">
-                </video>
+                <a class="carousel-item w-25 h-a" id="a-vid1" target="_blank" href="https://youtu.be/L9qKCqhvbh4">
+                    <video class="image-stretch w-100 h-a carousel-video" id="vid1" autoplay muted>
+                        <source src="./media/videos/DMC5 Dante as Samira showcase.mp4" id="vid1source" type="video/mp4">
+                    </video>
+                    <p class="fs-1vw z-1 basic-text-style video-caption" id="caption-1">
+                        DMC5 Dante as Samira showcase
+                    </p>
+                </a>
+                <a class="carousel-item w-25 h-a" id="a-vid2" target="_blank" href="https://youtu.be/MFFxL8wdtJE">
+                    <video class="image-stretch w-100 h-a carousel-video" id="vid2" autoplay muted>
+                        <source src="./media/videos/DMC5 Vergil as Yasuo showcase.mp4" id="vid2source" type="video/mp4">
+                    </video>
+                    <p class="fs-1vw basic-text-style video-caption" id="caption-2">
+                        DMC5 Vergil as Yasuo showcase
+                    </p>
+                </a>
+                <a class="carousel-item w-25 h-a" id="a-vid3" target="_blank" href="https://youtu.be/jXWsVqwtmCQ">
+                    <video class="image-stretch w-100 h-a carousel-video" id="vid3" autoplay muted>
+                        <source src="./media/videos/DMC5 V as Hwei.mp4" id="vid3source" type="video/mp4">
+                    </video>
+                    <p class="fs-1vw basic-text-style video-caption" id="caption-3">
+                        DMC5 V as Hwei showcase
+                    </p>
+                </a>
+                
             </div>
             <div class="w-100 mbt-1rem mrl-1rem announcement flex jc-center">
                 <iframe class="w-66 preview-nugget" src="./iframes/ActiveProject.html"></iframe>
             </div>
             <div>
-                <h3 class="highlight-text-style text-center">PROJECTS</h3>
+                <h3 class="highlight-text-style text-center fs-2vw">PROJECTS</h3>
                 <div class="underline"></div>
             </div>
             <div class="Mod-List mrl-1rem">
             </div>
         </div>
         <div class="banner highlight-text-style flex jc-center">
-            <div class="m-auto">V</div>
+            <div class="m-auto highlight-to-quaternary shimmer fs-5vw">V</div>
         </div>
         <!-- <img src="./media/banner.png" class="w-15 image-stretch mrl-1rem">-->
     </div>
     <script src="./index.js"></script>
+    <script src="./carouselHandler.js"></script>
 </body>
 </html>
