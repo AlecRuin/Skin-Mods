@@ -1,0 +1,19 @@
+mordekaiser_base_i_glow = mordekaiser's glowing effect
+around his person
+
+mordekaiser_base_mace_idle = morde's glowing nightfall
+vfx
+
+mordekaiser_base_e_aoe = mordekaiser's glowing giant hand
+used in E. has 3 versions ending with [blank],ally, and enemy
+
+mordekaiser_base_q_indicatortrap = the glowing outline of morde's
+q before it hits the ground. also has the trail and nightfall's silohette
+
+mordekaiser_base_q_mace = glowing effect on morde during Q
+
+
+Jayce_Base_OrbLightning/Jayce_base_Q_range_xp
+Jayce_Base_OrbLightningCharged/Jayce_base_Q_range_xp_gate
+
+veigar_skin09_q_mis
