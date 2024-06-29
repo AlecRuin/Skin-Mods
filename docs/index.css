@@ -1,18 +1,20 @@
 :root{
-    --background-color: rgb(6,9,15);
-    --highlight-color: rgb(250, 199, 102);
-    --basic-text-color: rgb(248, 234, 209);
-    --quaternary-color: rgb(255, 222, 161);
+    --primary-color: rgb(6,9,15);
+    --secondary-color: rgb(250, 199, 102);
+    --lightest-secondary-color: rgb(248, 234, 209);
+    --lighter-secondary-color: rgb(255, 222, 161);
+    --tertiary-color: rgb(213, 102, 250);
+    --lighter-tertiary-color: rgb(232, 163, 255);
 }
 html{
-    background-color: var(--background-color);
+    background-color: var(--primary-color);
     color: white;
     font-family: sans-serif;
     font-weight: bold;
     clip-path: rounded(20);
 }
 body{
-    background-color: var(--background-color);
+    background-color: var(--primary-color);
 }
 a {
     text-decoration: none; 
@@ -22,22 +24,27 @@ a {
 }
 .basic-text-style{
     font-weight: 700;
-    color: var(--basic-text-color);
+    color: var(--lightest-secondary-color);
 }
 .highlight-text-style{
-    color: var(--highlight-color);
+    color: var(--secondary-color);
     font-weight:800;
 }
 .tert-text-style{
     font-weight: 700;
-    color: var(--quaternary-color);
+    color: var(--tertiary-color);
 }
-
-.highlight-to-quaternary {
-    position: relative;
+.secondary-to-lighter-secondary{
+    background: linear-gradient(to right, var(--secondary-color) 0%, var(--lighter-secondary-color) 50%, var(--secondary-color) 100%);
     font-weight: 800;
+}
+.tertiary-to-lighter-tertiary{
+    background: linear-gradient(to right, var(--tertiary-color) 0%, var(--lighter-tertiary-color) 50%, var(--tertiary-color) 100%);
+    font-weight: 800;
+}
+.text-gradient-bg{
+    position: relative;
     color: transparent;
-    background: linear-gradient(to right, var(--highlight-color) 0%, var(--quaternary-color) 50%, var(--highlight-color) 100%);
     -webkit-background-clip: text;
     background-clip: text;
 }
