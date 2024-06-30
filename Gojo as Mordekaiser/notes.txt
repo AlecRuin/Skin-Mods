@@ -10,10 +10,18 @@ used in E. has 3 versions ending with [blank],ally, and enemy
 mordekaiser_base_q_indicatortrap = the glowing outline of morde's
 q before it hits the ground. also has the trail and nightfall's silohette
 
-mordekaiser_base_q_mace = glowing effect on morde during Q
+mordekaiser_base_q_mace/mordekaiser_base_q_mace_charge = glowing effect on morde during Q
 
 
 Jayce_Base_OrbLightning/Jayce_base_Q_range_xp
 Jayce_Base_OrbLightningCharged/Jayce_base_Q_range_xp_gate
 
 veigar_skin09_q_mis
+
+Q_impact_miss = fissure created on Q
+Q_impact_dust = green glow created by fissure
+
+base_i_glow = 
+    bodyglow = weird small smoking effect irradiating off
+    softGloFront = looks exactly the same as bodyglow
+    tENDRILS = smoky tendril effects going upwards
