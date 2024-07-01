@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://AlecRuin.github.io/Skin-Mods/docs/sitemap.xml

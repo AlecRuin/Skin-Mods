@@ -318,7 +318,7 @@ entries: map[hash,embed] = {
                 }
                 Texture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_Passive_Cyclone.dds"
                 PaletteDefinition: pointer = VfxPaletteDefinitionData {
-                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16.dds"
+                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16_purple.dds"
                     PaletteSelector: embed = ValueVector3 {
                         ConstantValue: vec3 = { 1, 0, 0 }
                     }
@@ -433,7 +433,7 @@ entries: map[hash,embed] = {
                 }
                 Texture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Passive_Ring.dds"
                 PaletteDefinition: pointer = VfxPaletteDefinitionData {
-                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16.dds"
+                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16_purple.dds"
                     PaletteCount: i32 = 16
                 }
                 BirthUvScrollRate: embed = ValueVector2 {
@@ -682,7 +682,7 @@ entries: map[hash,embed] = {
                 }
                 Texture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_w_metal_texture.dds"
                 PaletteDefinition: pointer = VfxPaletteDefinitionData {
-                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16.dds"
+                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16_purple.dds"
                     PaletteSelector: embed = ValueVector3 {
                         ConstantValue: vec3 = { 1, 0, 0 }
                     }
@@ -842,7 +842,7 @@ entries: map[hash,embed] = {
                 }
                 Texture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_E_Cast_Trail.dds"
                 PaletteDefinition: pointer = VfxPaletteDefinitionData {
-                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16.dds"
+                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16_purple.dds"
                     PaletteCount: i32 = 16
                 }
                 BirthUvScrollRate: embed = ValueVector2 {
@@ -1029,7 +1029,7 @@ entries: map[hash,embed] = {
                 Texture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_Embers.dds"
                 NumFrames: u16 = 3
                 PaletteDefinition: pointer = VfxPaletteDefinitionData {
-                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16.dds"
+                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16_purple.dds"
                     PaletteSelector: embed = ValueVector3 {
                         ConstantValue: vec3 = { 1, 0, 0 }
                     }
@@ -1140,7 +1140,7 @@ entries: map[hash,embed] = {
                 }
                 Texture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_E_Cast_Trail.dds"
                 PaletteDefinition: pointer = VfxPaletteDefinitionData {
-                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16.dds"
+                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16_purple.dds"
                     PaletteSelector: embed = ValueVector3 {
                         ConstantValue: vec3 = { 1, 0, 0 }
                     }
@@ -1219,7 +1219,7 @@ entries: map[hash,embed] = {
                 }
                 Texture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Z_SoftSphere.dds"
                 PaletteDefinition: pointer = VfxPaletteDefinitionData {
-                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16.dds"
+                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16_purple.dds"
                     PaletteCount: i32 = 16
                 }
             }
@@ -1262,7 +1262,7 @@ entries: map[hash,embed] = {
                 }
                 Texture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Z_SoftSphere.dds"
                 PaletteDefinition: pointer = VfxPaletteDefinitionData {
-                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16.dds"
+                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16_purple.dds"
                     PaletteSelector: embed = ValueVector3 {
                         ConstantValue: vec3 = { 7, 0, 0 }
                     }
@@ -1445,11 +1445,11 @@ entries: map[hash,embed] = {
                             1
                         }
                         Values: list[vec4] = {
-                            { 0, 0.525490224, 0.368627459, 0.408970118 }
-                            { 0.223529413, 1, 0.701960802, 0.800000012 }
-                            { 0.0274509806, 1, 0.643137276, 0.800000012 }
-                            { 0.0135164112, 0.719317973, 0.422174782, 0.194174752 }
-                            { 0, 0.447058827, 0.20784314, 0 }
+                            { 0.258823544, 0.266666681, 0.262745112, 0.408970118 }
+                            { 0.607843161, 0.615686297, 0.611764729, 0.800000012 }
+                            { 0.509803951, 0.517647088, 0.513725519, 0.800000012 }
+                            { 0.360784322, 0.368627459, 0.36470589, 0.194174752 }
+                            { 0.219607845, 0.227450982, 0.223529413, 0 }
                         }
                     }
                 }
@@ -3842,8 +3842,7 @@ entries: map[hash,embed] = {
         Flags: u16 = 194
     }
     "Characters/Mordekaiser/Skins/Skin0/Particles/Mordekaiser_Base_Q_Mace" = VfxSystemDefinitionData {
-        ComplexEmitterDefinitionData: list[pointer] = {
-        }
+        ComplexEmitterDefinitionData: list[pointer] = {}
         ParticleName: string = "Mordekaiser_Base_Q_Mace"
         ParticlePath: string = "Characters/Mordekaiser/Skins/Skin0/Particles/Mordekaiser_Base_Q_Mace"
         Flags: u16 = 198
@@ -4004,10 +4003,10 @@ entries: map[hash,embed] = {
                             1
                         }
                         Values: list[vec4] = {
-                            { 0.68235296, 1, 0.894117653, 0 }
-                            { 0.68235296, 1, 0.894117653, 1 }
-                            { 0.68235296, 1, 0.894117653, 1 }
-                            { 0.68235296, 1, 0.894117653, 0 }
+                            { 0.839215696, 0.843137264, 0.843137264, 0 }
+                            { 0.839215696, 0.843137264, 0.843137264, 1 }
+                            { 0.839215696, 0.843137264, 0.843137264, 1 }
+                            { 0.839215696, 0.843137264, 0.843137264, 0 }
                         }
                     }
                 }
@@ -4247,8 +4246,8 @@ entries: map[hash,embed] = {
                             1
                         }
                         Values: list[vec4] = {
-                            { 0.321568638, 1, 0.662745118, 1 }
-                            { 0, 0.160784319, 0.0363860056, 0 }
+                            { 0.65882355, 0.662745118, 0.662745118, 1 }
+                            { 0.0784313753, 0.0823529437, 0.0784313753, 0 }
                         }
                     }
                 }
@@ -4342,10 +4341,10 @@ entries: map[hash,embed] = {
                             1
                         }
                         Values: list[vec4] = {
-                            { 0.188235298, 0.0980392173, 0.0313725509, 0 }
-                            { 0.188235298, 0.0980392173, 0.0313725509, 1 }
-                            { 0.188235298, 0.0980392173, 0.0313725509, 1 }
-                            { 0.188235298, 0.0980392173, 0.0313725509, 0 }
+                            { 0.109803922, 0.109803922, 0.109803922, 0 }
+                            { 0.109803922, 0.109803922, 0.109803922, 1 }
+                            { 0.109803922, 0.109803922, 0.109803922, 1 }
+                            { 0.109803922, 0.109803922, 0.109803922, 0 }
                         }
                     }
                 }
@@ -4510,9 +4509,9 @@ entries: map[hash,embed] = {
                             1
                         }
                         Values: list[vec4] = {
-                            { 0, 0.874509811, 0.552941203, 0 }
-                            { 0, 0.696178377, 0.0260207616, 1 }
-                            { 0, 0.874509811, 0.552941203, 0 }
+                            { 0.431372553, 0.443137258, 0.43921569, 0 }
+                            { 0.345098048, 0.352941185, 0.345098048, 1 }
+                            { 0.431372553, 0.443137258, 0.43921569, 0 }
                         }
                     }
                 }
@@ -4708,9 +4707,9 @@ entries: map[hash,embed] = {
                             1
                         }
                         Values: list[vec4] = {
-                            { 0, 0.866666675, 0.129411772, 0.850980401 }
-                            { 0, 0.866666675, 0.129411772, 0.850980401 }
-                            { 0, 0.866666675, 0.129411772, 0 }
+                            { 0.427450985, 0.43921569, 0.431372553, 0.850980401 }
+                            { 0.427450985, 0.43921569, 0.431372553, 0.850980401 }
+                            { 0.427450985, 0.43921569, 0.431372553, 0 }
                         }
                     }
                 }
@@ -5112,8 +5111,8 @@ entries: map[hash,embed] = {
                         }
                         Values: list[vec4] = {
                             { 1, 1, 1, 1 }
-                            { 0.993589759, 0.993589759, 0.993589759, 0.865415156 }
-                            { 0.993589759, 0.993589759, 0.993589759, 0.253442287 }
+                            { 0.992156863, 0.992156863, 0.992156863, 0.865415156 }
+                            { 0.992156863, 0.992156863, 0.992156863, 0.253442287 }
                             { 1, 1, 1, 0 }
                         }
                     }
@@ -5372,9 +5371,9 @@ entries: map[hash,embed] = {
                             1
                         }
                         Values: list[vec4] = {
-                            { 0, 0.168627456, 0.0666666701, 1 }
-                            { 0.00392156886, 0.149019614, 0.0705882385, 1 }
-                            { 0.00392156886, 0.113725491, 0.0901960805, 0 }
+                            { 0.0823529437, 0.0862745121, 0.0823529437, 1 }
+                            { 0.0745098069, 0.0784313753, 0.0745098069, 1 }
+                            { 0.0588235296, 0.0588235296, 0.0588235296, 0 }
                         }
                     }
                 }
@@ -5725,10 +5724,10 @@ entries: map[hash,embed] = {
                             1
                         }
                         Values: list[vec4] = {
-                            { 0.666666687, 1, 1, 0 }
-                            { 0, 1, 0.498039216, 0.602150559 }
-                            { 0.0313725509, 0.800000012, 0.211764708, 1 }
-                            { 0.00392156886, 0.188235298, 0.0627451017, 1 }
+                            { 0.831372559, 0.835294127, 0.835294127, 0 }
+                            { 0.494117647, 0.505882382, 0.498039216, 0.602150559 }
+                            { 0.411764711, 0.419607848, 0.411764711, 1 }
+                            { 0.0941176489, 0.0980392173, 0.0941176489, 1 }
                         }
                     }
                 }
@@ -5867,7 +5866,7 @@ entries: map[hash,embed] = {
                 }
                 BlendMode: u8 = 4
                 BirthColor: embed = ValueColor {
-                    ConstantValue: vec4 = { 0.409994662, 1, 0.510002315, 0.500007629 }
+                    ConstantValue: vec4 = { 0.701960802, 0.70588237, 0.701960802, 0.5 }
                 }
                 Color: embed = ValueColor {
                     ConstantValue: vec4 = { 0.220004573, 0.570000768, 0.220004573, 1 }
@@ -5878,8 +5877,8 @@ entries: map[hash,embed] = {
                             1
                         }
                         Values: list[vec4] = {
-                            { 0.0957667008, 0.570000768, 0.135453805, 1 }
-                            { 0.0757124722, 0.439807713, 0.106771946, 1 }
+                            { 0.329411775, 0.333333343, 0.329411775, 1 }
+                            { 0.254901975, 0.258823544, 0.254901975, 1 }
                             { 0, 0, 0, 0 }
                         }
                     }
@@ -5916,9 +5915,9 @@ entries: map[hash,embed] = {
                     ReflectionOpacityDirect: f32 = 1
                     ReflectionOpacityGlancing: f32 = 0.119999997
                     ReflectionFresnel: f32 = 0.119999997
-                    ReflectionFresnelColor: vec4 = { 0.145098045, 0.615686297, 0.301960796, 1 }
+                    ReflectionFresnelColor: vec4 = { 0.376470596, 0.384313732, 0.380392164, 1 }
                     Fresnel: f32 = 0.25
-                    FresnelColor: vec4 = { 0.0235294122, 0.521568656, 0, 1 }
+                    FresnelColor: vec4 = { 0.258823544, 0.262745112, 0.258823544, 1 }
                 }
                 DepthBiasFactors: vec2 = { -1, -13 }
                 DisableBackfaceCull: bool = true
@@ -5985,7 +5984,7 @@ entries: map[hash,embed] = {
                             { 1, 1, 1, 0 }
                             { 1, 1, 1, 1 }
                             { 1, 1, 1, 1 }
-                            { 0.23137255, 1, 0, 0 }
+                            { 0.498039216, 0.505882382, 0.494117647, 0 }
                         }
                     }
                 }
@@ -6091,10 +6090,10 @@ entries: map[hash,embed] = {
                             1
                         }
                         Values: list[vec4] = {
-                            { 0.619607866, 1, 0.729411781, 0 }
-                            { 0.619607866, 1, 0.729411781, 1 }
-                            { 0.619607866, 1, 0.729411781, 1 }
-                            { 0.143360242, 1, 0, 0 }
+                            { 0.807843149, 0.811764717, 0.807843149, 0 }
+                            { 0.807843149, 0.811764717, 0.807843149, 1 }
+                            { 0.807843149, 0.811764717, 0.807843149, 1 }
+                            { 0.494117647, 0.505882382, 0.494117647, 0 }
                         }
                     }
                 }
@@ -6129,7 +6128,7 @@ entries: map[hash,embed] = {
                     ReflectionOpacityDirect: f32 = -1
                     ReflectionOpacityGlancing: f32 = 0.300000012
                     ReflectionFresnel: f32 = 0.300000012
-                    ReflectionFresnelColor: vec4 = { 0, 1, 0.784313738, 1 }
+                    ReflectionFresnelColor: vec4 = { 0.494117647, 0.505882382, 0.501960814, 1 }
                     Fresnel: f32 = 0.25
                 }
                 DepthBiasFactors: vec2 = { -1, -5 }
@@ -6404,8 +6403,8 @@ entries: map[hash,embed] = {
                             1
                         }
                         Values: list[vec4] = {
-                            { 0.666666687, 1, 1, 1 }
-                            { 0.00392156886, 0.188235298, 0.0627451017, 1 }
+                            { 0.831372559, 0.835294127, 0.835294127, 1 }
+                            { 0.0941176489, 0.0980392173, 0.0941176489, 1 }
                         }
                     }
                 }
@@ -6560,7 +6559,7 @@ entries: map[hash,embed] = {
                 }
                 Texture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_Passive_Cyclone.dds"
                 PaletteDefinition: pointer = VfxPaletteDefinitionData {
-                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16.dds"
+                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16_purple.dds"
                     PaletteSelector: embed = ValueVector3 {
                         ConstantValue: vec3 = { 1, 0, 0 }
                     }
@@ -6696,7 +6695,7 @@ entries: map[hash,embed] = {
                 }
                 Texture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_Passive_Cyclone.dds"
                 PaletteDefinition: pointer = VfxPaletteDefinitionData {
-                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16.dds"
+                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16_purple.dds"
                     PaletteSelector: embed = ValueVector3 {
                         ConstantValue: vec3 = { 1, 0, 0 }
                     }
@@ -6775,10 +6774,10 @@ entries: map[hash,embed] = {
                             1
                         }
                         Values: list[vec4] = {
-                            { 0, 1, 1, 0.600000024 }
-                            { 0, 1, 1, 0.600000024 }
-                            { 0, 1, 1, 0.600000024 }
-                            { 0, 1, 1, 0.600000024 }
+                            { 0.337254912, 0, 1, 0.600000024 }
+                            { 0.337254912, 0, 1, 0.600000024 }
+                            { 0.337254912, 0, 1, 0.600000024 }
+                            { 0.337254912, 0, 1, 0.600000024 }
                         }
                     }
                 }
@@ -6814,7 +6813,7 @@ entries: map[hash,embed] = {
                 IsLocalOrientation: flag = false
                 Texture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Passive_Ring.dds"
                 PaletteDefinition: pointer = VfxPaletteDefinitionData {
-                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16.dds"
+                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16_purple.dds"
                     PaletteSelector: embed = ValueVector3 {
                         ConstantValue: vec3 = { 1, 0, 0 }
                     }
@@ -6916,7 +6915,7 @@ entries: map[hash,embed] = {
                 }
                 Texture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Passive_Ring.dds"
                 PaletteDefinition: pointer = VfxPaletteDefinitionData {
-                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16.dds"
+                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16_purple.dds"
                     PaletteSelector: embed = ValueVector3 {
                         ConstantValue: vec3 = { 1, 0, 0 }
                     }
@@ -7114,10 +7113,10 @@ entries: map[hash,embed] = {
                         }
                         Values: list[vec4] = {
                             { 1, 1, 1, 0.300007641 }
-                            { 0.741385162, 0.793046355, 0.793046355, 0.290392011 }
-                            { 0.617250025, 0.693708599, 0.693708599, 0.250006348 }
-                            { 0.21794872, 0.376438111, 0.376438111, 0.0642655268 }
-                            { 0.175306574, 0.301943064, 0.301943064, 0.0326931402 }
+                            { 0.741176486, 0.792156875, 0.792156875, 0.290392011 }
+                            { 0.615686297, 0.694117665, 0.694117665, 0.250006348 }
+                            { 0.301960796, 0.223529413, 0.376470596, 0.0642655268 }
+                            { 0.239215687, 0.176470593, 0.301960796, 0.0326931402 }
                             { 0, 0, 0, 0 }
                         }
                     }
@@ -7185,7 +7184,7 @@ entries: map[hash,embed] = {
                 }
                 Texture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_w_metal_texture.dds"
                 PaletteDefinition: pointer = VfxPaletteDefinitionData {
-                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16.dds"
+                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16_purple.dds"
                     PaletteSelector: embed = ValueVector3 {
                         ConstantValue: vec3 = { 1, 0, 0 }
                     }
@@ -7261,7 +7260,7 @@ entries: map[hash,embed] = {
                 }
                 BlendMode: u8 = 1
                 Color: embed = ValueColor {
-                    ConstantValue: vec4 = { 0, 1, 1, 0.600000024 }
+                    ConstantValue: vec4 = { 0.670588255, 0, 1, 0.600000024 }
                 }
                 Pass: i16 = -9
                 MiscRenderFlags: u8 = 1
@@ -7345,7 +7344,7 @@ entries: map[hash,embed] = {
                     ReflectionOpacityDirect: f32 = 1
                     ReflectionOpacityGlancing: f32 = 0.0500000007
                     ReflectionFresnel: f32 = 0.0500000007
-                    ReflectionFresnelColor: vec4 = { 0.176470593, 0.290196091, 0.239215687, 1 }
+                    ReflectionFresnelColor: vec4 = { 0.20784314, 0.176470593, 0.290196091, 1 }
                 }
                 MiscRenderFlags: u8 = 1
                 StencilMode: u8 = 2
@@ -7427,12 +7426,12 @@ entries: map[hash,embed] = {
                             1
                         }
                         Values: list[vec4] = {
-                            { 0.0396861434, 0.193288088, 1, 0 }
-                            { 0.359742403, 0.69410193, 1, 0.132801294 }
-                            { 0.619228721, 0.833333313, 1, 0.530006886 }
-                            { 0.599593759, 1, 0.942307711, 0.530006886 }
-                            { 0.285018653, 0.772549033, 0.633031666, 0.126785949 }
-                            { 0, 0.145098045, 0, 0 }
+                            { 1, 0.0392156877, 0.505882382, 0 }
+                            { 1, 0.360784322, 0.913725495, 0.132801294 }
+                            { 1, 0.619607866, 0.964705884, 0.530006886 }
+                            { 0.807843149, 0.600000024, 1, 0.530006886 }
+                            { 0.482352942, 0.286274523, 0.772549033, 0.126785949 }
+                            { 0, 0.0549019612, 0.145098045, 0 }
                         }
                     }
                 }
@@ -7575,7 +7574,7 @@ entries: map[hash,embed] = {
                 IsLocalOrientation: flag = false
                 Texture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Passive_Ring.dds"
                 PaletteDefinition: pointer = VfxPaletteDefinitionData {
-                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16.dds"
+                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16_purple.dds"
                     PaletteSelector: embed = ValueVector3 {
                         ConstantValue: vec3 = { 1, 0, 0 }
                     }
@@ -7623,7 +7622,7 @@ entries: map[hash,embed] = {
                 }
                 Texture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_Passive_Cyclone_B.dds"
                 PaletteDefinition: pointer = VfxPaletteDefinitionData {
-                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16.dds"
+                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16_purple.dds"
                     PaletteCount: i32 = 6
                 }
                 BirthUvScrollRate: embed = ValueVector2 {
@@ -7665,302 +7664,6 @@ entries: map[hash,embed] = {
                             Values: list[vec2] = {
                                 { 1, 1 }
                             }
-                        }
-                    }
-                }
-            }
-            VfxEmitterDefinitionData {
-                Rate: embed = ValueFloat {
-                    ConstantValue: f32 = 60
-                }
-                ParticleLifetime: embed = ValueFloat {
-                    ConstantValue: f32 = 1
-                }
-                ParticleLinger: option[f32] = {
-                    10.6999998
-                }
-                FieldCollectionDefinition: pointer = VfxFieldCollectionDefinitionData {
-                    FieldAttractionDefinitions: list[embed] = {
-                        VfxFieldAttractionDefinitionData {
-                            Position: embed = ValueVector3 {
-                                ConstantValue: vec3 = { 0, -600, 0 }
-                            }
-                            Radius: embed = ValueFloat {
-                                ConstantValue: f32 = 1800
-                            }
-                            Acceleration: embed = ValueFloat {
-                                ConstantValue: f32 = 100
-                            }
-                        }
-                    }
-                }
-                EmitterName: string = "topShrap"
-                BirthOrbitalVelocity: embed = ValueVector3 {
-                    ConstantValue: vec3 = { 0, -6, 0 }
-                    Dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        ProbabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {
-                                KeyTimes: list[f32] = {
-                                    0
-                                    0.603174627
-                                    1
-                                }
-                                KeyValues: list[f32] = {
-                                    0.300000012
-                                    0.850000024
-                                    1
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                        }
-                        Times: list[f32] = {
-                            0
-                        }
-                        Values: list[vec3] = {
-                            { 0, -6, 0 }
-                        }
-                    }
-                }
-                BirthVelocity: embed = ValueVector3 {
-                    ConstantValue: vec3 = { 50, 100, 0 }
-                    Dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        ProbabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                KeyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                KeyValues: list[f32] = {
-                                    0.100000001
-                                    0.800000012
-                                }
-                            }
-                            VfxProbabilityTableData {
-                                KeyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                KeyValues: list[f32] = {
-                                    0.100000001
-                                    1
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                        }
-                        Times: list[f32] = {
-                            0
-                        }
-                        Values: list[vec3] = {
-                            { 50, 100, 0 }
-                        }
-                    }
-                }
-                BirthDrag: embed = ValueVector3 {
-                    ConstantValue: vec3 = { 5, 0, 5 }
-                }
-                BindWeight: embed = ValueFloat {
-                    ConstantValue: f32 = 1
-                }
-                0x3bf0b4ed: pointer = 0x4f4e2ed7 {
-                    EmitOffset: embed = ValueVector3 {
-                        ConstantValue: vec3 = { 390, 50, 0 }
-                        Dynamics: pointer = VfxAnimatedVector3fVariableData {
-                            ProbabilityTables: list[pointer] = {
-                                VfxProbabilityTableData {
-                                    KeyTimes: list[f32] = {
-                                        0
-                                        0.304635763
-                                        1
-                                    }
-                                    KeyValues: list[f32] = {
-                                        0.200000003
-                                        0.871090055
-                                        1
-                                    }
-                                }
-                                VfxProbabilityTableData {
-                                    KeyTimes: list[f32] = {
-                                        0
-                                        1
-                                    }
-                                    KeyValues: list[f32] = {
-                                        0
-                                        1
-                                    }
-                                }
-                                VfxProbabilityTableData {}
-                            }
-                            Times: list[f32] = {
-                                0
-                            }
-                            Values: list[vec3] = {
-                                { 390, 50, 0 }
-                            }
-                        }
-                    }
-                    EmitRotationAngles: list[embed] = {
-                        ValueFloat {
-                            ConstantValue: f32 = 1
-                            Dynamics: pointer = VfxAnimatedFloatVariableData {
-                                ProbabilityTables: list[pointer] = {
-                                    VfxProbabilityTableData {
-                                        KeyTimes: list[f32] = {
-                                            0
-                                            1
-                                        }
-                                        KeyValues: list[f32] = {
-                                            0
-                                            360
-                                        }
-                                    }
-                                }
-                                Times: list[f32] = {
-                                    0
-                                }
-                                Values: list[f32] = {
-                                    1
-                                }
-                            }
-                        }
-                    }
-                    EmitRotationAxes: list[vec3] = {
-                        { 0, 1, 0 }
-                    }
-                }
-                0x563d4a22: embed = ValueVector3 {
-                    ConstantValue: vec3 = { 0, 20, 0 }
-                }
-                Primitive: pointer = VfxPrimitiveMesh {
-                    mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_base_w_active_piece1.scb"
-                    }
-                }
-                BlendMode: u8 = 4
-                BirthColor: embed = ValueColor {
-                    ConstantValue: vec4 = { 0.00392156886, 1, 1, 1 }
-                }
-                Color: embed = ValueColor {
-                    ConstantValue: vec4 = { 1, 1, 1, 0.500007629 }
-                    Dynamics: pointer = VfxAnimatedColorVariableData {
-                        Times: list[f32] = {
-                            0
-                            0.206953645
-                            0.306291401
-                            0.619205296
-                            0.693708599
-                            1
-                        }
-                        Values: list[vec4] = {
-                            { 1, 1, 1, 0.500007629 }
-                            { 0.741385162, 0.793046355, 0.793046355, 0.483981758 }
-                            { 0.617250025, 0.693708599, 0.693708599, 0.416673034 }
-                            { 0.21794872, 0.376438111, 0.376438111, 0.107108116 }
-                            { 0.175306574, 0.301943064, 0.301943064, 0.0544880107 }
-                            { 0, 0, 0, 0 }
-                        }
-                    }
-                }
-                Pass: i16 = 7
-                DisableBackfaceCull: bool = true
-                MiscRenderFlags: u8 = 4
-                StencilRef: u8 = 5
-                BirthRotation0: embed = ValueVector3 {
-                    ConstantValue: vec3 = { 1, 1, 0 }
-                    Dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        ProbabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                KeyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                KeyValues: list[f32] = {
-                                    0
-                                    360
-                                }
-                            }
-                            VfxProbabilityTableData {
-                                KeyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                KeyValues: list[f32] = {
-                                    0
-                                    360
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                        }
-                        Times: list[f32] = {
-                            0
-                        }
-                        Values: list[vec3] = {
-                            { 1, 1, 0 }
-                        }
-                    }
-                }
-                BirthRotationalVelocity0: embed = ValueVector3 {
-                    ConstantValue: vec3 = { 0, 20, 200 }
-                }
-                IsLocalOrientation: flag = false
-                BirthScale0: embed = ValueVector3 {
-                    ConstantValue: vec3 = { 0.5, 0.5, 0.5 }
-                }
-                Scale0: embed = ValueVector3 {
-                    Dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        Times: list[f32] = {
-                            0
-                            0.00999999978
-                            0.0199999996
-                            0.0399999991
-                        }
-                        Values: list[vec3] = {
-                            { 0.200000003, 0, 0.200000003 }
-                            { 0.200000003, 0.800000012, 0.200000003 }
-                            { 0.800000012, 1, 0.800000012 }
-                            { 1, 1.10000002, 1 }
-                        }
-                    }
-                }
-                Texture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_w_metal_texture.dds"
-                BirthUvScrollRate: embed = ValueVector2 {
-                    ConstantValue: vec2 = { 1, 0.400000006 }
-                    Dynamics: pointer = VfxAnimatedVector2fVariableData {
-                        ProbabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                KeyTimes: list[f32] = {
-                                    0
-                                    0.5
-                                    0.500100017
-                                    1
-                                }
-                                KeyValues: list[f32] = {
-                                    -1
-                                    -0.5
-                                    0.5
-                                    1
-                                }
-                            }
-                            VfxProbabilityTableData {
-                                KeyTimes: list[f32] = {
-                                    0
-                                    0.5
-                                    0.500100017
-                                    1
-                                }
-                                KeyValues: list[f32] = {
-                                    -1
-                                    -0.5
-                                    1
-                                    0.5
-                                }
-                            }
-                        }
-                        Times: list[f32] = {
-                            0
-                        }
-                        Values: list[vec2] = {
-                            { 1, 0.400000006 }
                         }
                     }
                 }
@@ -8036,7 +7739,7 @@ entries: map[hash,embed] = {
                 }
                 Texture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_Passive_Cyclone_B.dds"
                 PaletteDefinition: pointer = VfxPaletteDefinitionData {
-                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16.dds"
+                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16_purple.dds"
                     PaletteCount: i32 = 16
                 }
                 BirthUvScrollRate: embed = ValueVector2 {
@@ -8073,9 +7776,9 @@ entries: map[hash,embed] = {
                         }
                         Values: list[vec4] = {
                             { 0, 0, 0, 0 }
-                            { 0, 1, 0.800000012, 1 }
-                            { 0, 1, 0.800000012, 1 }
-                            { 0, 0.00392156886, 0.00313725485, 0 }
+                            { 0.470588237, 0, 1, 1 }
+                            { 0.470588237, 0, 1, 1 }
+                            { 0.0196078438, 0, 0.0196078438, 0 }
                         }
                     }
                 }
@@ -8101,7 +7804,7 @@ entries: map[hash,embed] = {
                 }
                 Texture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_Passive_Cyclone.dds"
                 PaletteDefinition: pointer = VfxPaletteDefinitionData {
-                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16.dds"
+                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16_purple.dds"
                     PaletteSelector: embed = ValueVector3 {
                         ConstantValue: vec3 = { 1, 0, 0 }
                     }
@@ -8284,7 +7987,7 @@ entries: map[hash,embed] = {
                 }
                 Texture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Passive_Ring.dds"
                 PaletteDefinition: pointer = VfxPaletteDefinitionData {
-                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16.dds"
+                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16_purple.dds"
                     PaletteSelector: embed = ValueVector3 {
                         ConstantValue: vec3 = { 1, 0, 0 }
                     }
@@ -8640,7 +8343,7 @@ entries: map[hash,embed] = {
                 }
                 BlendMode: u8 = 1
                 Color: embed = ValueColor {
-                    ConstantValue: vec4 = { 0, 0.850003839, 0.889997721, 0.500007629 }
+                    ConstantValue: vec4 = { 0.639215708, 0, 0.890196085, 0.5 }
                 }
                 Pass: i16 = 1
                 MiscRenderFlags: u8 = 1
@@ -8653,7 +8356,7 @@ entries: map[hash,embed] = {
                 }
                 Texture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_Passive_Cyclone.dds"
                 PaletteDefinition: pointer = VfxPaletteDefinitionData {
-                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16.dds"
+                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16_purple.dds"
                     PaletteCount: i32 = 16
                 }
                 BirthUvScrollRate: embed = ValueVector2 {
@@ -9028,171 +8731,13 @@ entries: map[hash,embed] = {
                 Texture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_w_metal.dds"
                 NumFrames: u16 = 4
                 PaletteDefinition: pointer = VfxPaletteDefinitionData {
-                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16.dds"
+                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16_purple.dds"
                     PaletteSelector: embed = ValueVector3 {
                         ConstantValue: vec3 = { 1, 0, 0 }
                     }
                     PaletteCount: i32 = 16
                 }
                 TexDiv: vec2 = { 2, 2 }
-            }
-            VfxEmitterDefinitionData {
-                Rate: embed = ValueFloat {
-                    ConstantValue: f32 = 2
-                }
-                ParticleLifetime: embed = ValueFloat {
-                    ConstantValue: f32 = 2
-                }
-                EmitterName: string = "swirling_metal2"
-                BirthVelocity: embed = ValueVector3 {
-                    ConstantValue: vec3 = { 0, -30, 0 }
-                }
-                BindWeight: embed = ValueFloat {
-                    ConstantValue: f32 = 1
-                }
-                0x563d4a22: embed = ValueVector3 {
-                    ConstantValue: vec3 = { 0, 80, 0 }
-                }
-                0x4ffce322: pointer = 0xb13097f0 {
-                    ScaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
-                }
-                Primitive: pointer = VfxPrimitiveMesh {
-                    mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_W_aura_ring_mesh.scb"
-                    }
-                }
-                BlendMode: u8 = 4
-                Color: embed = ValueColor {
-                    ConstantValue: vec4 = { 1, 1, 1, 0.600000024 }
-                    Dynamics: pointer = VfxAnimatedColorVariableData {
-                        Times: list[f32] = {
-                            0
-                            0.48698023
-                            0.870047092
-                            1
-                        }
-                        Values: list[vec4] = {
-                            { 1, 1, 1, 0 }
-                            { 1, 1, 1, 0.600000024 }
-                            { 1, 1, 1, 0.600000024 }
-                            { 1, 1, 1, 0 }
-                        }
-                    }
-                }
-                Pass: i16 = 2
-                AlphaRef: u8 = 0
-                ReflectionDefinition: pointer = VfxReflectionDefinitionData {
-                    ReflectionOpacityDirect: f32 = 1
-                    ReflectionOpacityGlancing: f32 = 0
-                    FresnelColor: vec4 = { 0, 0, 0, 1 }
-                }
-                MiscRenderFlags: u8 = 1
-                IsGroundLayer: flag = true
-                BirthRotation0: embed = ValueVector3 {
-                    ConstantValue: vec3 = { 10, 1, 0 }
-                    Dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        ProbabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                KeyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                KeyValues: list[f32] = {
-                                    1
-                                    -1
-                                }
-                            }
-                            VfxProbabilityTableData {
-                                KeyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                KeyValues: list[f32] = {
-                                    0
-                                    360
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                        }
-                        Times: list[f32] = {
-                            0
-                        }
-                        Values: list[vec3] = {
-                            { 10, 1, 0 }
-                        }
-                    }
-                }
-                BirthRotationalVelocity0: embed = ValueVector3 {
-                    ConstantValue: vec3 = { 0, -220, 0 }
-                    Dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        ProbabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {
-                                KeyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                KeyValues: list[f32] = {
-                                    0.800000012
-                                    2
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                        }
-                        Times: list[f32] = {
-                            0
-                        }
-                        Values: list[vec3] = {
-                            { 0, -220, 0 }
-                        }
-                    }
-                }
-                BirthScale0: embed = ValueVector3 {
-                    ConstantValue: vec3 = { 2.5, 1, 2.5 }
-                    Dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        ProbabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                KeyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                KeyValues: list[f32] = {
-                                    0.800000012
-                                    1
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {}
-                        }
-                        Times: list[f32] = {
-                            0
-                        }
-                        Values: list[vec3] = {
-                            { 2.5, 1, 2.5 }
-                        }
-                    }
-                }
-                Scale0: embed = ValueVector3 {
-                    Dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        Times: list[f32] = {
-                            0
-                            1
-                        }
-                        Values: list[vec3] = {
-                            { 0.200000003, 0.200000003, 0.200000003 }
-                            { 1, 1, 1 }
-                        }
-                    }
-                }
-                Texture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_Z_wisps_blend.dds"
-                PaletteDefinition: pointer = VfxPaletteDefinitionData {
-                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16.dds"
-                    PaletteCount: i32 = 16
-                }
-                BirthUvScrollRate: embed = ValueVector2 {
-                    ConstantValue: vec2 = { -0.100000001, 0 }
-                }
-                TexDiv: vec2 = { 1, 2 }
             }
         }
         ParticleName: string = "Mordekaiser_Base_Passive_buf_AOE"

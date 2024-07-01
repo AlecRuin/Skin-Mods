@@ -4402,7 +4402,7 @@ entries: map[hash,embed] = {
                 }
                 Texture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_Z_Flash.dds"
                 PaletteDefinition: pointer = VfxPaletteDefinitionData {
-                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16.dds"
+                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16_red.dds"
                     PaletteSelector: embed = ValueVector3 {
                         ConstantValue: vec3 = { 6, 0, 0 }
                     }
@@ -4712,7 +4712,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 PaletteDefinition: pointer = VfxPaletteDefinitionData {
-                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16.dds"
+                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16_red.dds"
                     PaletteSelector: embed = ValueVector3 {
                         ConstantValue: vec3 = { 4, 0, 0 }
                     }
@@ -4935,7 +4935,7 @@ entries: map[hash,embed] = {
                 Texture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_Embers.dds"
                 NumFrames: u16 = 4
                 PaletteDefinition: pointer = VfxPaletteDefinitionData {
-                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16.dds"
+                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16_red.dds"
                     PaletteSelector: embed = ValueVector3 {
                         ConstantValue: vec3 = { 4, 0, 0 }
                     }
@@ -5060,7 +5060,7 @@ entries: map[hash,embed] = {
                 }
                 Texture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_R_Ground_A_Errode.dds"
                 PaletteDefinition: pointer = VfxPaletteDefinitionData {
-                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16.dds"
+                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16_red.dds"
                     PaletteSelector: embed = ValueVector3 {
                         ConstantValue: vec3 = { 4, 0, 0 }
                     }
@@ -5120,7 +5120,7 @@ entries: map[hash,embed] = {
                 }
                 Texture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_R_Ground_A_Errode.dds"
                 PaletteDefinition: pointer = VfxPaletteDefinitionData {
-                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16.dds"
+                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16_red.dds"
                     PaletteSelector: embed = ValueVector3 {
                         ConstantValue: vec3 = { 4, 0, 0 }
                     }
@@ -5223,7 +5223,7 @@ entries: map[hash,embed] = {
                 }
                 Texture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_Z_Flash.dds"
                 PaletteDefinition: pointer = VfxPaletteDefinitionData {
-                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16.dds"
+                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16_red.dds"
                     PaletteSelector: embed = ValueVector3 {
                         ConstantValue: vec3 = { 4, 0, 0 }
                     }
@@ -6016,7 +6016,7 @@ entries: map[hash,embed] = {
                 }
                 Texture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_Z_Flash.dds"
                 PaletteDefinition: pointer = VfxPaletteDefinitionData {
-                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16.dds"
+                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16_red.dds"
                     PaletteSelector: embed = ValueVector3 {
                         ConstantValue: vec3 = { 4, 0, 0 }
                     }
@@ -6243,7 +6243,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 PaletteDefinition: pointer = VfxPaletteDefinitionData {
-                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16.dds"
+                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16_red.dds"
                     PaletteSelector: embed = ValueVector3 {
                         ConstantValue: vec3 = { 4, 0, 0 }
                     }
@@ -6340,7 +6340,7 @@ entries: map[hash,embed] = {
                 }
                 Texture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_Z_Flash.dds"
                 PaletteDefinition: pointer = VfxPaletteDefinitionData {
-                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16.dds"
+                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16_red.dds"
                     PaletteSelector: embed = ValueVector3 {
                         ConstantValue: vec3 = { 4, 0, 0 }
                     }
@@ -6725,7 +6725,7 @@ entries: map[hash,embed] = {
                 Texture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_R_Wispy.dds"
                 NumFrames: u16 = 4
                 PaletteDefinition: pointer = VfxPaletteDefinitionData {
-                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16.dds"
+                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16_red.dds"
                     PaletteCount: i32 = 16
                 }
                 TexDiv: vec2 = { 2, 2 }
@@ -6832,7 +6832,7 @@ entries: map[hash,embed] = {
                 }
                 Texture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Q_GroundHitGlow.dds"
                 PaletteDefinition: pointer = VfxPaletteDefinitionData {
-                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16.dds"
+                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16_red.dds"
                     PaletteSelector: embed = ValueVector3 {
                         ConstantValue: vec3 = { 9, 0, 0 }
                     }
@@ -12805,13 +12805,13 @@ entries: map[hash,embed] = {
                             1
                         }
                         Values: list[vec4] = {
-                            { 0.00784313772, 0.321568638, 0.337254912, 0 }
-                            { 0.00784313772, 0.321568638, 0.337254912, 0.708588541 }
-                            { 0.00784313772, 0.321568638, 0.337254912, 1 }
-                            { 0.00784313772, 0.321568638, 0.337254912, 1 }
-                            { 0.00784313772, 0.321568638, 0.337254912, 0.866569459 }
-                            { 0.00784313772, 0.321568638, 0.337254912, 0.380991727 }
-                            { 0.00784313772, 0.321568638, 0.337254912, 0 }
+                            { 0.337254912, 0.13333334, 0.00784313772, 0 }
+                            { 0.337254912, 0.13333334, 0.00784313772, 0.708588541 }
+                            { 0.337254912, 0.13333334, 0.00784313772, 1 }
+                            { 0.337254912, 0.13333334, 0.00784313772, 1 }
+                            { 0.337254912, 0.13333334, 0.00784313772, 0.866569459 }
+                            { 0.337254912, 0.13333334, 0.00784313772, 0.380991727 }
+                            { 0.337254912, 0.13333334, 0.00784313772, 0 }
                         }
                     }
                 }
@@ -12910,13 +12910,13 @@ entries: map[hash,embed] = {
                             1
                         }
                         Values: list[vec4] = {
-                            { 0, 1, 0.635294139, 0 }
-                            { 0, 1, 0.635294139, 0.784313738 }
-                            { 0, 1, 0.635294139, 1 }
-                            { 0, 1, 0.635294139, 1 }
-                            { 0, 1, 0.635294139, 0.833511591 }
-                            { 0, 1, 0.635294139, 0.190909088 }
-                            { 0, 1, 0.635294139, 0 }
+                            { 1, 0, 0.0274509806, 0 }
+                            { 1, 0, 0.0274509806, 0.784313738 }
+                            { 1, 0, 0.0274509806, 1 }
+                            { 1, 0, 0.0274509806, 1 }
+                            { 1, 0, 0.0274509806, 0.833511591 }
+                            { 1, 0, 0.0274509806, 0.190909088 }
+                            { 1, 0, 0.0274509806, 0 }
                         }
                     }
                 }
@@ -13019,10 +13019,10 @@ entries: map[hash,embed] = {
                             1
                         }
                         Values: list[vec4] = {
-                            { 0.530006886, 1, 0.480003059, 1 }
-                            { 0, 1, 0.408473194, 1 }
-                            { 0.145492077, 0.686274529, 0, 0.819607854 }
-                            { 0.0041569164, 0.470588237, 0, 0 }
+                            { 1, 0.478431374, 0.874509811, 1 }
+                            { 1, 0, 0.262745112, 1 }
+                            { 0.686274529, 0, 0.600000024, 0.819607854 }
+                            { 0.470588237, 0, 0.31764707, 0 }
                         }
                     }
                 }
@@ -13096,7 +13096,7 @@ entries: map[hash,embed] = {
                 Texture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Sion_Skin05_Sl_Dust_01.dds"
                 NumFrames: u16 = 4
                 PaletteDefinition: pointer = VfxPaletteDefinitionData {
-                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16.dds"
+                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16_red.dds"
                     PaletteSelector: embed = ValueVector3 {
                         ConstantValue: vec3 = { 2, 0, 0 }
                     }
@@ -13137,10 +13137,10 @@ entries: map[hash,embed] = {
                             1
                         }
                         Values: list[vec4] = {
-                            { 0.486274511, 1, 0.00392156886, 1 }
-                            { 0, 1, 0.00333717791, 1 }
-                            { 0, 0.596078455, 0.00269127265, 0.248179272 }
-                            { 0.116324492, 0.243137255, 0.00207612454, 0 }
+                            { 0.854901969, 0.00392156886, 1, 1 }
+                            { 1, 0, 0.65882355, 1 }
+                            { 0.596078455, 0, 0.388235301, 0.248179272 }
+                            { 0.211764708, 0.00392156886, 0.243137255, 0 }
                         }
                     }
                 }
@@ -13199,7 +13199,7 @@ entries: map[hash,embed] = {
                 }
                 Texture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_Z_Flash.dds"
                 PaletteDefinition: pointer = VfxPaletteDefinitionData {
-                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16.dds"
+                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16_red.dds"
                     PaletteSelector: embed = ValueVector3 {
                         ConstantValue: vec3 = { 5, 0, 0 }
                     }
@@ -13263,10 +13263,10 @@ entries: map[hash,embed] = {
                             1
                         }
                         Values: list[vec4] = {
-                            { 0.530006886, 1, 0.480003059, 1 }
-                            { 0, 1, 0.408473194, 1 }
-                            { 0.145492077, 0.686274529, 0, 0.399439782 }
-                            { 0.0041569164, 0.470588237, 0, 0 }
+                            { 1, 0.478431374, 0.874509811, 1 }
+                            { 1, 0, 0.262745112, 1 }
+                            { 0.686274529, 0, 0.600000024, 0.399439782 }
+                            { 0.470588237, 0, 0.31764707, 0 }
                         }
                     }
                 }
@@ -13293,7 +13293,7 @@ entries: map[hash,embed] = {
                 }
                 Texture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_Z_Flash.dds"
                 PaletteDefinition: pointer = VfxPaletteDefinitionData {
-                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16.dds"
+                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16_red.dds"
                     PaletteSelector: embed = ValueVector3 {
                         ConstantValue: vec3 = { 5, 0, 0 }
                     }
@@ -13357,10 +13357,10 @@ entries: map[hash,embed] = {
                             1
                         }
                         Values: list[vec4] = {
-                            { 0.0699931309, 0.379995435, 0.130006865, 1 }
-                            { 0, 0.379995435, 0.110633291, 1 }
-                            { 0, 0.226507083, 0.0892203972, 0.819607854 }
-                            { 0.0167434551, 0.0923910439, 0.0688271672, 0 }
+                            { 0.380392164, 0.0705882385, 0.215686277, 1 }
+                            { 0.380392164, 0, 0.141176477, 1 }
+                            { 0.227450982, 0, 0.0666666701, 0.819607854 }
+                            { 0.0941176489, 0.0235294122, 0.0156862754, 0 }
                         }
                     }
                 }
@@ -13419,7 +13419,7 @@ entries: map[hash,embed] = {
                 }
                 Texture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_W_Glow.dds"
                 PaletteDefinition: pointer = VfxPaletteDefinitionData {
-                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16.dds"
+                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16_red.dds"
                     PaletteSelector: embed = ValueVector3 {
                         ConstantValue: vec3 = { 5, 0, 0 }
                     }
@@ -30718,7 +30718,7 @@ entries: map[hash,embed] = {
                 Texture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_Embers.dds"
                 NumFrames: u16 = 3
                 PaletteDefinition: pointer = VfxPaletteDefinitionData {
-                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16.dds"
+                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16_bw.dds"
                     PaletteSelector: embed = ValueVector3 {
                         ConstantValue: vec3 = { 1, 0, 0 }
                     }
@@ -31011,7 +31011,7 @@ entries: map[hash,embed] = {
                 Texture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_Embers.dds"
                 NumFrames: u16 = 3
                 PaletteDefinition: pointer = VfxPaletteDefinitionData {
-                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16.dds"
+                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16_bw.dds"
                     PaletteSelector: embed = ValueVector3 {
                         ConstantValue: vec3 = { 1, 0, 0 }
                     }
@@ -31117,7 +31117,7 @@ entries: map[hash,embed] = {
                 }
                 Texture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_R_Ground_A_Errode.dds"
                 PaletteDefinition: pointer = VfxPaletteDefinitionData {
-                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16.dds"
+                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16_bw.dds"
                     PaletteSelector: embed = ValueVector3 {
                         ConstantValue: vec3 = { 3, 0, 0 }
                     }
@@ -31262,7 +31262,7 @@ entries: map[hash,embed] = {
                 }
                 Texture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/common_Aura_Self.dds"
                 PaletteDefinition: pointer = VfxPaletteDefinitionData {
-                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16.dds"
+                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16_bw.dds"
                     PaletteSelector: embed = ValueVector3 {
                         ConstantValue: vec3 = { 1, 0, 0 }
                     }
@@ -31369,7 +31369,7 @@ entries: map[hash,embed] = {
                 }
                 Texture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_Z_darkFuzz.dds"
                 PaletteDefinition: pointer = VfxPaletteDefinitionData {
-                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16.dds"
+                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16_bw.dds"
                     PaletteSelector: embed = ValueVector3 {
                         ConstantValue: vec3 = { 1, 0, 0 }
                     }
@@ -31471,7 +31471,7 @@ entries: map[hash,embed] = {
                 }
                 Texture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_W_Glow.dds"
                 PaletteDefinition: pointer = VfxPaletteDefinitionData {
-                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16.dds"
+                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16_bw.dds"
                     PaletteSelector: embed = ValueVector3 {
                         ConstantValue: vec3 = { 1, 0, 0 }
                     }
@@ -31594,7 +31594,7 @@ entries: map[hash,embed] = {
                 }
                 Texture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_Z_Flash.dds"
                 PaletteDefinition: pointer = VfxPaletteDefinitionData {
-                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16.dds"
+                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16_bw.dds"
                     PaletteSelector: embed = ValueVector3 {
                         ConstantValue: vec3 = { 3, 0, 0 }
                     }
@@ -31889,7 +31889,7 @@ entries: map[hash,embed] = {
                 Texture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_Embers.dds"
                 NumFrames: u16 = 3
                 PaletteDefinition: pointer = VfxPaletteDefinitionData {
-                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16.dds"
+                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16_bw.dds"
                     PaletteSelector: embed = ValueVector3 {
                         ConstantValue: vec3 = { 1, 0, 0 }
                     }
@@ -32182,7 +32182,7 @@ entries: map[hash,embed] = {
                 Texture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_Embers.dds"
                 NumFrames: u16 = 3
                 PaletteDefinition: pointer = VfxPaletteDefinitionData {
-                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16.dds"
+                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16_bw.dds"
                     PaletteSelector: embed = ValueVector3 {
                         ConstantValue: vec3 = { 1, 0, 0 }
                     }
@@ -32287,7 +32287,7 @@ entries: map[hash,embed] = {
                 }
                 Texture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_R_Ground_A_Errode.dds"
                 PaletteDefinition: pointer = VfxPaletteDefinitionData {
-                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16.dds"
+                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16_bw.dds"
                     PaletteSelector: embed = ValueVector3 {
                         ConstantValue: vec3 = { 3, 0, 0 }
                     }
@@ -32479,7 +32479,7 @@ entries: map[hash,embed] = {
                 }
                 Texture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_Z_Flash.dds"
                 PaletteDefinition: pointer = VfxPaletteDefinitionData {
-                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16.dds"
+                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16_bw.dds"
                     PaletteSelector: embed = ValueVector3 {
                         ConstantValue: vec3 = { 3, 0, 0 }
                     }
@@ -32553,7 +32553,7 @@ entries: map[hash,embed] = {
                 }
                 Texture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/common_Aura_Self.dds"
                 PaletteDefinition: pointer = VfxPaletteDefinitionData {
-                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16.dds"
+                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16_bw.dds"
                     PaletteSelector: embed = ValueVector3 {
                         ConstantValue: vec3 = { 1, 0, 0 }
                     }
@@ -32659,7 +32659,7 @@ entries: map[hash,embed] = {
                 }
                 Texture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_Z_darkFuzz.dds"
                 PaletteDefinition: pointer = VfxPaletteDefinitionData {
-                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16.dds"
+                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16_bw.dds"
                     PaletteSelector: embed = ValueVector3 {
                         ConstantValue: vec3 = { 1, 0, 0 }
                     }
@@ -32760,7 +32760,7 @@ entries: map[hash,embed] = {
                 }
                 Texture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_W_Glow.dds"
                 PaletteDefinition: pointer = VfxPaletteDefinitionData {
-                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16.dds"
+                    PaletteTexture: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_colorGrad_16_bw.dds"
                     PaletteSelector: embed = ValueVector3 {
                         ConstantValue: vec3 = { 1, 0, 0 }
                     }
