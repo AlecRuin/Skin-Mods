@@ -1,20 +1,23 @@
 :root{
-    --primary-color: rgb(6,9,15);
-    --secondary-color: rgb(250, 199, 102);
-    --lightest-secondary-color: rgb(248, 234, 209);
-    --lighter-secondary-color: rgb(255, 222, 161);
-    --tertiary-color: rgb(213, 102, 250);
-    --lighter-tertiary-color: rgb(232, 163, 255);
+    --primary-color: 6,9,15;
+    --lighter-primary-color:14,20,30;
+    --lightest-primary-color:34, 44, 63;
+    --secondary-color: 250,199,102;
+    --lightest-secondary-color: 248, 234, 209;
+    --lighter-secondary-color: 255,222,161;
+    --tertiary-color: 213, 102, 250;
+    --lighter-tertiary-color: 232, 163, 255;
 }
 html{
-    background-color: var(--primary-color);
+    background-color: rgb(var(--primary-color));
     color: white;
     font-family: sans-serif;
     font-weight: bold;
     clip-path: rounded(20);
+    scroll-behavior: smooth;
 }
 body{
-    background-color: var(--primary-color);
+    background-color: rgb(var(--primary-color));
 }
 a {
     text-decoration: none; 
@@ -24,22 +27,22 @@ a {
 }
 .basic-text-style{
     font-weight: 700;
-    color: var(--lightest-secondary-color);
+    color: rgb(var(--lightest-secondary-color));
 }
 .highlight-text-style{
-    color: var(--secondary-color);
+    color: rgb(var(--secondary-color));
     font-weight:800;
 }
 .tert-text-style{
     font-weight: 700;
-    color: var(--tertiary-color);
+    color: rgb(var(--tertiary-color));
 }
 .secondary-to-lighter-secondary{
-    background: linear-gradient(to right, var(--secondary-color) 0%, var(--lighter-secondary-color) 50%, var(--secondary-color) 100%);
+    background: linear-gradient(to right, rgb(var(--secondary-color)) 0%, rgb(var(--lighter-secondary-color)) 50%, rgb(var(--secondary-color)) 100%);
     font-weight: 800;
 }
 .tertiary-to-lighter-tertiary{
-    background: linear-gradient(to right, var(--tertiary-color) 0%, var(--lighter-tertiary-color) 50%, var(--tertiary-color) 100%);
+    background: linear-gradient(to right, rgb(var(--tertiary-color)) 0%, rgb(var(--lighter-tertiary-color)) 50%, rgb(var(--tertiary-color)) 100%);
     font-weight: 800;
 }
 .text-gradient-bg{
@@ -226,7 +229,7 @@ a {
     transition: background-color 0.2s ease;
 }
 .nugget-body:hover{
-    background-color: rgb(14, 20, 30);
+    background-color: rgb(var(--lighter-primary-color));
 }
 .showcase-carousel{
     display: flex;
@@ -282,4 +285,54 @@ a {
     position: relative;
     margin: auto;
     text-align: center;
+}
+.navigation-box{
+    z-index: 10;
+    position: absolute;
+    top: 2vw;
+    left: 2vw;
+    height: auto;
+    width: auto;
+    background-color: rgb(var(--lighter-primary-color));
+    box-shadow: 0px 0px 12px 2px rgba(var(--lighter-primary-color) 0.74);
+    border: 5px solid black;
+    border-radius: 5px;
+    transition: top 0.5s ease-in-out;
+    aspect-ratio: 3/4;
+}
+.navigation-list{
+    margin: 0px;
+    height: auto;
+    padding-left: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.navigation-box li a{
+    font-size: .5vw;
+    margin: .25vw;
+    display: block;
+    transition: background-color 0.2s ease;
+    width: 100%;
+    height: auto;
+}
+.navigation-box li:hover{
+    background-color: rgb(var(--lightest-primary-color));
+}
+.simple-underline{
+    height: .1vw;
+    width: 75%;
+    margin-top: .15vw;
+    margin-bottom: .15vw;
+    background-color: rgb(var(--lightest-secondary-color));
+    margin: auto;
+}
+.navigation-title{
+    text-align: center;
+    font-size: .75vw;
+    margin-top: .25vw;
+    margin-bottom: .25vw;
+    color: rgb(var(--secondary-color));
 }
