@@ -20,6 +20,10 @@ const ModsArrayWhitespace=[
     "DMC5 Griffon as Smolder",
     "Full Build Gwen"
 ]
+function testing()
+{
+    console.log("hello world");
+}
 document.addEventListener("DOMContentLoaded",()=>{
     const Mod_List = document.querySelector(".Mod-List")
     const nav_list = document.querySelector(".navigation-list")
@@ -28,7 +32,7 @@ document.addEventListener("DOMContentLoaded",()=>{
     {
         Mod_List.insertAdjacentHTML("beforeend",
             `
-            <section class="w-100 mbt-1rem mrl-1rem" id=${ModsArray[x]}>
+            <section class="w-100 mbt-1rem mrl-1rem"  id=${ModsArray[x]}>
                 <iframe class="preview-nugget ${(leftFlag?"float-left":"float-right")}" src=${"./iframes/"+encodeURIComponent(ModsArray[x])+".html"}></iframe>
             </section>
             `)
