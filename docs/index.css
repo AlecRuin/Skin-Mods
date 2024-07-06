@@ -444,6 +444,10 @@ a {
     font-weight: 900;
     color: rgb(var(--tertiary-color));
 }
+.basic-mod-descriptor{
+    width: 75%;
+    font-size: 1vw;
+}
 .basic-button{
     border: .5vw rgb(34, 44, 63) solid;
     border-radius: .5vw;
@@ -469,5 +473,9 @@ a {
     }
     .navigation-box{
         display: none;
+    }
+    .basic-mod-descriptor{
+        width: 95%;
+        font-size: 2vw;
     }
 }
