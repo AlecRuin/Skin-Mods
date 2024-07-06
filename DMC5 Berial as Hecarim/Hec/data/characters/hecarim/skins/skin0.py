@@ -93,12 +93,12 @@ entries: map[hash,embed] = {
                     Events: list[string] = {
                         "Play_vo_Hecarim_Attack2DGeneral"
                         "Play_vo_Hecarim_Death3D"
-                        "Play_vo_Hecarim_HecarimBasicAttack2_OnCast"
-                        "Play_vo_Hecarim_HecarimBasicAttack_OnCast"
-                        "Play_vo_Hecarim_HecarimCritAttack_OnCast"
-                        "Play_vo_Hecarim_HecarimRapidSlash_OnCast"
-                        "Play_vo_Hecarim_HecarimUlt_OnCast"
-                        "Play_vo_Hecarim_HecarimW_OnCast"
+                        "Play_vo_Hecarim_HecarimBasicAttack2_cast3D"
+                        "Play_vo_Hecarim_HecarimBasicAttack_cast3D"
+                        "Play_vo_Hecarim_HecarimCritAttack_cast3D"
+                        "Play_vo_Hecarim_HecarimRapidSlash_cast3D"
+                        "Play_vo_Hecarim_HecarimUlt_cast3D"
+                        "Play_vo_Hecarim_HecarimW_cast3D"
                         "Play_vo_Hecarim_Joke3DGeneral"
                         "Play_vo_Hecarim_Laugh3DGeneral"
                         "Play_vo_Hecarim_Move2DStandard"
@@ -114,7 +114,7 @@ entries: map[hash,embed] = {
         SkinMeshProperties: embed = SkinMeshDataProperties {
             Skeleton: string = "ASSETS/Characters/Hecarim/Skins/Base/Hecarim.skl"
             SimpleSkin: string = "ASSETS/Characters/Hecarim/Skins/Base/Hecarim.skn"
-            Texture: string = "ASSETS/Characters/Hecarim/Skins/Base/Mat_Body.dds"
+            Texture: string = "ASSETS/Characters/Hecarim/Skins/Base/Hecarim_base_TX_CM.tex"
             SkinScale: f32 = 1.25
             SelfIllumination: f32 = 0.550000012
             OverrideBoundingBox: option[vec3] = {
@@ -226,7 +226,7 @@ entries: map[hash,embed] = {
                 }
                 BlendMode: u8 = 4
                 BirthColor: embed = ValueColor {
-                    ConstantValue: vec4 = { 0.0784313753, 1, 0.862745106, 1 }
+                    ConstantValue: vec4 = { 1, 0.0941176489, 0.0784313753, 1 }
                 }
                 Pass: i16 = 5
                 DepthBiasFactors: vec2 = { -1, -4 }
@@ -272,7 +272,7 @@ entries: map[hash,embed] = {
                 }
                 BlendMode: u8 = 1
                 BirthColor: embed = ValueColor {
-                    ConstantValue: vec4 = { 0.0699931309, 0.259998471, 0.259998471, 0.220004573 }
+                    ConstantValue: vec4 = { 0.258823544, 0.101960786, 0.0705882385, 0.219999999 }
                 }
                 DepthBiasFactors: vec2 = { -1, -4 }
                 DisableBackfaceCull: bool = true
@@ -305,7 +305,7 @@ entries: map[hash,embed] = {
                 }
                 BlendMode: u8 = 4
                 BirthColor: embed = ValueColor {
-                    ConstantValue: vec4 = { 0.149996191, 0.579995394, 0.579995394, 0.11999695 }
+                    ConstantValue: vec4 = { 0.580392182, 0.219607845, 0.149019614, 0.119999997 }
                 }
                 Pass: i16 = 3
                 DepthBiasFactors: vec2 = { -1, -4 }
@@ -438,7 +438,7 @@ entries: map[hash,embed] = {
                 }
                 BlendMode: u8 = 5
                 BirthColor: embed = ValueColor {
-                    ConstantValue: vec4 = { 0.278431386, 0.68235296, 0.654901981, 1 }
+                    ConstantValue: vec4 = { 0.68235296, 0.31764707, 0.278431386, 1 }
                 }
                 Color: embed = ValueColor {
                     Dynamics: pointer = VfxAnimatedColorVariableData {
@@ -450,9 +450,9 @@ entries: map[hash,embed] = {
                         }
                         Values: list[vec4] = {
                             { 1, 1, 1, 0 }
-                            { 0.580392182, 1, 0.933333337, 1 }
-                            { 0.0196078438, 0.13333334, 0.152941182, 1 }
-                            { 0, 0.0823529437, 0.0509803928, 1 }
+                            { 1, 0.58431375, 0.580392182, 1 }
+                            { 0.152941182, 0.0627451017, 0.0196078438, 1 }
+                            { 0.0823529437, 0, 0.0156862754, 1 }
                         }
                     }
                 }
@@ -515,7 +515,7 @@ entries: map[hash,embed] = {
                 }
                 BlendMode: u8 = 4
                 BirthColor: embed = ValueColor {
-                    ConstantValue: vec4 = { 0.469993144, 0.949996173, 1, 0.300007641 }
+                    ConstantValue: vec4 = { 1, 0.611764729, 0.470588237, 0.300000012 }
                 }
                 Color: embed = ValueColor {
                     Dynamics: pointer = VfxAnimatedColorVariableData {
@@ -528,8 +528,8 @@ entries: map[hash,embed] = {
                         Values: list[vec4] = {
                             { 1, 1, 1, 0 }
                             { 1, 1, 1, 0.250003815 }
-                            { 0.13333334, 0.298039228, 0.564705908, 1 }
-                            { 0.00784313772, 0.247058824, 0.129411772, 0 }
+                            { 0.564705908, 0.470588237, 0.13333334, 1 }
+                            { 0.247058824, 0.00784313772, 0.0862745121, 0 }
                         }
                     }
                 }
@@ -583,7 +583,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                Texture: string = "ASSETS/Shared/Particles/bigglow02.SRT_DURIAN_2024.dds"
+                Texture: string = "ASSETS/Shared/Particles/bigglow02.dds"
             }
             VfxEmitterDefinitionData {
                 Rate: embed = ValueFloat {
@@ -701,21 +701,6 @@ entries: map[hash,embed] = {
                 BirthColor: embed = ValueColor {
                     ConstantValue: vec4 = { 1, 1, 1, 0.749996185 }
                     Dynamics: pointer = VfxAnimatedColorVariableData {
-                        ProbabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {
-                                KeyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                KeyValues: list[f32] = {
-                                    0.5
-                                    1
-                                }
-                            }
-                        }
                         Times: list[f32] = {
                             0
                         }
@@ -733,7 +718,7 @@ entries: map[hash,embed] = {
                         }
                         Values: list[vec4] = {
                             { 1, 1, 1, 0 }
-                            { 0.752941191, 0.752941191, 0.752941191, 1 }
+                            { 0.749019623, 0.752941191, 0.75686276, 1 }
                             { 0.0941176489, 0.0941176489, 0.0941176489, 0 }
                         }
                     }
@@ -977,26 +962,11 @@ entries: map[hash,embed] = {
                 BirthColor: embed = ValueColor {
                     ConstantValue: vec4 = { 0, 1, 0.579995394, 0.500007629 }
                     Dynamics: pointer = VfxAnimatedColorVariableData {
-                        ProbabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {
-                                KeyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                KeyValues: list[f32] = {
-                                    0.699999988
-                                    1
-                                }
-                            }
-                        }
                         Times: list[f32] = {
                             0
                         }
                         Values: list[vec4] = {
-                            { 0, 1, 0.579995394, 0.500007629 }
+                            { 1, 0, 0.250980407, 0.500007629 }
                         }
                     }
                 }
@@ -1206,10 +1176,10 @@ entries: map[hash,embed] = {
                             1
                         }
                         Values: list[vec4] = {
-                            { 0.636001527, 0.960784316, 0.760784328, 0 }
-                            { 0.0845507756, 0.816670358, 0.600000024, 0.749996185 }
-                            { 0.0210995767, 0.584006131, 0.721568644, 0.450980395 }
-                            { 0.0150711266, 0.19592464, 0.31764707, 0 }
+                            { 0.960784316, 0.635294139, 0.78039217, 0 }
+                            { 0.815686285, 0.0862745121, 0.180392161, 0.749996185 }
+                            { 0.721568644, 0.274509817, 0.0196078438, 0.450980395 }
+                            { 0.31764707, 0.188235298, 0.0156862754, 0 }
                         }
                     }
                 }
@@ -1272,11 +1242,11 @@ entries: map[hash,embed] = {
                 ParticleColorTexture: string = "ASSETS/Characters/Hecarim/Skins/Base/Particles/common_color-steadyblue.dds"
                 BlendMode: u8 = 4
                 BirthColor: embed = ValueColor {
-                    ConstantValue: vec4 = { 0.13333334, 0.262745112, 0.20784314, 0.772549033 }
+                    ConstantValue: vec4 = { 0.262745112, 0.13333334, 0.168627456, 0.769999981 }
                 }
                 ReflectionDefinition: pointer = VfxReflectionDefinitionData {
                     Fresnel: f32 = 0.5
-                    FresnelColor: vec4 = { 0.168627456, 0.717647076, 0.701960802, 0 }
+                    FresnelColor: vec4 = { 0.717647076, 0.243137255, 0.168627456, 0 }
                 }
                 DepthBiasFactors: vec2 = { -1, -10 }
                 ParticleIsLocalOrientation: flag = true
@@ -1329,7 +1299,7 @@ entries: map[hash,embed] = {
                 }
                 BlendMode: u8 = 4
                 BirthColor: embed = ValueColor {
-                    ConstantValue: vec4 = { 0.0980392173, 0.250980407, 0.23137255, 1 }
+                    ConstantValue: vec4 = { 0.250980407, 0.101960786, 0.0980392173, 1 }
                 }
                 Color: embed = ValueColor {
                     Dynamics: pointer = VfxAnimatedColorVariableData {
@@ -1408,7 +1378,7 @@ entries: map[hash,embed] = {
                 }
                 BlendMode: u8 = 4
                 BirthColor: embed = ValueColor {
-                    ConstantValue: vec4 = { 0.170000762, 0.639993906, 0.940001547, 0.209994659 }
+                    ConstantValue: vec4 = { 0.941176474, 0.600000024, 0.168627456, 0.209999993 }
                 }
                 Color: embed = ValueColor {
                     Dynamics: pointer = VfxAnimatedColorVariableData {
@@ -1498,10 +1468,10 @@ entries: map[hash,embed] = {
                             1
                         }
                         Values: list[vec4] = {
-                            { 0.458823532, 0.90196079, 1, 0 }
-                            { 0.458823532, 0.90196079, 1, 1 }
-                            { 0.458823532, 0.90196079, 1, 1 }
-                            { 0.458823532, 0.90196079, 1, 0 }
+                            { 1, 0.647058845, 0.458823532, 0 }
+                            { 1, 0.647058845, 0.458823532, 1 }
+                            { 1, 0.647058845, 0.458823532, 1 }
+                            { 1, 0.647058845, 0.458823532, 0 }
                         }
                     }
                 }
@@ -1545,7 +1515,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                Texture: string = "ASSETS/Shared/Particles/bigglow02.SRT_DURIAN_2024.dds"
+                Texture: string = "ASSETS/Shared/Particles/bigglow02.dds"
             }
             VfxEmitterDefinitionData {
                 Rate: embed = ValueFloat {
@@ -1628,7 +1598,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                Texture: string = "ASSETS/Shared/Particles/bigglow02.SRT_DURIAN_2024.dds"
+                Texture: string = "ASSETS/Shared/Particles/bigglow02.dds"
             }
             VfxEmitterDefinitionData {
                 Rate: embed = ValueFloat {
@@ -1657,7 +1627,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 BirthColor: embed = ValueColor {
-                    ConstantValue: vec4 = { 0.549019635, 0.854901969, 0.937254906, 1 }
+                    ConstantValue: vec4 = { 0.937254906, 0.698039234, 0.549019635, 1 }
                 }
                 Color: embed = ValueColor {
                     Dynamics: pointer = VfxAnimatedColorVariableData {
@@ -2112,7 +2082,7 @@ entries: map[hash,embed] = {
                 }
                 BlendMode: u8 = 1
                 BirthColor: embed = ValueColor {
-                    ConstantValue: vec4 = { 0.176470593, 0.145098045, 0.345098048, 1 }
+                    ConstantValue: vec4 = { 0.345098048, 0.176470593, 0.145098045, 1 }
                 }
                 Color: embed = ValueColor {
                     Dynamics: pointer = VfxAnimatedColorVariableData {
@@ -2149,7 +2119,7 @@ entries: map[hash,embed] = {
                         }
                         Values: list[vec2] = {
                             { -3.5, 0 }
-                            { -0, 0 }
+                            { 0, 0 }
                         }
                     }
                 }
@@ -2462,7 +2432,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 BirthColor: embed = ValueColor {
-                    ConstantValue: vec4 = { 0.513725519, 1, 0.905882359, 0.258823544 }
+                    ConstantValue: vec4 = { 1, 0.513725519, 0.525490224, 0.25999999 }
                 }
                 Color: embed = ValueColor {
                     Dynamics: pointer = VfxAnimatedColorVariableData {
@@ -2474,11 +2444,11 @@ entries: map[hash,embed] = {
                             1
                         }
                         Values: list[vec4] = {
-                            { 0.792156875, 1, 1, 0 }
-                            { 0.333333343, 0.745098054, 0.807843149, 1 }
-                            { 0.262745112, 0.90196079, 1, 1 }
-                            { 0, 0.280003041, 0.190005347, 0.130006865 }
-                            { 0.113724999, 0.113724999, 0.113724999, 0 }
+                            { 1, 0.827450991, 0.792156875, 0 }
+                            { 0.807843149, 0.474509805, 0.333333343, 1 }
+                            { 1, 0.482352942, 0.262745112, 1 }
+                            { 0.278431386, 0, 0.0431372561, 0.130006865 }
+                            { 0.113725491, 0.113725491, 0.113725491, 0 }
                         }
                     }
                 }
@@ -2764,7 +2734,7 @@ entries: map[hash,embed] = {
                 }
                 BlendMode: u8 = 4
                 BirthColor: embed = ValueColor {
-                    ConstantValue: vec4 = { 0.494117647, 1, 0.90196079, 1 }
+                    ConstantValue: vec4 = { 1, 0.494117647, 0.509803951, 1 }
                 }
                 Color: embed = ValueColor {
                     Dynamics: pointer = VfxAnimatedColorVariableData {
@@ -2776,11 +2746,11 @@ entries: map[hash,embed] = {
                             1
                         }
                         Values: list[vec4] = {
-                            { 0.792156875, 1, 1, 0 }
-                            { 0.333333343, 0.745098054, 0.807843149, 1 }
-                            { 0.262745112, 0.90196079, 1, 1 }
-                            { 0.00392156886, 0.282352954, 0.188235298, 0.490196079 }
-                            { 0.113724999, 0.113724999, 0.113724999, 0 }
+                            { 1, 0.827450991, 0.792156875, 0 }
+                            { 0.807843149, 0.474509805, 0.333333343, 1 }
+                            { 1, 0.482352942, 0.262745112, 1 }
+                            { 0.282352954, 0.00392156886, 0.0509803928, 0.490196079 }
+                            { 0.113725491, 0.113725491, 0.113725491, 0 }
                         }
                     }
                 }
@@ -2912,7 +2882,7 @@ entries: map[hash,embed] = {
                 }
                 BlendMode: u8 = 1
                 BirthColor: embed = ValueColor {
-                    ConstantValue: vec4 = { 0.145098045, 0.454901963, 0.435294122, 1 }
+                    ConstantValue: vec4 = { 0.454901963, 0.176470593, 0.145098045, 1 }
                 }
                 Color: embed = ValueColor {
                     Dynamics: pointer = VfxAnimatedColorVariableData {
@@ -2924,11 +2894,11 @@ entries: map[hash,embed] = {
                             1
                         }
                         Values: list[vec4] = {
-                            { 0.792156875, 1, 1, 0 }
-                            { 0.333333343, 0.745098054, 0.807843149, 1 }
-                            { 0.262745112, 0.90196079, 1, 1 }
-                            { 0.00392156886, 0.282352954, 0.188235298, 0.490196079 }
-                            { 0.113724999, 0.113724999, 0.113724999, 0 }
+                            { 1, 0.827450991, 0.792156875, 0 }
+                            { 0.807843149, 0.474509805, 0.333333343, 1 }
+                            { 1, 0.482352942, 0.262745112, 1 }
+                            { 0.282352954, 0.00392156886, 0.0509803928, 0.490196079 }
+                            { 0.113725491, 0.113725491, 0.113725491, 0 }
                         }
                     }
                 }
@@ -3060,7 +3030,7 @@ entries: map[hash,embed] = {
                 }
                 BlendMode: u8 = 4
                 BirthColor: embed = ValueColor {
-                    ConstantValue: vec4 = { 0.411764711, 0.862745106, 1, 1 }
+                    ConstantValue: vec4 = { 1, 0.647058845, 0.411764711, 1 }
                 }
                 Color: embed = ValueColor {
                     Dynamics: pointer = VfxAnimatedColorVariableData {
@@ -3072,11 +3042,11 @@ entries: map[hash,embed] = {
                             1
                         }
                         Values: list[vec4] = {
-                            { 0.792156875, 1, 1, 0 }
-                            { 0.333333343, 0.745098054, 0.807843149, 1 }
-                            { 0.262745112, 0.90196079, 1, 1 }
-                            { 0.00392156886, 0.282352954, 0.188235298, 0.490196079 }
-                            { 0.113724999, 0.113724999, 0.113724999, 0 }
+                            { 1, 0.827450991, 0.792156875, 0 }
+                            { 0.807843149, 0.474509805, 0.333333343, 1 }
+                            { 1, 0.482352942, 0.262745112, 1 }
+                            { 0.282352954, 0.00392156886, 0.0509803928, 0.490196079 }
+                            { 0.113725491, 0.113725491, 0.113725491, 0 }
                         }
                     }
                 }
@@ -3169,7 +3139,7 @@ entries: map[hash,embed] = {
                 }
                 BlendMode: u8 = 4
                 BirthColor: embed = ValueColor {
-                    ConstantValue: vec4 = { 0.469993144, 0.949996173, 1, 0.190005347 }
+                    ConstantValue: vec4 = { 1, 0.611764729, 0.470588237, 0.189999998 }
                 }
                 Color: embed = ValueColor {
                     Dynamics: pointer = VfxAnimatedColorVariableData {
@@ -3182,8 +3152,8 @@ entries: map[hash,embed] = {
                         Values: list[vec4] = {
                             { 1, 1, 1, 0 }
                             { 1, 1, 1, 0.250003815 }
-                            { 0.13333334, 0.298039228, 0.564705908, 1 }
-                            { 0.00784313772, 0.247058824, 0.129411772, 0 }
+                            { 0.564705908, 0.470588237, 0.13333334, 1 }
+                            { 0.247058824, 0.00784313772, 0.0862745121, 0 }
                         }
                     }
                 }
@@ -3237,7 +3207,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                Texture: string = "ASSETS/Shared/Particles/bigglow02.SRT_DURIAN_2024.dds"
+                Texture: string = "ASSETS/Shared/Particles/bigglow02.dds"
             }
             VfxEmitterDefinitionData {
                 Rate: embed = ValueFloat {
@@ -3361,7 +3331,7 @@ entries: map[hash,embed] = {
                 }
                 BlendMode: u8 = 5
                 BirthColor: embed = ValueColor {
-                    ConstantValue: vec4 = { 0.278431386, 0.68235296, 0.654901981, 1 }
+                    ConstantValue: vec4 = { 0.68235296, 0.31764707, 0.278431386, 1 }
                 }
                 Color: embed = ValueColor {
                     Dynamics: pointer = VfxAnimatedColorVariableData {
@@ -3373,9 +3343,9 @@ entries: map[hash,embed] = {
                         }
                         Values: list[vec4] = {
                             { 1, 1, 1, 0 }
-                            { 0.580392182, 1, 0.933333337, 1 }
-                            { 0.0196078438, 0.13333334, 0.152941182, 1 }
-                            { 0, 0.0823529437, 0.0509803928, 1 }
+                            { 1, 0.58431375, 0.580392182, 1 }
+                            { 0.152941182, 0.0627451017, 0.0196078438, 1 }
+                            { 0.0823529437, 0, 0.0156862754, 1 }
                         }
                     }
                 }
@@ -3538,9 +3508,9 @@ entries: map[hash,embed] = {
                         }
                         Values: list[vec4] = {
                             { 1, 1, 1, 0 }
-                            { 0.580392182, 1, 0.933333337, 1 }
-                            { 0.145098045, 0.843137264, 0.980392158, 1 }
-                            { 0.0117647061, 0.203921571, 0.129411772, 0 }
+                            { 1, 0.58431375, 0.580392182, 1 }
+                            { 0.980392158, 0.419607848, 0.145098045, 1 }
+                            { 0.203921571, 0.0117647061, 0.0549019612, 0 }
                         }
                     }
                 }
@@ -3610,6 +3580,10 @@ entries: map[hash,embed] = {
             }
         }
         ParamValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                Name: string = "OutlineMask_Texture_B_UV"
+                Value: vec4 = { 1, 1, 0, 0 }
+            }
             StaticMaterialShaderParamDef {
                 Name: string = "ScrollSpeedBase"
                 Value: vec4 = { 0.0500000007, -0.600000024, 0, 0 }
