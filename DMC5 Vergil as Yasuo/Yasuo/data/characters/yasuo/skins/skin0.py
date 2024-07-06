@@ -292,17 +292,15 @@ entries: map[hash,embed] = {
             "ASSETS/Characters/Yasuo/HUD/Yasuo_Square.dds"
         }
         HealthBarData: embed = CharacterHealthBarDataRecord {
-            UnitHealthBarStyle: u8 = 9
+            UnitHealthBarStyle: u8 = 10
         }
         mResourceResolver: link = "Characters/Yasuo/Skins/Skin0/Resources"
     }
-    "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_R_Ghosts_01" = VfxSystemDefinitionData {
-        ComplexEmitterDefinitionData: list[pointer] = {
-        }
+    0x4faea868 = VfxSystemDefinitionData {
+        ComplexEmitterDefinitionData: list[pointer] = {}
         ParticleName: string = "Yasuo_Base_R_Ghosts_01"
         ParticlePath: string = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_R_Ghosts_01"
     }
-
     "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_BA_Crit_hit_01" = VfxSystemDefinitionData {
         ComplexEmitterDefinitionData: list[pointer] = {
             VfxEmitterDefinitionData {
@@ -12995,12 +12993,12 @@ entries: map[hash,embed] = {
                 Texture: string = "ASSETS/Characters/Yasuo/Skins/Base/Particles/Yasuo_base_R_hit_flash_tar_2.dds"
             }
             VfxEmitterDefinitionData {
-                TimeBeforeFirstEmission: f32 = 0.666
+                TimeBeforeFirstEmission: f32 = 0.666000009
                 Rate: embed = ValueFloat {
                     ConstantValue: f32 = 1
                 }
                 ParticleLifetime: embed = ValueFloat {
-                    ConstantValue: f32 =0.222
+                    ConstantValue: f32 = 0.222000003
                 }
                 Lifetime: option[f32] = {
                     1.222
@@ -13015,7 +13013,7 @@ entries: map[hash,embed] = {
                 }
                 EmitterName: string = "StaticMesh_4"
                 BirthVelocity: embed = ValueVector3 {
-                    ConstantValue: vec3 = {0, -5000, 0 }
+                    ConstantValue: vec3 = { 0, -5000, 0 }
                 }
                 BirthDrag: embed = ValueVector3 {
                     ConstantValue: vec3 = { 10, 10, 10 }
@@ -13036,7 +13034,7 @@ entries: map[hash,embed] = {
                 }
                 BlendMode: u8 = 1
                 BirthColor: embed = ValueColor {
-                    ConstantValue: vec4 = { 1.0,1.0,1.0,1.0 }
+                    ConstantValue: vec4 = { 1, 1, 1, 1 }
                 }
                 Pass: i16 = 2
                 AlphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
@@ -15607,7 +15605,7 @@ entries: map[hash,embed] = {
                 0x4ffce322: pointer = 0xb13097f0 {
                     ScaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
-                ParticleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_141.dds"
+                ParticleColorTexture: string = "ASSETS/Shared/Particles/color-hold.SKINS_Tristana_Skin61.dds"
                 BlendMode: u8 = 4
                 BirthColor: embed = ValueColor {
                     ConstantValue: vec4 = { 1, 1, 1, 0.549996197 }
@@ -15891,7 +15889,7 @@ entries: map[hash,embed] = {
                 0x4ffce322: pointer = 0xb13097f0 {
                     ScaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
-                ParticleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_141.dds"
+                ParticleColorTexture: string = "ASSETS/Shared/Particles/color-hold.SKINS_Tristana_Skin61.dds"
                 BlendMode: u8 = 4
                 BirthColor: embed = ValueColor {
                     ConstantValue: vec4 = { 1, 1, 1, 0.549996197 }
@@ -16197,7 +16195,7 @@ entries: map[hash,embed] = {
                 0x4ffce322: pointer = 0xb13097f0 {
                     ScaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
-                ParticleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_141.dds"
+                ParticleColorTexture: string = "ASSETS/Shared/Particles/color-hold.SKINS_Tristana_Skin61.dds"
                 BlendMode: u8 = 4
                 BirthColor: embed = ValueColor {
                     ConstantValue: vec4 = { 1, 1, 1, 0.549996197 }
@@ -16503,7 +16501,7 @@ entries: map[hash,embed] = {
                 0x4ffce322: pointer = 0xb13097f0 {
                     ScaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
-                ParticleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_141.dds"
+                ParticleColorTexture: string = "ASSETS/Shared/Particles/color-hold.SKINS_Tristana_Skin61.dds"
                 BlendMode: u8 = 4
                 BirthColor: embed = ValueColor {
                     ConstantValue: vec4 = { 1, 1, 1, 0.549996197 }
@@ -17165,7 +17163,7 @@ entries: map[hash,embed] = {
                 0x4ffce322: pointer = 0xb13097f0 {
                     ScaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
-                ParticleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_141.dds"
+                ParticleColorTexture: string = "ASSETS/Shared/Particles/color-hold.SKINS_Tristana_Skin61.dds"
                 BlendMode: u8 = 4
                 BirthColor: embed = ValueColor {
                     ConstantValue: vec4 = { 1, 1, 1, 0.549996197 }
@@ -17406,7 +17404,7 @@ entries: map[hash,embed] = {
                 0x4ffce322: pointer = 0xb13097f0 {
                     ScaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
-                ParticleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_141.dds"
+                ParticleColorTexture: string = "ASSETS/Shared/Particles/color-hold.SKINS_Tristana_Skin61.dds"
                 BlendMode: u8 = 4
                 BirthColor: embed = ValueColor {
                     ConstantValue: vec4 = { 1, 1, 1, 0.549996197 }
@@ -18397,7 +18395,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                ParticleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_141.dds"
+                ParticleColorTexture: string = "ASSETS/Shared/Particles/color-hold.SKINS_Tristana_Skin61.dds"
                 BlendMode: u8 = 4
                 Color: embed = ValueColor {
                     ConstantValue: vec4 = { 1, 1, 1, 0.360006094 }
@@ -47666,7 +47664,7 @@ entries: map[hash,embed] = {
             "Yasuo_R_slash_cas" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_R_slash_cas"
             "Yasuo_R_SwordGlow" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_R_SwordGlow"
             "Yasuo_R_tar_imp_01" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_R_tar_imp_01"
-            "Yasuo_R_Ghosts_01" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_R_Ghosts_01"
+            "Yasuo_R_Ghosts_01" = 0x4faea868
             0xf90ee152 = 0xadd28902
             0xf80edfbf = 0xacd2876f
             "Yasuo_Taunt_spit" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_Taunt_spit"
