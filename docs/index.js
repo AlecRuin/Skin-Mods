@@ -7,7 +7,8 @@ const ModsArray=[
     "DMC5-V-as-Hwei",
     "DMC5-Vergil-as-Yone",
     "DMC5-Griffon-as-Smolder",
-    "Full-Build-Gwen"
+    "Full-Build-Gwen",
+    "DMC4-Berial-as-Hecarim"
 ]
 const ModsArrayWhitespace=[
     "DMC5 Vergil as Yasuo",
@@ -18,7 +19,8 @@ const ModsArrayWhitespace=[
     "DMC5 V as Hwei",
     "DMC5 Vergil as Yone",
     "DMC5 Griffon as Smolder",
-    "Full Build Gwen"
+    "Full Build Gwen",
+    "DMC4 Berial as Hecarim"
 ]
 function testing()
 {
