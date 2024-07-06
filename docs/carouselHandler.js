@@ -8,7 +8,8 @@ const videosarray=[
     "./media/videos/DMC5 Vergil as Yasuo 2.0 showcase.mp4",
     "./media/videos/DMC5 Vergil as Yasuo showcase.mp4",
     "./media/videos/DMC5 Vergil as Yone showcase.mp4",
-    "./media/videos/Full Build Gwen example.mp4"
+    "./media/videos/Full Build Gwen example.mp4",
+    "./media/videos/DMC4 Berial as Hecarim showcase.mp4"
 ]
 const videotoyoutubearr=[
     "https://youtu.be/KnL0gqAhf0o",
@@ -20,7 +21,8 @@ const videotoyoutubearr=[
     "https://youtu.be/_CgFHGa8T4E",
     "https://youtu.be/MFFxL8wdtJE",
     "https://youtu.be/cFuuaYxSnwA",
-    "https://youtu.be/Kf28sD9UbW0"
+    "https://youtu.be/Kf28sD9UbW0",
+    "https://youtu.be/Kec96RyRyxo"
 ]
 const videonamesarr=[
     "DMC5 Dante as Riven showcase",
@@ -32,7 +34,8 @@ const videonamesarr=[
     "DMC5 Vergil as Yasuo 2.0 showcase",
     "DMC5 Vergil as Yasuo showcase",
     "DMC5 Vergil as Yone showcase",
-    "Full Build Gwen example"
+    "Full Build Gwen example",
+    "DMC4 Berial as Hecarim showcase"
 ]
 function changeVideo(VideoElement,SourceElement,AnchorRef,CaptionRef)
 {
