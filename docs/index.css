@@ -444,6 +444,10 @@ a {
     box-shadow: 0px 0px 20px 12px rgba(var(--darker-tertiary-color), 0.5);
     border-radius: 10px;
     width: 50%;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
 }
 .basic-anchor-style{
     text-decoration: underline;
@@ -476,7 +480,7 @@ a {
     }
     .mod-info{
         width: 95%;
-        margin: 1rem;
+        margin: 1vw;
     }
     .navigation-box{
         display: none;
@@ -487,6 +491,10 @@ a {
     }
     .basic-video-style{
         width: 85%;
+        margin-left: 1vw;
+        margin-right: 1vw;
+        margin-top: 3vw;
+        margin-bottom: 3vw;
     }
     .afs-1vw{
         font-size: 1.5vw;
