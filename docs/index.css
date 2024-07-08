@@ -232,6 +232,12 @@ a {
 .fs-1vw{
     font-size: 1vw;
 }
+.afs-1vw{
+    font-size: 1vw;
+}
+.afs-1-1-2{
+    font-size: 1.5vw;
+}
 .fs-1-1-2vw{
     font-size: 1.5vw;
 }
@@ -437,6 +443,7 @@ a {
 .basic-video-style{
     box-shadow: 0px 0px 20px 12px rgba(var(--darker-tertiary-color), 0.5);
     border-radius: 10px;
+    width: 50%;
 }
 .basic-anchor-style{
     text-decoration: underline;
@@ -476,6 +483,15 @@ a {
     }
     .basic-mod-descriptor{
         width: 95%;
+        font-size: 2vw;
+    }
+    .basic-video-style{
+        width: 85%;
+    }
+    .afs-1vw{
+        font-size: 1.5vw;
+    }
+    .afs-1-1-2{
         font-size: 2vw;
     }
 }
