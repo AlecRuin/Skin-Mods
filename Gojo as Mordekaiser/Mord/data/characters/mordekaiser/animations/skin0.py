@@ -9,9 +9,9 @@ entries: map[hash,embed] = {
             "Attack2" = AtomicClipData {
                 mTrackDataName: hash = "Default"
                 mEventDataMap: map[hash,pointer] = {
-                    "Vfx" = ParticleEventData {
-                        mStartFrame: f32 = 12
-                        mEffectKey: hash = "Mordekaiser_AutoAttack_L2R_A"
+                    0xc509f8e4 = ParticleEventData {
+                        mEffectKey: hash = 0x7d9faa7d
+                        mStartFrame: f32 = 11
                         mParticleEventDataPairList: list[embed] = {
                             ParticleEventDataPair {
                                 mBoneName: hash = "C_Buffbone_GLB_Layout_Loc"
@@ -167,16 +167,14 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-
-                    "Mordekaiser_Base_Q_tip_xp_vfx" = ParticleEventData {
-                        mEffectKey: hash = "Mordekaiser_Base_Q_tip_xp"
+                    0x248d2859 = ParticleEventData {
+                        mEffectKey: hash = 0x293db49e
                         mParticleEventDataPairList: list[embed] = {
                             ParticleEventDataPair {
-                                mBoneName: hash = "Mace_Tip1"
+                                mBoneName: hash = 0x18dacb1c
                             }
                         }
                     }
-
                 }
                 mAnimationResourceData: embed = AnimationResourceData {
                     mAnimationFilePath: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Animations/Spell_1.anm"
@@ -194,6 +192,15 @@ entries: map[hash,embed] = {
                         }
                         mIsLoop: bool = false
                         mIsKillEvent: bool = false
+                    }
+                    "Mordekaiser_R_Blackhole_Vfx"= ParticleEventData{
+                        mEffectKey: hash = "Mordekaiser_R_Blackhole"
+                        mStartFrame: f32 = 11
+                        mParticleEventDataPairList: list[embed] = {
+                            ParticleEventDataPair {
+                                mBoneName: hash = "C_Buffbone_GLB_Layout_Loc"
+                            }
+                        }
                     }
                     "StopTurn" = StopAnimationEventData {
                         mStopAnimationName: hash = "TURN"
@@ -1093,6 +1100,15 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
+                    0x957977fd = ParticleEventData {
+                        mEffectKey: hash = 0x7a9fa5c4
+                        mStartFrame: f32 = 11
+                        mParticleEventDataPairList: list[embed] = {
+                            ParticleEventDataPair {
+                                mBoneName: hash = "C_Buffbone_GLB_Layout_Loc"
+                            }
+                        }
+                    }
                     0x1e14ea15 = StopAnimationEventData {
                         mEndFrame: f32 = 30
                         mStopAnimationName: hash = 0xf301e808
@@ -1127,6 +1143,15 @@ entries: map[hash,embed] = {
                     "Vfx" = ParticleEventData {
                         mStartFrame: f32 = 11
                         mEffectKey: hash = "Mordekaiser_AutoAttack_R2L_A"
+                        mParticleEventDataPairList: list[embed] = {
+                            ParticleEventDataPair {
+                                mBoneName: hash = "C_Buffbone_GLB_Layout_Loc"
+                            }
+                        }
+                    }
+                    0x957977fd = ParticleEventData {
+                        mEffectKey: hash = 0x7a9fa5c4
+                        mStartFrame: f32 = 11
                         mParticleEventDataPairList: list[embed] = {
                             ParticleEventDataPair {
                                 mBoneName: hash = "C_Buffbone_GLB_Layout_Loc"

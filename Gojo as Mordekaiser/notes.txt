@@ -45,4 +45,8 @@ veigar_skin09_q_mis
 syndra_base_q_2021_idle
 syndra_base_q_2021_spheredeath
 syndra_base_q_2021_timer
-
+aa1 is gutt punch.
+aa2 is right hook
+fast aa1 is gutt punch
+sett_base_ba_swipe_01
+sett_base_ba_swipe_02
