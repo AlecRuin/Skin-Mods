@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>https://www.swoggerslol.com/sitemaps/index.xml</loc>
+    <lastmod>2024-07-11</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.swoggerslol.com/sitemaps/posts.xml</loc>
+    <lastmod>2024-07-11</lastmod>
+  </sitemap>
+  <!-- Add other sitemaps similarly -->
+</sitemapindex>
