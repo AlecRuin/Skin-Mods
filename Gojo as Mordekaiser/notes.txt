@@ -38,6 +38,15 @@ mordekaiser_base_e_handglow = glowing green hand
 mordekaiser_base_e_aoe_splash = slimer effect from E 
 mordekaiser_base_Q_tar_Q1 = red effect when enemy is hit by E
 
+mordekaiser_base_r_mace_head [DONE]
+mordekaiser_base_r_cast_beam [DONE]
+mordekaiser_base_r_morde_enter [DONE]
+mordekaiser_base_r_cast [DONE]
+mordekaiser_base_recall_stairs [DONE]
+mordekaiser_base_death [DONE]
+mordekaiser_base_r_morde_specter
+mordekaiser_base_r_morde_specter_chestglow
+
 Jayce_Base_OrbLightning/Jayce_base_Q_range_xp
 Jayce_Base_OrbLightningCharged/Jayce_base_Q_range_xp_gate
 veigar_skin09_q_mis
