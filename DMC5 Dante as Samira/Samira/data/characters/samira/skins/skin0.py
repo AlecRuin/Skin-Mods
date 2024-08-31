@@ -210,7 +210,7 @@ entries: map[hash,embed] = {
         }
         healthBarData: embed = CharacterHealthBarDataRecord {
             attachToBone: string = "Buffbone_Cstm_Healthbar"
-            unitHealthBarStyle: u8 = 10
+            unitHealthBarStyle: u8 = 11
             CharacterStateIndicatorMaxCount: u32 = 7
         }
         mResourceResolver: link = "Characters/Samira/Skins/Skin0/Resources"
