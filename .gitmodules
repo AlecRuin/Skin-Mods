@@ -4,3 +4,6 @@
 [submodule "DMC5 Dante as Samira"]
 	path = DMC5 Dante as Samira
 	url = https://github.com/AlecRuin/DMC5-Dante-as-Samira
+[submodule "DMC5 Dante as Riven"]
+	path = DMC5 Dante as Riven
+	url = https://github.com/AlecRuin/DMC5-Dante-as-Riven
