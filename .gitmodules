@@ -1,3 +1,6 @@
 [submodule "DMC4 Berial as Hecarim"]
 	path = DMC4 Berial as Hecarim
 	url = https://github.com/AlecRuin/DMC4-Berial-as-Hecarim
+[submodule "DMC5 Dante as Samira"]
+	path = DMC5 Dante as Samira
+	url = https://github.com/AlecRuin/DMC5-Dante-as-Samira
