@@ -28,3 +28,6 @@
 [submodule "Gojo as Mordekaiser"]
 	path = Gojo as Mordekaiser
 	url = https://github.com/AlecRuin/JJK-Gojo-as-Mordekaiser
+[submodule "swoggerslol"]
+	path = swoggerslol
+	url = https://github.com/AlecRuin/swoggerslol

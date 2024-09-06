@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 100" width="200" height="100">
-  <defs>
-    <filter id="drop-shadow" x="0%" y="0%" width="200%" height="200%">
-      <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="rgb(150, 110, 35)"/>
-    </filter>
-  </defs>
-  <text x="-125" y="60" font-weight="800" font-size="48" font-family="sans-serif" filter="url(#drop-shadow)" fill="rgb(250, 199, 102)">DMC5 V as Hwei</text>
-</svg>
