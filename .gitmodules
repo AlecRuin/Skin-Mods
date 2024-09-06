@@ -31,3 +31,6 @@
 [submodule "swoggerslol"]
 	path = swoggerslol
 	url = https://github.com/AlecRuin/swoggerslol
+[submodule "Sai as Hwei"]
+	path = Sai as Hwei
+	url = https://github.com/AlecRuin/Sai-as-Hwei
