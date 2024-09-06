@@ -1,5 +1,0 @@
-attack 1 is the first attack and also the knock up attack
-attack 2 is followup attack
-attack 3 is a crit anim
-spell 2 is ult
-spell 1 is Q

@@ -7,3 +7,24 @@
 [submodule "DMC5 Dante as Riven"]
 	path = DMC5 Dante as Riven
 	url = https://github.com/AlecRuin/DMC5-Dante-as-Riven
+[submodule "DMC5 Griffon as Smolder"]
+	path = DMC5 Griffon as Smolder
+	url = https://github.com/AlecRuin/DMC5-Griffon-as-Smolder
+[submodule "DMC5 Nero as Blitzcrank"]
+	path = DMC5 Nero as Blitzcrank
+	url = https://github.com/AlecRuin/DMC5-Nero-as-Blitzcrank
+[submodule "DMC5 Nobody as Skarner"]
+	path = DMC5 Nobody as Skarner
+	url = https://github.com/AlecRuin/DMC5-Nobody-as-Skarner
+[submodule "DMC5 V as Hwei"]
+	path = DMC5 V as Hwei
+	url = https://github.com/AlecRuin/DMC5-V-as-Hwei
+[submodule "DMC5 Vergil as Yasuo"]
+	path = DMC5 Vergil as Yasuo
+	url = https://github.com/AlecRuin/DMC5-Vergil-as-Yasuo
+[submodule "DMC5 Vergil as Yone"]
+	path = DMC5 Vergil as Yone
+	url = https://github.com/AlecRuin/DMC5-Vergil-as-Yone
+[submodule "Gojo as Mordekaiser"]
+	path = Gojo as Mordekaiser
+	url = https://github.com/AlecRuin/JJK-Gojo-as-Mordekaiser
