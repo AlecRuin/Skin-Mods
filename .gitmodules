@@ -34,3 +34,6 @@
 [submodule "Sai as Hwei"]
 	path = Sai as Hwei
 	url = https://github.com/AlecRuin/Sai-as-Hwei
+[submodule "DB Goku as Sett"]
+	path = DB Goku as Sett
+	url = https://github.com/AlecRuin/DB-Goku-as-Sett
