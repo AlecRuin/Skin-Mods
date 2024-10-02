@@ -37,3 +37,9 @@
 [submodule "DB Goku as Sett"]
 	path = DB Goku as Sett
 	url = https://github.com/AlecRuin/DB-Goku-as-Sett
+[submodule "DMC5 Nero as Aatrox"]
+	path = DMC5 Nero as Aatrox
+	url = https://github.com/AlecRuin/DMC5-Nero-as-Aatrox
+[submodule "JJK Todo as Sett"]
+	path = JJK Todo as Sett
+	url = https://github.com/AlecRuin/JJK-Todo-as-Sett
